@@ -3,18 +3,4 @@ layout: post
 title: A Test Post
 ---
 
-I'm making a quick change to this to see if it will deploy... Will it?
-
-OK, Here's another attempt. Is it working?
-
-Please work this time.
-
-Will this do it?
-
-This is just a test.
-
-Please don't take it too seriously.
-
-bq. Someone else said this...
-
-So there!
+Ok, starting over.
