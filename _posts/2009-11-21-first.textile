@@ -3,12 +3,4 @@ layout: post
 title: A Test Post
 ---
 
-We're trying this again. Please work.
-
-Now?
-
-How 'bout now?
-
-And now?
-
-Ugh...
+OK, it's time to start working now...
