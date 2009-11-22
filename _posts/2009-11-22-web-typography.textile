@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Web Typography 0.30
+published: false
 ---
 
 The practice of setting type on the web is not fundamentally different from setting type for any other medium. The differences that do exist are primarily technical; many of these technical differences between the web and print are all-too-often considered limitations of web design. I disagree. While it is true that web typography in its current form lacks some of the nuances available to, say, book designers, I believe the canvas of the web itself opens doors to new possibilities in the practice of making beautiful and readable text. In this essay, I will attempt to share some of my enthusiasm for the possibilities available to web-bound typographers, and describe some of the technical details that can empower those who want their web designs to have a strong typographical voice.
