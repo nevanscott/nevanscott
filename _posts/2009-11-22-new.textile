@@ -1,0 +1,6 @@
+---
+layout: post
+title: My New Post
+---
+
+This is a new post. I hope you like it.
