@@ -3,8 +3,6 @@ layout: post
 title: A Test Post
 ---
 
-I'm making a quick change to this to see if it will deploy... Will it?
-
 This is just a test.
 
 Please don't take it too seriously.
