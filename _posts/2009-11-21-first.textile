@@ -1,0 +1,12 @@
+---
+layout: post
+title: A Test Post
+---
+
+This is just a test.
+
+Please don't take it too seriously.
+
+bq. Someone else said this...
+
+So there!
