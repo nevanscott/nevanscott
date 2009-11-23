@@ -1,6 +1,0 @@
----
-layout: post
-title: A Test Post
----
-
-OK, it's time to start working now...
