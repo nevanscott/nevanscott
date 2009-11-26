@@ -27,7 +27,7 @@ fn1. footnote here? TK
 
 fn2. I should be very clear here in pointing out that I am certain these things are all possible and probably even easy to do on a Windows machine as well, but I don't know because I don't develop on a Windows machine. I can vouch for how easy these things are to do on a Mac.
 
-<hr />
+----
 
 h3. Outline
 

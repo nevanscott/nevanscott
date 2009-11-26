@@ -7,9 +7,8 @@ body {
 	font-family: Georgia, serif;
 	font-size: 16px;
 	line-height: 1.5em;
-	margin: 3em;
+	margin: 0;
 	padding: 0;
-	max-width: 600px;
 	background: #567;
 	color: #FFF;
 	}
@@ -21,6 +20,7 @@ h1, h2, h3, h4 {
 a {
 	color: #08A;
 	color: #8BD;
+	color: #9CE;
 	text-decoration: none;
 	border-bottom: 1px solid #678;
 	padding: 0 2px;
@@ -34,6 +34,28 @@ sup {
 	}
 
 h1 {
+	font-family: League Gothic, sans-serif;
+	font-size: 1.25em;
+	line-height: 1.2em;
+	margin: 0;
+	text-transform: uppercase;
+	float: left;
+	clear: both;
+	text-align: center;
+	}
+h1 a {
+	display: block;
+	border: none;
+	background: #345;
+	color: #FFF;
+	padding: 2px 20px 0 20px;
+	width: 100px;
+	margin-right: 20px;
+	}
+h1 a:hover {
+	border: none;
+	}
+h2 {
 	font-size: 2em;
 	line-height: 1.5em;
 	margin: 0;
@@ -80,4 +102,34 @@ hr.space {
 hr.footnote {
 	margin: 1.5em 0 0 0;
 	width: 200px;
+	}
+
+.header {
+	margin: 1.5em 0;
+	}
+.content {
+	clear: both;
+	padding: 1px 0;
+	}
+.date {
+	font-family: League Gothic, sans-serif;
+	font-size: 1.25em;
+	line-height: 1.2em;
+	margin: 1.2em 20px 0 0;
+	text-transform: uppercase;
+	float: left;
+	background: #345;
+	color: #FFF;
+	padding: 2px 20px 0 20px;
+	width: 100px;
+	clear: both;
+	text-align: center;
+	}
+.title {
+	margin: 1.5em 0 0 0;
+	padding: 2px 0 0 0;
+	}
+.post {
+	margin: .75em 0 4.5em 160px;
+	max-width: 540px;
 	}

@@ -1,0 +1,6 @@
+---
+layout: post
+title: Type Implementation in Browsers
+---
+
+This is some information about the kind of stuff we need going forward.

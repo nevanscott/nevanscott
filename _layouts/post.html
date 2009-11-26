@@ -1,8 +1,13 @@
 ---
 layout: default
 ---
-<div id="post">
-<h1>{{ page.title | textilize | strip_html }}</h1>
-<h4>by <a href="/">Nevan Scott</a></h4>
+<div class="date">
+	{{ page.date | date_to_string }}
+</div>
+<div class="post">
+
+<h2>{{ page.title | textilize | strip_html }}</h2>
+
 {{ content }}
+
 </div>
