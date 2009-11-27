@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Abstracting Away the File System
+published: false
 ---
 
 "Ross Carter":http://rosscarter.com/2009/279.html:

@@ -124,6 +124,8 @@ hr.footnote {
 	width: 100px;
 	clear: both;
 	text-align: center;
+	background: #789;
+	color: #456;
 	}
 .title {
 	margin: 1.5em 0 0 0;
