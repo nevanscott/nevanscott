@@ -62,7 +62,9 @@ h2 {
 	}
 h4 {
 	font-size: 1em;
-	margin: 0;
+	margin: 3em 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: .15em;
 	}
 p {
 	margin: 1.5em 0 0 0;
@@ -126,6 +128,7 @@ hr.footnote {
 	text-align: center;
 	background: #789;
 	color: #456;
+	white-space: nowrap;
 	}
 .title {
 	margin: 1.5em 0 0 0;

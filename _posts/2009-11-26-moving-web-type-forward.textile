@@ -1,14 +1,34 @@
 ---
 layout: post
-title: Type Implementation in Browsers
+title: Moving Web Type Forward
 published: false
 ---
+
+In recent years, a lot has been done to improve the state of typography on the web, and it shows. It is actually possible to read online on a regular basis, or print newspapers wouldn't be struggling as much as they are to transition into a new economic system.
+
+Luckily, for those of us who are energized by the renaissance of the visual word, there is still much to be done. To add to the excitement, many of the things needed to move things forward are probably going to take joint effort from a variety of specialties. So, let's get started.
+
+h4. Hyphenation
+
+When type was set in medal, the process of hyphenation and justification was literally in the hands of the typesetter. On the web, the typesetter is the browser, which renders type guided by CSS rules. The browser knows where text is broken onto new lines when the producer of the site does not, partially because the browser knows about the device that it is rendering text on. Fonts may be substituted, sizes may be altered, the width of the view may be narrower or wider. This is as it should be: the browser should handle typesetting.
+
+At the moment, the following CSS rule will ask the typesetter to justify paragraph text:
+
+<pre><code>
+p { text-align: justify; }
+</code></pre>
+
+This isn't a trivial problem to solve, 
+
+----
 
 This is some information about the kind of stuff we need going forward.
 
 As a quick aside before getting into this list, I should point out that I think for the most part the issue of web fonts is a bit of a distraction from a lot of other problems that are less sexy because they're (intentionally) less visible to most users.
 
 Here are the real things that would be helpful immediately:
+
+----
 
 We need a good dictionary system to work in conjunction with web browsers to feed them hyphenation information for different languages and implementation across the board of a standard CSS rule for giving the browser instructions for how to hyphenate. This also needs to be really fast.
 

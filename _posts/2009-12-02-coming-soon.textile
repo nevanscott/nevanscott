@@ -1,0 +1,7 @@
+---
+layout: post
+title: Coming Soon
+published: true
+---
+
+This is all just here as a placeholder as I sort some things out. Please visit my links for now at "links.nevan.org":http://links.nevan.org/.
