@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
+<div class="post">
+
 <div class="date">
 {{ page.date | date_to_string }}
 </div>
-<div class="post">
+<div class="essay">
 
-<h2>{{ page.title | textilize | strip_html }}</h2>
+<h3>{{ page.title | textilize | strip_html }}</h3>
 
 {{ content }}
+
+</div>
 
 </div>

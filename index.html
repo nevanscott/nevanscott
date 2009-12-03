@@ -4,9 +4,21 @@ title: Nevan.org
 ---
 
 {% for post in site.posts %}
-<div class="date">{{ post.date | date_to_string }}</div>
-<div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+
 <div class="post">
-{{ post.content }}
+
+<div class="date">
+{{ post.date | date_to_string }}
 </div>
+
+<div class="essay">
+
+<h3>{{ post.title | textilize | strip_html }} <small><a href="{{ post.url }}">&#8734;</a></small></h3>
+
+{{ post.content }}
+
+</div>
+
+</div>
+
 {% endfor %}

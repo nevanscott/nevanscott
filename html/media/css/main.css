@@ -28,6 +28,12 @@ a {
 a:hover {
 	border-bottom: 1px solid #789;
 	}
+small a {
+	border-bottom: none;
+	}
+small a:hover {
+	border-bottom: none;
+	}
 
 sup {
 	line-height: 0;
@@ -60,6 +66,11 @@ h2 {
 	line-height: 1.5em;
 	margin: 0;
 	}
+h3 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+	padding-top: .6em;
+	}
 h4 {
 	font-size: 1em;
 	margin: 3em 0 0 0;
@@ -69,7 +80,7 @@ h4 {
 p {
 	margin: 1.5em 0 0 0;
 	}
-p+p {
+.ignore p+p {
 	margin: 0;
 	text-indent: 1.5em;
 	}
@@ -81,7 +92,7 @@ p.footnote {
 	}
 
 blockquote {
-	margin: 0 0 0 .75em;
+	margin: 0 .75em;
 	padding: 0 0 0 .75em;
 	border-left: 1px solid #678;
 	}
@@ -113,11 +124,14 @@ hr.footnote {
 	clear: both;
 	padding: 1px 0;
 	}
+.post {
+	clear: both;
+	}
 .date {
 	font-family: League Gothic, sans-serif;
 	font-size: 1.25em;
 	line-height: 1.2em;
-	margin: 1.2em 20px 0 0;
+	margin: .6em 20px 0 0;
 	text-transform: uppercase;
 	float: left;
 	background: #345;
@@ -130,11 +144,15 @@ hr.footnote {
 	color: #456;
 	white-space: nowrap;
 	}
+.essay {
+	margin: .75em 0 4.5em 160px;
+	max-width: 540px;
+	}
 .title {
 	margin: 1.5em 0 0 0;
 	padding: 2px 0 0 0;
 	}
-.post {
-	margin: .75em 0 4.5em 160px;
-	max-width: 540px;
+
+.clear {
+	clear: both;
 	}
