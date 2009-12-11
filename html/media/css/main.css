@@ -153,6 +153,13 @@ hr.footnote {
 	padding: 2px 0 0 0;
 	}
 
+.update {
+	font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: smaller;
+	}
+
 .clear {
 	clear: both;
 	}
