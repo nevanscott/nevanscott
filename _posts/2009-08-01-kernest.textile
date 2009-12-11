@@ -16,3 +16,5 @@ I've been trying Kernest out for a few days now, and have found the experience v
 And in the meantime, I highly recommend giving it a try. There are already several serviceable fonts on the site. I'm currently using "Droid Serif":http://ascender-corp.kernest.com/fonts/droid-serif from "Ascender Corp":http://ascender-corp.kernest.com/fonts.
 
 UPDATE: I've since switched to "Heuristica":http://andrey-v-panov.kernest.com/font_families/heuristica.
+
+UPDATE 2: In case it isn't obvious, I'm using neither Droid Serif nor Heuristica anymore.
