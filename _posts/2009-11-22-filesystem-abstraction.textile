@@ -4,6 +4,8 @@ title: Abstracting Away the File System
 published: false
 ---
 
+When I was in school, my computer science professor was fond of saying, "Bits is bits." What he meant is that all of computer science is an abstraction.[1]
+
 "Ross Carter":http://rosscarter.com/2009/279.html:
 
 bq.. "For documents that are recognized by multiple apps, the user has the power to bind a particular document to any app they wish, using the file inspector in Finder. So at least for this purpose the creator code is not needed."
@@ -14,19 +16,21 @@ p. As much as this argument makes complete sense in a lot of ways, I find myself
 
 This change accompanies another ongoing change, which is the breakdown in the importance of the filesystem itself, which carries important ramifications across the spectrum of computer users.
 
-I have long not understood the refrain that the Mac is not designed for everyone, as if this is somehow the reason that the Mac only has a small percentage of the market share. It may not be priced for everyone, but that is hardly the same as not being designed for everyone. A contemporary Windows PC, by comparison, has price points in everyone's range, but is, in my skewed view, not really designed for anyone, except maybe CTOs and gamers.[1]
+I have long not understood the refrain that the Mac is not designed for everyone, as if this is somehow the reason that the Mac only has a small percentage of the market share. It may not be priced for everyone, but that is hardly the same as not being designed for everyone. A contemporary Windows PC, by comparison, has price points in everyone's range, but is, in my skewed view, not really designed for anyone, except maybe CTOs and gamers.[2]
 
 The contemporary Mac, by comparison, is designed for a wide range of uses; in my opinion, it is a more general platform than Windows. This is easy to forget, because it is so easy to use a Mac in a very specific manner, which is the beauty of its design. This is because ease of use is, as it should be, useful for everyone, no matter what they are doing. Some people use primarily the applications that come with the Mac: especially iTunes and Safari. These are great tools for people who spend most of their time on their computer either browsing the web or consuming music, movies, and TV shows.
 
-But the Mac has also emerged as a great development platform, not least because of its Unix core. The Mac has a wealth of great text editors available to it, such as BBEdit, TextWrangler, and TextMate, but you can also run editors like vim and emacs. Transmit and Cyberduck are both great and intuitive FTP clients. Expandrive is a great way to use the Finder to interact with remote servers over various protocols. Coda and Espresso are promising web development environments. I can easily run a LAMP, Django, or Ruby on Rails application natively on my Mac for development, and easily translate that work onto a Linux server.[2]
+But the Mac has also emerged as a great development platform, not least because of its Unix core. The Mac has a wealth of great text editors available to it, such as BBEdit, TextWrangler, and TextMate, but you can also run editors like vim and emacs. Transmit and Cyberduck are both great and intuitive FTP clients. Expandrive is a great way to use the Finder to interact with remote servers over various protocols. Coda and Espresso are promising web development environments. I can easily run a LAMP, Django, or Ruby on Rails application natively on my Mac for development, and easily translate that work onto a Linux server.[3]
 
 The Mac is undoubtedly a great platform for anyone working with images, video, and sound. In addition to the stable of Adobe software geared toward these users, there are Apple's own entries in these fields, some of which are basically industry standards like Final Cut.
 
 <hr class="footnote" />
 
-fn1. footnote here? TK
+fn1. He was also referring to Von Neuman's decision to keep instructions and data in the same place.
 
-fn2. I should be very clear here in pointing out that I am certain these things are all possible and probably even easy to do on a Windows machine as well, but I don't know because I don't develop on a Windows machine. I can vouch for how easy these things are to do on a Mac.
+fn2. footnote here? TK
+
+fn3. I should be very clear here in pointing out that I am certain these things are all possible and probably even easy to do on a Windows machine as well, but I don't know because I don't develop on a Windows machine. I can vouch for how easy these things are to do on a Mac.
 
 ----
 
