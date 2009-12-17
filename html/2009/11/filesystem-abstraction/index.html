@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Abstracting Away the File System</title>
+	<link href="/media/css/main.css" rel="stylesheet" type="text/css" />
+	<link href="/media/css/white.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="header"><h1><a href="/">Nevan.org</a></h1></div>
+
+<div class="content">
+<div class="post">
+
+<div class="date">
+22 Nov 2009
+</div>
+<div class="essay">
+
+<h3>Abstracting Away the File System</h3>
+
+<p>When I was in school, my computer science professor was fond of saying, &#8220;Bits is bits.&#8221; What he meant is that all of computer science is an abstraction.<sup class="footnote"><a href="#fn1">1</a></sup> When thinking about computers, it is important to keep the principle of abstraction in mind. Without going into too much detail, computers are essentially made up of ones and zeros. The idea of the filesystem, the one that most users interact with through a graphical operating system, is a metaphor or abstraction that the operating system provides to the user and to the applications that the user interacts with.</p>
+<p>As we approach another decade in computing, it might be worth asking why our computers organize information in this way and why it is presented in such a fashion to the user. I know people, myself included, who still use pieces of paper that can be filed away in a real folder or sometimes stored more permanently in a file cabinet. But modern use of those organizational tools is significantly lower than it was two decades ago. Some people my age are entering the workforce having spent more time interacting with their computer&#8217;s file system than they have spent looking at sheets of paper, much less using them or storing them away.</p>
+<p>So why continue to think about the data storage using the same filesystem metaphor, especially in cases where another metaphor may make more sense? TK I believe this is one of the reasons for the early success of iTunes. When Napster popularized music downloading and made MP3 a household word, one of the biggest problems was trying to make these files fit into a storage metaphor based on organizing business documents. Everyone was coming up with their own systems for keeping these files organized. Some would create folders for every artist and every album; others might split up files by genre first, then by artist; some (like me) tended to keep everything in a flat structure and rely on filename conventions like <code>Cream_White_Room.mp3</code> to find a track. This was a mess, and clearly a broken system because you could only organize tracks in one way. If you wanted to keep your music organized by album, you couldn&#8217;t also organize tracks into playlists unless you made copies of the songs.<sup class="footnote"><a href="#fn2">2</a></sup> And then what if you wanted to have a single track in more then one playlist? In 1999, I thought The Beatles went with everything&#8212;what if I wanted <cite>Nowhere Man</cite> in playlists for &#8220;Happy&#8221;, &#8220;Sad&#8221;, and &#8220;Fun&#8221;?</p>
+<p>I don&#8217;t recall if iTunes had figured out how to address these problems when it was first released, but not long after iTunes had figure out a good way to keep the user from every worrying about where their music files were or how they were organized. The solution on the Mac runs somewhat deep: When Apple was putting together OS X, it clearly already had at least an inkling of its &#8220;digital hub strategy&#8221; in mind, and decided that User folders would include a few folders for media right out of the box, including Music. On OS X, iTunes took advantage of this folder to give users the option to let iTunes keep their music files organized for them.</p>
+<hr />
+<p><a href="http://rosscarter.com/2009/279.html">Ross Carter</a>:</p>
+<blockquote>
+<p>&#8220;For documents that are recognized by multiple apps, the user has the power to bind a particular document to any app they wish, using the file inspector in Finder. So at least for this purpose the creator code is not needed.&#8221;</p>
+<p>Two words come to mind: <em>puh leez</em>. In what universe do people create a file and immediately, whistling with merriment, go to Finder and change the application binding for that document?</p>
+</blockquote>
+<p>As much as this argument makes complete sense in a lot of ways, I find myself having the opposite point of view. There is, to my mind, a good potential reason for this kind of change, and I would welcome it if I were yet able to upgrade to Snow Leopard.</p>
+<p>This change accompanies another ongoing change, which is the breakdown in the importance of the filesystem itself, which carries important ramifications across the spectrum of computer users.</p>
+<p>I have long not understood the refrain that the Mac is not designed for everyone, as if this is somehow the reason that the Mac only has a small percentage of the market share. It may not be priced for everyone, but that is hardly the same as not being designed for everyone. A contemporary Windows PC, by comparison, has price points in everyone&#8217;s range, but is, in my skewed view, not really designed for anyone, except maybe CTOs and gamers.<sup class="footnote"><a href="#fn3">3</a></sup></p>
+<p>The contemporary Mac, by comparison, is designed for a wide range of uses; in my opinion, it is a more general platform than Windows. This is easy to forget, because it is so easy to use a Mac in a very specific manner, which is the beauty of its design. This is because ease of use is, as it should be, useful for everyone, no matter what they are doing. Some people use primarily the applications that come with the Mac: especially iTunes and Safari. These are great tools for people who spend most of their time on their computer either browsing the web or consuming music, movies, and TV shows.</p>
+<p>But the Mac has also emerged as a great development platform, not least because of its Unix core. The Mac has a wealth of great text editors available to it, such as BBEdit, TextWrangler, and TextMate, but you can also run editors like vim and emacs. Transmit and Cyberduck are both great and intuitive <span class="caps">FTP</span> clients. Expandrive is a great way to use the Finder to interact with remote servers over various protocols. Coda and Espresso are promising web development environments. I can easily run a <span class="caps">LAMP</span>, Django, or Ruby on Rails application natively on my Mac for development, and easily translate that work onto a Linux server.<sup class="footnote"><a href="#fn4">4</a></sup></p>
+<p>The Mac is undoubtedly a great platform for anyone working with images, video, and sound. In addition to the stable of Adobe software geared toward these users, there are Apple&#8217;s own entries in these fields, some of which are basically industry standards like Final Cut.</p>
+<hr class="footnote" />
+<p class="footnote" id="fn1"><sup>1</sup> He was also referring to Von Neuman&#8217;s decision to keep instructions and data in the same place.</p>
+<p class="footnote" id="fn2"><sup>2</sup> OK, to my memory there <em>were</em> solutions to this problem, where an MP3 player could basically create a playlist file for you with data about where the MP3 files in the playlist were stored on the hard drive. Guess how well this worked when you wanted to move files around?</p>
+<p class="footnote" id="fn3"><sup>3</sup> footnote here? TK</p>
+<p class="footnote" id="fn4"><sup>4</sup> I should be very clear here in pointing out that I am certain these things are all possible and probably even easy to do on a Windows machine as well, but I don&#8217;t know because I don&#8217;t develop on a Windows machine. I can vouch for how easy these things are to do on a Mac.</p>
+<hr />
+<h3 style="vertical-align:middle;">Outline</h3>
+<ul>
+	<li>The Finder is now only one way to navigate the filesystem.
+	<ul>
+		<li>Popular tools like TextMate and Coda give a filesystem view as well, in some cases of a remote filesystem on a server.</li>
+		<li>TextMate, Coda, and Cyberduck have some of their own application bindings, not necessarily the same as those used by the Finder.</li>
+	</ul></li>
+	<li>The filesystem is now only one metaphor among many for organizing bits on a personal computer.
+	<ul>
+		<li>Probably the most ubiquitous (and earliest) examples of this is iTunes, which successfully organizes songs into playlists rather than into folders.
+		<ul>
+			<li>Do you remember what it was like trying to keep music organized in this fashion?</li>
+		</ul></li>
+		<li>iPhoto uses a similar system, with photo albums.</li>
+		<li>The Finder itself has taken on some of these qualities, and now</li>
+	</ul></li>
+	<li>Your hard drive is now only one place among many where information is stored
+	<ul>
+		<li>The directory/file system structure is only one way to store information (relational, others?)</li>
+	</ul></li>
+</ul>
+
+</div>
+
+</div>
+</div><!-- /.content -->
+
+</body>
+</html>
