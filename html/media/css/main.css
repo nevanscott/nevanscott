@@ -5,7 +5,7 @@
 }
 body {
 	font-family: Georgia, serif;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.5em;
 	margin: 0;
 	padding: 0;
@@ -32,6 +32,9 @@ small a {
 	}
 small a:hover {
 	border-bottom: none;
+	}
+sup a {
+	padding: 0 2px;
 	}
 
 sup {
