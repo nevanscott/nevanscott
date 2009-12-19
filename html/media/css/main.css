@@ -53,7 +53,7 @@ h1 a {
 	border: none;
 	background: #345;
 	color: #FFF;
-	padding: 2px 20px 0 20px;
+	padding: 1px 20px;
 	width: 100px;
 	margin-right: 20px;
 	}
@@ -135,7 +135,7 @@ hr.footnote {
 	float: left;
 	background: #345;
 	color: #FFF;
-	padding: 2px 20px 0 20px;
+	padding: 1px 20px;
 	width: 100px;
 	clear: both;
 	text-align: center;
@@ -156,6 +156,7 @@ hr.footnote {
 	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: smaller;
 	}
 
 .clear {
