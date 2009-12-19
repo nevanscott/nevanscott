@@ -4,7 +4,7 @@
 	src: local('League Gothic Regular'), local('LeagueGothic'), url('../fonts/League_Gothic.woff') format('woff'), url('../fonts/League_Gothic.otf') format('opentype'), url('../fonts/League_Gothic.svg#LeagueGothic') format('svg');
 }
 body {
-	font-family: Georgia, serif;
+	font-family: "ff-meta-serif-web-pro-1", "ff-meta-serif-web-pro-2", Georgia, serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	margin: 0;
@@ -46,11 +46,10 @@ code {
 	}
 
 h1 {
-	font-family: League Gothic, sans-serif;
-	font-size: 1.25em;
-	line-height: 1.2em;
+	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", League Gothic, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
 	margin: 0;
-	text-transform: uppercase;
 	float: left;
 	clear: both;
 	text-align: center;
@@ -60,7 +59,7 @@ h1 a {
 	border: none;
 	background: #345;
 	color: #FFF;
-	padding: 2px 20px 0 20px;
+	padding: 1px 20px;
 	width: 100px;
 	margin-right: 20px;
 	}
@@ -134,15 +133,12 @@ hr.footnote {
 	clear: both;
 	}
 .date {
-	font-family: League Gothic, sans-serif;
-	font-size: 1.25em;
-	line-height: 1.2em;
+	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", League Gothic, sans-serif;
 	margin: .6em 20px 0 0;
-	text-transform: uppercase;
 	float: left;
 	background: #345;
 	color: #FFF;
-	padding: 2px 20px 0 20px;
+	padding: 1px 20px;
 	width: 100px;
 	clear: both;
 	text-align: center;
@@ -161,10 +157,7 @@ hr.footnote {
 	}
 
 .update {
-	font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: smaller;
+	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
 	}
 
 .clear {
