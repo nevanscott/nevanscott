@@ -39,7 +39,7 @@ sup {
 	}
 
 h1 {
-	font-family: "proxima-nova-extra-condensed-1", "proxima-nova-extra-condensed-2", League Gothic, sans-serif;
+	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", League Gothic, sans-serif;
 	font-size: 1.25em;
 	line-height: 1.2em;
 	margin: 0;
@@ -127,7 +127,7 @@ hr.footnote {
 	clear: both;
 	}
 .date {
-	font-family: "proxima-nova-extra-condensed-1", "proxima-nova-extra-condensed-2", League Gothic, sans-serif;
+	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", League Gothic, sans-serif;
 	font-size: 1.25em;
 	line-height: 1.2em;
 	margin: .6em 20px 0 0;
@@ -153,7 +153,7 @@ hr.footnote {
 	}
 
 .update {
-	font-family: "proxima-nova-extra-condensed-1", "proxima-nova-extra-condensed-2", Helvetica Neue, Arial, Helvetica, sans-serif;
+	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	}
