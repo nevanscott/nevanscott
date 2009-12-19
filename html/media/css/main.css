@@ -4,7 +4,7 @@
 	src: local('League Gothic Regular'), local('LeagueGothic'), url('../fonts/League_Gothic.woff') format('woff'), url('../fonts/League_Gothic.otf') format('opentype'), url('../fonts/League_Gothic.svg#LeagueGothic') format('svg');
 }
 body {
-	font-family: Georgia, serif;
+	font-family: "ff-meta-serif-web-pro-1", "ff-meta-serif-web-pro-2", Georgia, serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	margin: 0;
@@ -39,7 +39,7 @@ sup {
 	}
 
 h1 {
-	font-family: League Gothic, sans-serif;
+	font-family: "proxima-nova-extra-condensed-1", "proxima-nova-extra-condensed-2", League Gothic, sans-serif;
 	font-size: 1.25em;
 	line-height: 1.2em;
 	margin: 0;
@@ -127,7 +127,7 @@ hr.footnote {
 	clear: both;
 	}
 .date {
-	font-family: League Gothic, sans-serif;
+	font-family: "proxima-nova-extra-condensed-1", "proxima-nova-extra-condensed-2", League Gothic, sans-serif;
 	font-size: 1.25em;
 	line-height: 1.2em;
 	margin: .6em 20px 0 0;
