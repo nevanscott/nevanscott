@@ -33,9 +33,17 @@ small a {
 small a:hover {
 	border-bottom: none;
 	}
+sup a {
+	padding: 0 2px;
+	}
 
 sup {
 	line-height: 0;
+	}
+
+code {
+	font-family: "inconsolata-1", "inconsolata-2", monospace;
+	font-size: .95em;
 	}
 
 h1 {
@@ -140,7 +148,8 @@ hr.footnote {
 	white-space: nowrap;
 	}
 .essay {
-	margin: .75em 0 4.5em 160px;
+	margin: .75em 20px 4.5em 160px;
+	max-width: 600px;
 	max-width: 540px;
 	}
 .title {
