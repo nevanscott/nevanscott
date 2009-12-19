@@ -43,7 +43,6 @@ h1 {
 	font-size: 1.25em;
 	line-height: 1.2em;
 	margin: 0;
-	text-transform: uppercase;
 	float: left;
 	clear: both;
 	text-align: center;
@@ -131,7 +130,6 @@ hr.footnote {
 	font-size: 1.25em;
 	line-height: 1.2em;
 	margin: .6em 20px 0 0;
-	text-transform: uppercase;
 	float: left;
 	background: #345;
 	color: #FFF;
@@ -154,9 +152,7 @@ hr.footnote {
 
 .update {
 	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
 	font-weight: bold;
-	font-size: smaller;
 	}
 
 .clear {
