@@ -42,7 +42,8 @@ sup {
 	}
 
 code {
-	font-size: .9em;
+	font-family: "inconsolata-1", "inconsolata-2", monospace;
+	font-size: .95em;
 	}
 
 h1 {
