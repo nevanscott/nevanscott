@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving Web Type Forward
-published: false
+published: true
 ---
 
 In recent years, a lot has been done to improve the state of typography on the web, and it shows. It is actually possible to read online on a regular basis, or print newspapers wouldn't be struggling as much as they are to transition into a new economic system.
