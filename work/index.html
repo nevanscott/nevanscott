@@ -1,20 +1,27 @@
 ---
 layout: default
+title: Nevan.org
+published: false
 ---
+
 <div class="container">
 	<div class="column span-5">
+		{% for post in site.categories.work %}
 		<div class="post">
 			<div class="column span-1">
 				<div class="date">
-					{{ page.date | date_to_string }}
+					{{ post.date | date_to_string }}
 				</div>
 			</div>
 			<div class="column span-4 last">
 				<div class="essay">
-					<h3>{{ page.title | textilize | strip_html }}</h3>
-					{{ content }}
+					<h3>{{ post.title | textilize | strip_html }} <small><a href="{{ post.url }}">&#8734;</a></small></h3>
+					{{ post.content }}
 				</div>
 			</div>
 		</div><!-- /.post -->
+		{% endfor %}
+	</div>
+	<div class="column span-2 last">
 	</div>
 </div><!-- /.container -->

@@ -1,0 +1,58 @@
+---
+layout: post
+title: Abstracting Away the File System
+published: false
+---
+
+When I was in school, my computer science professor was fond of saying, "Bits is bits." What he meant is that all of computer science is an abstraction.[1] When thinking about computers, it is important to keep the principle of abstraction in mind. Without going into too much detail, computers are essentially made up of ones and zeros. The idea of the filesystem, the one that most users interact with through a graphical operating system, is a metaphor or abstraction that the operating system provides to the user and to the applications that the user interacts with.
+
+As we approach another decade in computing, it might be worth asking why our computers organize information in this way and why it is presented in such a fashion to the user. I know people, myself included, who still use pieces of paper that can be filed away in a real folder or sometimes stored more permanently in a file cabinet. But modern use of those organizational tools is significantly lower than it was two decades ago. Some people my age are entering the workforce having spent more time interacting with their computer's file system than they have spent looking at sheets of paper, much less using them or storing them away.
+
+So why continue to think about the data storage using the same filesystem metaphor, especially in cases where another metaphor may make more sense? TK I believe this is one of the reasons for the early success of iTunes. When Napster popularized music downloading and made MP3 a household word, one of the biggest problems was trying to make these files fit into a storage metaphor based on organizing business documents. Everyone was coming up with their own systems for keeping these files organized. Some would create folders for every artist and every album; others might split up files by genre first, then by artist; some (like me) tended to keep everything in a flat structure and rely on filename conventions like @Cream_White_Room.mp3@ to find a track. This was a mess, and clearly a broken system because you could only organize tracks in one way. If you wanted to keep your music organized by album, you couldn't also organize tracks into playlists unless you made copies of the songs.[2] And then what if you wanted to have a single track in more then one playlist? In 1999, I thought The Beatles went with everything--what if I wanted ??Nowhere Man?? in playlists for "Happy", "Sad", and "Fun"?
+
+I don't recall if iTunes had figured out how to address these problems when it was first released, but not long after iTunes had figure out a good way to keep the user from every worrying about where their music files were or how they were organized. The solution on the Mac runs somewhat deep: When Apple was putting together OS X, it clearly already had at least an inkling of its "digital hub strategy" in mind, and decided that User folders would include a few folders for media right out of the box, including Music. On OS X, iTunes took advantage of this folder to give users the option to let iTunes keep their music files organized for them.
+
+----
+
+"Ross Carter":http://rosscarter.com/2009/279.html:
+
+bq.. "For documents that are recognized by multiple apps, the user has the power to bind a particular document to any app they wish, using the file inspector in Finder. So at least for this purpose the creator code is not needed."
+
+Two words come to mind: _puh leez_. In what universe do people create a file and immediately, whistling with merriment, go to Finder and change the application binding for that document?
+
+p. As much as this argument makes complete sense in a lot of ways, I find myself having the opposite point of view. There is, to my mind, a good potential reason for this kind of change, and I would welcome it if I were yet able to upgrade to Snow Leopard.
+
+This change accompanies another ongoing change, which is the breakdown in the importance of the filesystem itself, which carries important ramifications across the spectrum of computer users.
+
+I have long not understood the refrain that the Mac is not designed for everyone, as if this is somehow the reason that the Mac only has a small percentage of the market share. It may not be priced for everyone, but that is hardly the same as not being designed for everyone. A contemporary Windows PC, by comparison, has price points in everyone's range, but is, in my skewed view, not really designed for anyone, except maybe CTOs and gamers.[3]
+
+The contemporary Mac, by comparison, is designed for a wide range of uses; in my opinion, it is a more general platform than Windows. This is easy to forget, because it is so easy to use a Mac in a very specific manner, which is the beauty of its design. This is because ease of use is, as it should be, useful for everyone, no matter what they are doing. Some people use primarily the applications that come with the Mac: especially iTunes and Safari. These are great tools for people who spend most of their time on their computer either browsing the web or consuming music, movies, and TV shows.
+
+But the Mac has also emerged as a great development platform, not least because of its Unix core. The Mac has a wealth of great text editors available to it, such as BBEdit, TextWrangler, and TextMate, but you can also run editors like vim and emacs. Transmit and Cyberduck are both great and intuitive FTP clients. Expandrive is a great way to use the Finder to interact with remote servers over various protocols. Coda and Espresso are promising web development environments. I can easily run a LAMP, Django, or Ruby on Rails application natively on my Mac for development, and easily translate that work onto a Linux server.[4]
+
+The Mac is undoubtedly a great platform for anyone working with images, video, and sound. In addition to the stable of Adobe software geared toward these users, there are Apple's own entries in these fields, some of which are basically industry standards like Final Cut.
+
+<hr class="footnote" />
+
+fn1. He was also referring to Von Neuman's decision to keep instructions and data in the same place.
+
+fn2. OK, to my memory there _were_ solutions to this problem, where an MP3 player could basically create a playlist file for you with data about where the MP3 files in the playlist were stored on the hard drive. Guess how well this worked when you wanted to move files around?
+
+fn3. footnote here? TK
+
+fn4. I should be very clear here in pointing out that I am certain these things are all possible and probably even easy to do on a Windows machine as well, but I don't know because I don't develop on a Windows machine. I can vouch for how easy these things are to do on a Mac.
+
+----
+
+h3. Outline
+
+* The Finder is now only one way to navigate the filesystem.
+** Popular tools like TextMate and Coda give a filesystem view as well, in some cases of a remote filesystem on a server.
+** TextMate, Coda, and Cyberduck have some of their own application bindings, not necessarily the same as those used by the Finder.
+* The filesystem is now only one metaphor among many for organizing bits on a personal computer.
+** Probably the most ubiquitous (and earliest) examples of this is iTunes, which successfully organizes songs into playlists rather than into folders.
+*** Do you remember what it was like trying to keep music organized in this fashion?
+** iPhoto uses a similar system, with photo albums.
+** The Finder itself has taken on some of these qualities, and now
+* Your hard drive is now only one place among many where information is stored
+** The directory/file system structure is only one way to store information (relational, others?)

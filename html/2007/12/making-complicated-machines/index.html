@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Making Complicated Machines</title>
+	<link href="/media/css/grid.css" rel="stylesheet" type="text/css" />
+	<link href="/media/css/new.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://use.typekit.com/omw4yuy.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+<div id="head">
+	<div class="container">
+		<div class="column span-1">
+			<a href="/">Nevan.org</a>
+		</div>
+		<div class="column span-3">
+			the eponymous website of Nevan Scott
+		</div>
+		<div class="column span-3 last">
+			<ul class="inline">
+				<li><a href="/archive/">Writing</a></li>
+				<li>Work</li>
+				<li>About</li>
+				<li>Recommended</li>
+			</ul>
+		</div>
+	</div><!-- /.container -->
+</div><!-- /#head -->
+
+<div id="main">
+<div class="container">
+	<div class="column span-5">
+		<div class="post">
+			<div class="column span-1">
+				<div class="date">
+					26 Dec 2007
+				</div>
+			</div>
+			<div class="column span-4 last">
+				<div class="essay">
+					<h3>Making Complicated Machines</h3>
+					<p>Computers offer a fascinating window into the play between the simple and the complex. The alphabet of computer language is as simple as they come, with two figures: 1 and 0, known as bits, which typically correspond to high and low voltage electronic pulses. From such a simple base, however, complex functionality can be achieved. On the other hand, seemingly simple behavior can require a substantially complex arrangement of ones and zeros. It also requires well-designed complex machinery to sculpt the flow of bits into something useful.</p>
+<p>In <a href="http://www.amazon.com/Computer-Organization-Design-Revised-Printing/dp/0123706068/"><cite>Computer Organization and Design</cite></a>, David Patterson and John Hennessy describe in detail the design of a particular type of machine and its instruction set called <a href="http://en.wikipedia.org/wiki/MIPS_architecture"><span class="caps">MIPS</span></a> (originally for Microprocessor without Interlocked Pipeline Stages). <span class="caps">MIPS</span> is one way to create the balance needed to make a good computer. The questions at hand in designing such a system include: what functionality need be built directly into the machine itself? how will instructions be represented? how will data be represented? how will the reduced set of operations be sufficient to accomplish a wide variety of more complicated operations? how will these operations be carried out quickly and efficiently?</p>
+<p>The authors outline four design principles that guided the solutions to these problems in <span class="caps">MIPS</span>. The first of these, &#8220;simplicity favors regularity,&#8221; indicates that a reliably consistent design affords simpler solutions. For example, <span class="caps">MIPS</span>-32 uses a consistent &#8216;word size&#8217; of 32 bits, meaning instructions and pieces of data are represented by a string of 32 ones and zeros. Having a regular word size allows for some simplicity in the hardware, for example: 32 wires, one for each bit, can be used to communicate both instructions and data &#8211; in fact, the same group of 32 wires can be used for either purpose and for any instruction or piece of data. The second principle is &#8220;smaller is faster.&#8221; Whatever the medium, the representation of bits has to travel through the computer. Shorter travel distances allow for faster computation, plain and simple. The third principle, &#8220;make the common case fast,&#8221; sometimes requires compromise. &#8220;Smaller is faster&#8221; asks for a small set of instructions and corresponding hardware, &#8220;make the common case fast&#8221; asks for instructions and hardware for as many frequently-used operations as possible. Hardware built to parse and quickly compute a larger instruction set take up more space, which can in turn slow down the overall function of the computer. These two principles must be balanced for maximum computing power and speed, which leads to the fourth guiding principle: &#8220;good design demands good compromises.&#8221;</p>
+<p>These four principles all inform the design of <span class="caps">MIPS</span>. Thirty-two memory registers are kept close to the processor for temporary storage of 32-bit words currently in play. Access to these words is fast because of their proximity. Likewise, only six bits are required to indicate each, leaving room in 32-bit instructions for a wider variety of common instructions involving values in registers. The size of the architecture is kept small by reusing parts with basic functionality for multiple tasks. Compromises are made to reduce size while accommodating common cases: addition, subtraction, multiplication, and division are built into the instruction set and the hardware. To take a square root, the operation must be broken down into more basic parts.</p>
+<hr />
+<p>In <a href="http://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977/"><cite>The Soul of a New Machine</cite></a>, Tracy Kidder follows Data General, a successful computer company, through the late 1970s as a team within the company worked feverishly to build a state-of-the-art microcomputer. This new computer, the Eagle, needed an architecture built from scratch with lofty restrictions and goals in mind. At the time, Data General&#8217;s bread and butter was a 16-bit microcomputer called the Eclipse. The Eagle would be a 32-bit machine roughly based on the Eclipse. It also set out to be backwards-compatible with the Eclipse: software written for the Eclipse needed to work on the Eagle.</p>
+<p>There were also realities in place which added further restrictions to the design of the Eagle. Development of the Eagle was set on a very short timeline: one year. Why? The team working on the Eagle in Massachusetts was subject to competition with another Data General group in North Carolina, also working on a new 32-bit flagship microcomputer. The North Carolina group had a head start and was favored by the company. In fact, the Eagle team operated low key within the company, and included mostly junior engineers fresh out of school. Data General, meanwhile, was playing catchup with rival <span class="caps">DEC</span>, which had already brought a 32-bit machine, the <span class="caps">VAX</span>, to market.</p>
+<p>The need for backwards-compatibility with a 16-bit instruction set, combined with the limitations on time and resources added to the compromises required to design and build the Eagle, and get it out the door.</p>
+<p>The size of the instruction set was already a compromise. Doubling the word size would cause an increase in the size of the parts of the computer, working against the &#8220;smaller is faster&#8221; principle. The increased word size also vastly increased the number of instructions and data that could be represented with a single word, accommodating more common cases. Sixteen bits offer a vocabulary of about 66,000 words. Thirty-two bits represent 4 billion. In this case, the overwhelming vocabulary gain of the increased word size outweighed the speed hit of the size increase. The jump from 16 to 32 bits also offered another gain. According to Kidder, Eagle&#8217;s architect Steve Wallach reasoned that the increase led to &#8220;the enlargement of the Eclipse&#8217;s logical-address space from 65,000 to 4.3 billion storage compartments.&#8221; The number of spaces in memory that could be addressed increased 65,000-fold.</p>
+<p>In building the Eagle, the second principle, &#8220;smaller is faster,&#8221; carried less weight. The goal was to fit the Eagle&#8217;s processor onto seven boards, where other companies were making machines using a single board. According to Kidder:</p>
+<blockquote>
+<p>A multiple-board <span class="caps">CPU</span> performs simultaneously many operations that a single-chip <span class="caps">CPU</span> can do only sequentially&#8230; A time was probably coming when components would operate so quickly that the distance that signals had to travel would intimately affect the speed of most commercial computers. Then miniaturization and speed would become more nearly synonymous. But that day had not yet arrived.</p>
+</blockquote>
+<p>Compromises between what operations the hardware and software would handle also took place. However, decisions about how to make these compromises were not always geared toward making the Eagle a fast and efficient computer, and more toward ensuring the Eagle would actually <em>be</em> a computer:</p>
+<blockquote>
+<p>One Hardy Boy [working on the hardware], Josh Rosen, looks around and can hardly believe what he sees. For example, Microkids [working on the low-level software] and Hardy Boys are arguing. A Microkid wants the hardware to perform a certain function. A Hardy Boy tells him, &#8220;No way — I already did my design for microcode to do that.&#8221; They make a deal: &#8220;I&#8217;ll encode this for you, if you&#8217;ll do this other function in hardware.&#8221; &#8220;All right.&#8221;</p>
+<p>What a way to design a computer! &#8220;There&#8217;s no grand design,&#8221; thinks Rosen. &#8220;People are just reaching out in the dark, touching hands.&#8221; Rosen is having some problems with his own piece of the design. He knows he can solve them, if he&#8217;s just given the time. But the managers keep saying, &#8220;There&#8217;s no time.&#8221; Okay. Sure. It&#8217;s a rush job. But this is ridiculous. No one seems to be in control; nothing&#8217;s ever explained. Foul up, however, and the managers come at you from all sides.</p>
+</blockquote>
+<p>This way of working was even encouraged by the project&#8217;s manager, Tom West, who kept the following written on his white board: &#8220;Not Everything Worth Doing Is Worth Doing Well.&#8221; The limited time and resources available to the project compromised the overall quality of the design of the Eagle itself. There was, however, another human factor contributing to the inability to produce an &#8216;ideal&#8217; design. West, a talented engineer himself, feeling the pressures of looming deadlines, decided at one point to try to examine flaws in the design to debug problems himself. After a few weekends of looking at the prototypes, West decided, &#8220;We&#8217;re way beyond what any one person can do. It&#8217;s too complex.&#8221; The complexity of the design and workings of the Eagle had become great enough that a complete understanding of all the details, decisions, and compromises involved in its engineering was unattainable.</p>
+<hr />
+<p>Design, like engineering, is about problem solving. When setting out to design a computer architecture, several problems are at play. Machines need to be fast and small. They also need to be reliable and easy to fix or debug. Preferably, they adhere to some standards to ease programming by offering a consistent base for development. In the case of the <span class="caps">MIPS</span> architecture, one of the major design goals was simplicity. The design of the <span class="caps">MIPS</span> architecture, led by John Hennessy, began in 1981 at Stanford University, where the demands of the business world did not impose unreasonable restrictions on time and resources. Aspects of the design could therefore be thought out more carefully than the business-world could afford, lending the design a more complete overall grace and understandability. Data General&#8217;s Eagle team, however, had to sacrifice this idealism in favor of making a machine that worked and would be marketable. This was born out in West&#8217;s policy, &#8220;If you can do a quick-and-dirty job and it works, do it.&#8221; The <span class="caps">MIPS</span> architecture balanced simplicity and complexity in a wholly different way than the Eagle. The difference lay in the problems that needed solving.</p>
+				</div>
+			</div>
+		</div><!-- /.post -->
+	</div>
+</div><!-- /.container -->
+</div><!-- /#main -->
+
+</body>
+</html>
