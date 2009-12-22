@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container">
+	<div class="column span-2">
+		<h3>{{ page.title }}</h3>
+		<a class="button" href="{{ page.external }}">Visit Site &rsaquo;</a>
+	</div>
+	<div class="column span-4 append-1 last description">
+		{{ page.description | textilize }}
+	</div>
+	{% for slide in page.slides %}
+	<div class="group">
+		<div class="column span-2 caption">
+			{{ slide.description | textilize }}
+		</div>
+		<div class="column span-5 last pic">
+			<img src="/media/images/{{ slide.image }}" />
+		</div>
+	</div>
+	{% endfor %}
+	<div class="column span-4 prepend-2 append-1 last">
+		{{ content }}
+	</div>
+</div><!-- /.container -->

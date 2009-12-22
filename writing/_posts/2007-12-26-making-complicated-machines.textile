@@ -28,7 +28,7 @@ bq. A multiple-board CPU performs simultaneously many operations that a single-c
 Compromises between what operations the hardware and software would handle also took place. However, decisions about how to make these compromises were not always geared toward making the Eagle a fast and efficient computer, and more toward ensuring the Eagle would actually _be_ a computer:
 
 
-bq.. One Hardy Boy [working on the hardware], Josh Rosen, looks around and can hardly believe what he sees. For example, Microkids [working on the low-level software] and Hardy Boys are arguing. A Microkid wants the hardware to perform a certain function. A Hardy Boy tells him, "No way — I already did my design for microcode to do that." They make a deal: "I'll encode this for you, if you'll do this other function in hardware." "All right."
+bq.. One Hardy Boy [working on the hardware], Josh Rosen, looks around and can hardly believe what he sees. For example, Microkids [working on the low-level software] and Hardy Boys are arguing. A Microkid wants the hardware to perform a certain function. A Hardy Boy tells him, "No way - I already did my design for microcode to do that." They make a deal: "I'll encode this for you, if you'll do this other function in hardware." "All right."
 
 What a way to design a computer! "There's no grand design," thinks Rosen. "People are just reaching out in the dark, touching hands." Rosen is having some problems with his own piece of the design. He knows he can solve them, if he's just given the time. But the managers keep saying, "There's no time." Okay. Sure. It's a rush job. But this is ridiculous. No one seems to be in control; nothing's ever explained. Foul up, however, and the managers come at you from all sides.
 

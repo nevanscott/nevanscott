@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Nevan.org
-published: false
+title: Recent Work
+published: true
 ---
 
 <div class="container">
@@ -16,7 +16,7 @@ published: false
 			<div class="column span-4 last">
 				<div class="essay">
 					<h3>{{ post.title | textilize | strip_html }} <small><a href="{{ post.url }}">&#8734;</a></small></h3>
-					{{ post.content }}
+					{{ post.description | textilize }}
 				</div>
 			</div>
 		</div><!-- /.post -->
