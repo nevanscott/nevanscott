@@ -16,11 +16,3 @@ slides:
   - image: pom-recipes-645.png
     description: Early on in the first round of the project, I took some time to build this custom rotation image area using jQuery, to showcase the photography of their recipes. Not much to look at, but this was a big step up from relying on Flash, and I had only been working with jQuery for a few weeks at the time.
 ---
-
-The homepage was presented with little direction and was in need of revising to better feature and frame the site's many channels of content and user activity. To make the site less graphic and shall we say sterile, we stopped thinking about it existing only above the fold and that it was going to contain more content so the integrity of the hero image banner was kept intact to leave room for their features. But modules were added below that were descriptive and more standards-friendly with actual text rather than tiny pictures of text in an image. For example, it would just be a 121x90 box that featured three things: title (e.g. "POMx Pills"), and image (e.g. a picture of a pill bottle), and a somewhat unhelpful two- to three-word description (e.g. "Antioxidant Superpower"). These just looked like banner ads and a user would not readily be able to intuit that they were actually links to products within the site.
-
-To remedy this, these boxes were replaced with modular widgets (programmed in Wordpress - FTW[1]) which would allow for a title in a top tab (text, or course), room for an image, to maintain the visual integrity of POM's "web brand" and space below devoted to actual content. In short, adding content and breaking down the elements into (how would you describe this?) into a hierarchical visual scheme added content without adding to the clutter. It provided an organizing system to achieve better usability, better readability, and diminished the chances that a user woudl mistake any of the site's inherent elements for ads. It also added coherence.
-
-<hr class="footnote" />
-
-fn1. Not really, Wordpress sucks.
