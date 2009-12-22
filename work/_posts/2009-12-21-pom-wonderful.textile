@@ -3,17 +3,18 @@ layout: project
 title: POM Wonderful
 permalink: /work/pom-wonderful/
 published: true
-description: POM Wonderful has been an interesting challenge, insofar as they are a national juice company that wanted to engage its users directly by creating its own social network to foster interest in products and health research and recipes and establishing an online community for the fans of POM.
+description: I joined "Reason Media Group":http://www.reasonmediagroup.com/ as they took on building POM's new website with the goal of engaging POM's community of fans alongside POM's design agency, "Fire Station":http://www.roll.com/fire-station-agency.php. When I joined, the project was already slated to be built on "Wordpress":http://wordpress.org/ and "Buddypress":http://buddypress.org/; I worked with another developer to build out the new site over three months, taking care of both front-end and back-end development tasks. After the site's launch, RMG(Reason Media Group) was asked to further the design, so I took on a more leading role in front-end development and design.
 external: http://pomwonderful.com/
+image: pom-home-645.png
 slides:
   - image: pom-home-645.png
     description: <p>POM's homepage needed to emphasize all of the activity going on in the community without being overwhelming. I advocated using a more structured design, so that we could accomodate a dense amount of information without looking too busy.</p><p>A prior version of the site had three different areas that were cross-fading - the feature area, tweets, and testimonials. I wanted to cut down on the calamity, so I built a jQuery plugin that allowed the activity bubbles from the new community activity feed to scroll in from the top.</p>
   - image: pom-community-645.png
     description: When it came time to build a new landing page for the community section of the site, my choice to use a grid for layout paid off because we were able to easily reuse design elements that we had built for the homepage.
   - image: pom-contest-645.png
-    description: third description
+    description: As part of POM's strategy for engaging with their customers, they began holding regular contests, and we needed an easy way for members of the POM team to add new contests to the site that would in turn be easy for members of the site to participate in.
   - image: pom-recipes-645.png
-    description: third description
+    description: Early on in the first round of the project, I took some time to build this custom rotation image area using jQuery, to showcase the photography of their recipes. Not much to look at, but this was a big step up from relying on Flash, and I had only been working with jQuery for a few weeks at the time.
 ---
 
 The homepage was presented with little direction and was in need of revising to better feature and frame the site's many channels of content and user activity. To make the site less graphic and shall we say sterile, we stopped thinking about it existing only above the fold and that it was going to contain more content so the integrity of the hero image banner was kept intact to leave room for their features. But modules were added below that were descriptive and more standards-friendly with actual text rather than tiny pictures of text in an image. For example, it would just be a 121x90 box that featured three things: title (e.g. "POMx Pills"), and image (e.g. a picture of a pill bottle), and a somewhat unhelpful two- to three-word description (e.g. "Antioxidant Superpower"). These just looked like banner ads and a user would not readily be able to intuit that they were actually links to products within the site.

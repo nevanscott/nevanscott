@@ -5,23 +5,18 @@ published: true
 ---
 
 <div class="container">
-	<div class="column span-5">
-		{% for post in site.categories.work %}
-		<div class="post">
-			<div class="column span-1">
-				<div class="date">
-					{{ post.date | date_to_string }}
-				</div>
+	{% for post in site.categories.work %}
+	<div class="group">
+		<div class="column span-2">
+			<h3>{{ post.title | textilize | strip_html }}</h3>
+			<p><a class="button" href="{{ post.url }}">View Project &rsaquo;</a></p>
+			<div class="caption">
+				{{ post.description | textilize }}
 			</div>
-			<div class="column span-4 last">
-				<div class="essay">
-					<h3>{{ post.title | textilize | strip_html }} <small><a href="{{ post.url }}">&#8734;</a></small></h3>
-					{{ post.description | textilize }}
-				</div>
-			</div>
-		</div><!-- /.post -->
-		{% endfor %}
+		</div>
+		<div class="column span-5 last pic">
+			<img src="/media/images/{{ post.image }}" />
+		</div>
 	</div>
-	<div class="column span-2 last">
-	</div>
+	{% endfor %}
 </div><!-- /.container -->

@@ -4,8 +4,10 @@ layout: default
 
 <div class="container">
 	<div class="column span-2">
-		<h3>{{ page.title }}</h3>
+		<h3>{{ page.title | textilize | strip_html }}</h3>
+		{% if page.external %}
 		<a class="button" href="{{ page.external }}">Visit Site &rsaquo;</a>
+		{% endif %}
 	</div>
 	<div class="column span-4 append-1 last description">
 		{{ page.description | textilize }}
