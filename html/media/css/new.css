@@ -9,6 +9,10 @@ abbr,acronym { border: 0; font-variant: normal; }
 input,textarea,select { font-family: inherit; font-size: inherit; font-weight: inherit; }
 a { text-decoration: none; color: inherit; }
 
+html {
+	margin: 0;
+	padding: 0;
+	}
 body {
 	font-family: "ff-meta-serif-web-pro-1", "ff-meta-serif-web-pro-2", Georgia, serif;
 	font-size: 16px;
@@ -28,6 +32,7 @@ body {
 	background: #345;
 	color: #9AB;
 	padding: .75em 0;
+	border-bottom: 1px solid #234;
 	}
 #head a {
 	color: #FFF;
@@ -35,7 +40,13 @@ body {
 	}
 
 #main {
-	margin: 1.5em 0;
+	margin: 3em 0;
+	}
+
+#footer {
+	padding: .75em 0;
+	background: #D6DFE3;
+	margin: 0;
 	}
 
 h1, h2, h3, h4 {
@@ -52,9 +63,10 @@ a:hover {
 	}
 a.button {
 	font-size: .9em;
+	line-height: 1em;
 	color: #FFF;
 	background: #345;
-	padding: 0px 10px 3px 10px;
+	padding: 5px 10px;
 	border: 1px solid #234;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -62,6 +74,14 @@ a.button {
 	box-shadow: 2px 2px 4px #CCC;
 	-webkit-box-shadow: 2px 2px 4px #CCC;
 	-moz-box-shadow: 2px 2px 4px #CCC;
+	}
+a.right {
+	float: right;
+	display: block;
+	}
+a.left {
+	float: left;
+	display: block;
 	}
 small a {
 	color: #C3CCCF;
@@ -205,6 +225,9 @@ ul.inline li {
 	}
 .link {
 	margin: 0 0 1.5em 0;
+	}
+.project {
+	margin: 0 0 3em 0;
 	}
 .post:after, .link:after, .group:after {
     content: ".";

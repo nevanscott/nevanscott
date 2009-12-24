@@ -1,0 +1,23 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+h3. About Me
+
+Hi, I'm Nevan Scott, just like it says up top. I currently live and work in sunny Los Angeles, CA as a web designer.
+
+<hr />
+
+h3. About the Site
+
+This is where I sometimes try to write and show some of the stuff I've been working on. Soon there will be a section for stuff that I recommend, but for now it will taunt me as a bit of text in the header.
+
+I do my work on a Mac, and have done for so long that it hardly seems worth mentioning.
+
+If you are using a modern browser on a desktop machine, you are probably reading this in Font Font's Meta Serif Web Pro, delivered to you by "Typekit":http://typekit.com/, a service which I am still relatively new to, but is worth looking into if you like typography sorts of things and haven't already. (You might also get some good mileage out of "Kernest":http://kernest.com/ or "Font Squirrel":http://fontsquirrel.com/ if you prefer to serve your own fonts.) If you are on a device that Typekit doesn't support, you're in for a real treat: Matthew Carter's beautiful Georgia, designed specifically for the screen in the 90s and still awesome.
+
+Thanks also to Tom Preston-Werner and others for their work on Jekyll, which I use to generate the site from some intuitive source files.
+
+For the purposes of laying out the site quickly, I'm relying on a grid stylesheet provided by Blueprint, generated "here":TK.
