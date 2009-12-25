@@ -40,7 +40,7 @@ body {
 	}
 
 #main {
-	margin: 3em 0;
+	padding: 1.5em 0;
 	}
 
 #footer {
@@ -63,10 +63,10 @@ a:hover {
 	}
 a.button {
 	font-size: .9em;
-	line-height: 1em;
+	line-height: 2em;
 	color: #FFF;
 	background: #345;
-	padding: 5px 10px;
+	padding: 0 10px;
 	border: 1px solid #234;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -137,7 +137,8 @@ h1 a:hover {
 h2 {
 	font-size: 2em;
 	line-height: 1.5em;
-	margin: 0;
+	margin: 0 0 .75em 0;
+	border-bottom: 1px solid #D6DFE3;
 	}
 h3 {
 	font-size: 1.25em;
@@ -201,10 +202,12 @@ hr.footnote {
 
 ul.inline {
 	list-style: none;
+	margin: 0;
 	}
 ul.inline li {
 	float: left;
 	margin-right: 20px;
+	list-style: none;
 	}
 
 .header {

@@ -3,24 +3,24 @@ layout: default
 ---
 
 <div class="container">
-	<div class="column span-2">
-		<h3>{{ page.title | textilize | strip_html }}</h3>
+	<h2>{{ page.title | textilize | strip_html }}</h2>
+	<div class="column span-4 prepend-1 description">
+		{{ page.description | textilize }}
+	</div>
+	<div class="column span-2 last">
 		{% if page.external %}
 		<p>
-			<a class="button left" href="{{ page.external }}">Visit Site &rsaquo;</a>
+			<a class="button right" href="{{ page.external }}">Visit Site &rsaquo;</a>
 		</p>
 		{% endif %}
 	</div>
-	<div class="column span-4 append-1 last description">
-		{{ page.description | textilize }}
-	</div>
 	{% for slide in page.slides %}
 	<div class="group">
-		<div class="column span-2 caption">
-			{{ slide.description | textilize }}
-		</div>
-		<div class="column span-5 last pic">
+		<div class="column span-5 pic">
 			<img src="/media/images/{{ slide.image }}" />
+		</div>
+		<div class="column span-2 last caption">
+			{{ slide.description | textilize }}
 		</div>
 	</div>
 	{% endfor %}
