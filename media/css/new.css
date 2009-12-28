@@ -62,7 +62,7 @@ a:hover {
 	border-bottom: 1px solid #C3CCCF;
 	}
 a.button {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Lucida Grande, Lucida Sans, Trebuchet MS, sans-serif;
+	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Georgia, serif;
 	font-size: .9em;
 	line-height: 2em;
 	color: #FFF;
@@ -103,6 +103,9 @@ sup {
 em, cite {
 	font-style: italic;
 	}
+em em, em cite, cite em, cite cite {
+	font-style: normal;
+	}
 strong {
 	color: #93999F;
 	color: #678;
@@ -136,14 +139,13 @@ h1 a:hover {
 	border: none;
 	}
 h2 {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Lucida Grande, Lucida Sans, Trebuchet MS, sans-serif;
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 1.5em;
-	margin: 0 0 .75em 0;
+	margin: 0 0 .5em 0;
 	border-bottom: 1px solid #D6DFE3;
 	}
 h3 {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Lucida Grande, Lucida Sans, Trebuchet MS, sans-serif;
+	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Georgia, serif;
 	font-weight: bold;
 	font-size: 1.375em;
 	line-height: 1.0909em;
@@ -170,8 +172,10 @@ p.footnote {
 	text-indent: 0;
 	}
 .description p {
-	font-style: italic;
-	color: #666;
+	color: #93999C;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
 	}
 
 .caption p {
@@ -226,7 +230,7 @@ ul.inline li {
 	padding: 1px 0;
 	}
 .date {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Lucida Grande, Lucida Sans, Trebuchet MS, sans-serif;
+	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Georgia, serif;
 	font-weight: bold;
 	color: #93999F;
 	}
@@ -251,7 +255,7 @@ ul.inline li {
 	}
 
 .update {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Lucida Grande, Lucida Sans, Trebuchet MS, sans-serif;
+	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Georgia, serif;
 	font-weight: bold;
 	color: #93999F;
 	}

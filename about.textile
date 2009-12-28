@@ -16,7 +16,7 @@ h3. About the Site
 
 This is where I sometimes try to write and show some of the projects I've been working on.
 
-If you are using a modern browser on a desktop machine, you are probably reading this in Font Font's Meta Serif Web Pro, delivered to you by "Typekit":http://typekit.com/, a service which I am still relatively new to, but is worth looking into if you like typography sorts of things and haven't already. (You might also get some good mileage out of "Kernest":http://kernest.com/ or "Font Squirrel":http://fontsquirrel.com/ if you prefer to serve your own fonts.) If you are on a device that Typekit doesn't support, you're in for a real treat: Matthew Carter's beautiful Georgia, designed specifically for the screen in the 90s and still awesome.
+If you are using a modern browser on a desktop machine, you are probably reading this in Font Font's Meta Serif Web Pro and Meta Web Pro, delivered to you by "Typekit":http://typekit.com/, a service which I am still relatively new to, but is worth looking into if you like typography sorts of things and haven't already. (You might also get some good mileage out of "Kernest":http://kernest.com/ or "Font Squirrel":http://fontsquirrel.com/ if you prefer to serve your own fonts.) If you are on a device that Typekit doesn't support, you're in for a real treat: Matthew Carter's beautiful Georgia, designed specifically for the screen in the 90s and still awesome.
 
 Thanks also to "Tom Preston-Werner":http://tom.preston-werner.com/ and others for their work on "Jekyll":http://wiki.github.com/mojombo/jekyll, which I use to generate the site from some intuitive source files.
 
