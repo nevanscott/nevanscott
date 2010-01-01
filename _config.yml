@@ -2,3 +2,4 @@ permalink: /:year/:month/:title/
 destination: ./html
 auto: false
 server: false
+pygments: false
