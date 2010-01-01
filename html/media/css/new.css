@@ -115,6 +115,16 @@ code {
 	color: #93999F;
 	font-family: "inconsolata-1", "inconsolata-2", monospace;
 	font-size: .95em;
+	white-space: nowrap;
+	}
+pre {
+	font-family: "inconsolata-1", "inconsolata-2", monospace;
+	font-size: .95em;
+	border-top: 1px solid #D6DFE3;
+	border-bottom: 1px solid #D6DFE3;
+	padding: 10px;
+	margin-bottom: 1.57894737em;
+	overflow: auto;
 	}
 
 h1 {
@@ -198,6 +208,13 @@ blockquote p {
 	text-indent: 0;
 	}
 
+ul {
+	margin: 0 0 1.5em 1.5em;
+	}
+ul li {
+	list-style: square;
+	}
+
 hr {
 	border: none;
 	border-top: 1px solid #C3CCCF;
@@ -220,6 +237,12 @@ ul.inline li {
 	float: left;
 	margin-right: 20px;
 	list-style: none;
+	}
+
+p.sidenote {
+	float: right;
+	width: 250px;
+	margin: 0 -270px 0 18px;
 	}
 
 .header {
