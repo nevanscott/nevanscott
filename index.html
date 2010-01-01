@@ -16,7 +16,12 @@ layout: default
 			<div class="column span-4 last">
 				<div class="essay">
 					<h3>{{ post.title | textilize | strip_html }} <small><a href="{{ post.url }}">&#8734;</a></small></h3>
+					{% if post.lede %}
+					{{ post.lede | textilize }}
+					<a class="button right" href="{{ post.url }}">Go on&hellip;</a>
+					{% else %}
 					{{ post.content }}
+					{% endif %}
 				</div>
 			</div>
 		</div><!-- /.post -->
