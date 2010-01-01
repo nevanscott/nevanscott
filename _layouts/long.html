@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container">
+	<h2>{{ page.title | textilize | strip_html }}</h2>
+	<div class="post">
+		<div class="column span-1">
+			<div class="date">
+				{{ page.date | date_to_string }}
+			</div>
+		</div>
+		<div class="column span-4 append-2 last">
+			<div class="essay">
+				{{ content }}
+			</div>
+		</div>
+	</div><!-- /.post -->
+</div><!-- /.container -->
