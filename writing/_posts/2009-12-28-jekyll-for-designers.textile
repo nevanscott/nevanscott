@@ -57,3 +57,9 @@ Successfully generated site: . -> ./_site
 [2009-12-28 17:51:03] INFO  WEBrick::HTTPServer#start: pid=11151 port=4000
 
 Then in your favorite browser, visit @http://localhost:4000/@ to see the results. You should see the @index.html@ file you wrote, without any of the YAML frontmatter that came between the dashes. The file has been run through a liquid filter so that the @{{ page.title }}@ in your code will be replaced with "My Site" - the title you provided in the frontmatter.
+
+----
+
+Alright, all that feels too technical to me for some reason. What's a better way to approach introducing someone to Jekyll? Is there a good way? Or do you really first need to know git, and development in general? This kind of introduction is just going to drive people away...
+
+What is really motivating here? Why use Jekyll in the first place? Yes, it is a specific tool that meets my own specific needs. It's better for focusing on content than almost any other system I have worked with. It would probably be even better if it worked with Django's templating system instead of Liquid. But there are enough similarities that it isn't a big deal. Maybe what I need are some larger examples, hosted on github, that I can refer to.
