@@ -20,11 +20,18 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #FFF;
+	background: #EEE;
 	color: #333;
+	}
+#page {
+	width: 985px;
+	margin: 20px auto 30px auto;
+	background: #FFF;
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
 	}
 
 .container {
-	padding: 0 20px;
+	padding: 0 30px;
 	margin: 0;
 	}
 
