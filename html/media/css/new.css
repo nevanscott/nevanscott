@@ -247,6 +247,9 @@ ul.inline li {
 	margin-right: 20px;
 	list-style: none;
 	}
+ul.right li {
+	margin: 0 0 0 20px;
+	}
 
 p.sidenote {
 	float: right;
@@ -290,6 +293,10 @@ p.sidenote {
 	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Georgia, serif;
 	font-weight: bold;
 	color: #93999F;
+	}
+
+.right {
+	float: right;
 	}
 
 .clear {
