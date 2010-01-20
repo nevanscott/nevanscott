@@ -1,0 +1,10 @@
+---
+layout: post
+title: The Human Touch by Michael Frayn
+permalink: /notes/the-human-touch/
+published: false
+---
+
+bq.. A lot of apparently factual statements, then (particularly ones about our thoughts, feelings, and reasons for doing things, and about ourselves and each other) have rather the same relationship to the world as fictitious ones. Which raises problems, because it's difficult to know quite how the logic and semantics of fiction work.
+
+The subject has never much engaged the attention of philosophers. What they have worried about down the centuries is truth: whether and how propositions about the way the world actually is can ever be true in the was that the propositions of logic and mathematics can be true; what it _is_ for a proposition to be true; whether statements have any meaning at all unless they express a proposition which we know, at any rate in theory, how to establish as true or false; and so on. All this leaves fictitious statements, which certainly appear to have some meaning and function, but which are by definition not offered as true, in a philosophical junkyard, functionally indistinguishable one from another. Even in the case of fictions created with serious artistic intent, the statements that express them seem to be merely pale ghosts of factual statements, and have meaning only in so far as they ape the real thing, rather as actors express real emotions by mimicking the expressions and gestures that real emotions give rise to.

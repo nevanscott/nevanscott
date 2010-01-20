@@ -1,0 +1,30 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+projects:
+  - name: Feeeedback
+    brief: A music blog aggregation website
+    description: In early 2009, I worked with Adam Stepinski on Feeeedback, a music aggregation website.
+  - name: The Person
+    brief: An exploration of type
+    description: I worked...
+  - name: Sadie Lou
+    brief: A web-only magazine published by the students of Sarah Lawrence College
+    description: blah
+---
+
+<div class="container">
+	<h2>{{ page.title }}</h2>
+	{% for project in page.projects %}
+	<div class="group">
+		<div class="column span-2">
+			<h3>{{ project.name }}</h3>
+			<small>{{ project.brief }}</small>
+		</div>
+		<div class="column span-4 append-1 last">
+			{{ project.description | textilize }}
+		</div>
+	</div>
+	{% endfor %}
+</div>
