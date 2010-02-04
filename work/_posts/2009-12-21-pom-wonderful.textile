@@ -4,7 +4,7 @@ title: Pom Wonderful
 permalink: /work/pom/
 published: true
 description: I joined "Reason Media Group":http://www.reasonmediagroup.com/ as they took on building Pom's new website with the goal of engaging Pom's community of fans alongside Pom's design agency, "Fire Station":http://www.roll.com/fire-station-agency.php. When I joined, the project was already slated to be built on "Wordpress":http://wordpress.org/ and "Buddypress":http://buddypress.org/; I worked with another developer to build out the new site over three months, taking care of both front-end and back-end development tasks. After the site's launch, RMG(Reason Media Group) was asked to further the design, so I took on a more leading role in front-end development and design.
-external: http://Pomwonderful.com/
+external: http://www.pomwonderful.com/
 image: pom-home-645.png
 slides:
   - image: pom-home-645.png
