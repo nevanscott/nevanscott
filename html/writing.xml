@@ -3,7 +3,7 @@
 	<title>Nevan.org</title>
 	<link href="http://nevan.org/atom.xml" rel="self"/>
 	<link href="http://nevan.org/"/>
-	<updated>2010-02-04T17:45:33-08:00</updated>
+	<updated>2010-02-04T22:22:38-05:00</updated>
 	<id>http://nevan.org/</id>
 	<author>
 		<name>Nevan Scott</name>
@@ -13,9 +13,9 @@
 	<entry>
 		<title>A Writing Device</title>
 		<link href="http://nevan.org/2010/02/a-writing-device/"/>
-		<updated>2010-02-04T00:00:00-08:00</updated>
+		<updated>2010-02-04T00:00:00-05:00</updated>
 		<id>http://nevan.org/2010/02/a-writing-device</id>
-		<content type="html">&lt;p&gt;Let&amp;#8217;s be honest. In the short time that I&amp;#8217;ve been a user of Apple&amp;#8217;s products, I have always been enthusiastic and excited about impending announcements. I was one of the few people who saw those fake videos of the iWalk and got all excited that a successor to the Newton was eminent. In fact, my excitement about portable computing in particular runs deep and further back than my use of Macs. There was a period in the 90s when I was avidly reading everything I could about what was going on in the worlds of Windows CE and the Palm Pilot. My family can probably recount for you how annoying I was about it. I would talk about small portable computers over lunch and dinner. When we went out, I would want to stop by CompUSA or Best Buy or Office Max, just to play around on devices like the LG Phenom, the HP Jornada 820, or the Psion Series 5mx and Revo.&lt;/p&gt;
+		<content type="html">&lt;p&gt;Let&amp;#8217;s be honest. In the short time that I&amp;#8217;ve been a user of Apple&amp;#8217;s products, I have always been enthusiastic and excited about impending announcements. I was one of the few people who saw those fake videos of the iWalk and got all excited that a successor to the Newton was imminent. In fact, my excitement about portable computing in particular runs deep and further back than my use of Macs. There was a period in the 90s when I was avidly reading everything I could about what was going on in the worlds of Windows CE and the Palm Pilot. My family can probably recount for you how annoying I was about it. I would talk about small portable computers over lunch and dinner. When we went out, I would want to stop by CompUSA or Best Buy or Office Max, just to play around on devices like the LG Phenom, the HP Jornada 820, or the Psion Series 5mx and Revo.&lt;/p&gt;
 &lt;p&gt;These devices were not meant for a kid like me. (Or probably any kid.) The potent general idea from my point of view at the time was that these were devices which offered a subset of the functionality of a full-blown desktop, but simplified to the point where they were actually possible to use. This was not long after I had switched from browsing inside &lt;span class=&quot;caps&quot;&gt;AOL&lt;/span&gt; to connecting over dialup through &lt;span class=&quot;caps&quot;&gt;AOL&lt;/span&gt;, minimizing it, and browsing with either Netscape or IE. I was learning a valuable lesson about feature creep: extra features often come at the cost of usability. The Palm OS, Windows CE, and Symbian OS all boiled down to the same main choices about what users needed and what they could do without. &amp;#8220;Productivity&amp;#8221; apps like email and calendar were in, other things like games were out. Not a lot of fun for a 14-year-old.&lt;/p&gt;
 &lt;p&gt;But I wasn&amp;#8217;t really all that interested in games. What I cared about was writing. When my parents bought me an iMac in 1998, the first best thing that I noticed about it was how much easier I found it to write on. To be honest, I couldn&amp;#8217;t tell you why very specifically. I was too young and writing is an odd experience that is hard to understand any way you do it. I can still remember what the experience felt like, however. It was as though the computer had really just melted away, and all I was left with was the keyboard and a canvas, uninhibited and unencumbered. It was great, and some of my fondest memories of writing took place in front of that lime green iMac.&lt;/p&gt;
 &lt;p&gt;When I went to the stores to try out the Phenom or the Jornada or the Psion, I was trying out what it would feel like to write on the thing. I cared about the keyboard, I cared about navigating the file system, I cared about how my words looked on the screen&amp;#8230; hoping that the confluence of the OS, keyboard, and screen would create something that felt &lt;em&gt;right&lt;/em&gt; to me. I didn&amp;#8217;t need a calendar, contacts, or even email really. I certainly didn&amp;#8217;t need PowerPoint or Excel, although I was fascinated that they were able to get something similar to those things working on such small devices. I wanted something that I could take with me to start writing whenever the mood would strike.&lt;sup class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -29,7 +29,7 @@
 	<entry>
 		<title>Modern Friendship</title>
 		<link href="http://nevan.org/2010/01/modern-friendship/"/>
-		<updated>2010-01-04T00:00:00-08:00</updated>
+		<updated>2010-01-04T00:00:00-05:00</updated>
 		<id>http://nevan.org/2010/01/modern-friendship</id>
 		<content type="html">&lt;p&gt;In &lt;a href=&quot;http://chronicle.com/article/Faux-Friendship/49308/&quot;&gt;&amp;#8220;Faux Friendship&amp;#8221;&lt;/a&gt;, William Deresiewicz argues that friendship &amp;#8211; once noble, private, intimate, and deeply meaningful &amp;#8211; has become watered down and scattered to the point of falseness:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -47,7 +47,7 @@
 	<entry>
 		<title>David Pogue on Cleaning Up the Clutter Online</title>
 		<link href="http://nevan.org/2009/11/readability/"/>
-		<updated>2009-11-06T00:00:00-08:00</updated>
+		<updated>2009-11-06T00:00:00-05:00</updated>
 		<id>http://nevan.org/2009/11/readability</id>
 		<content type="html">&lt;p&gt;I believe I agree with the sentiment &lt;a href=&quot;http://pogue.blogs.nytimes.com/2009/11/06/cleaning-up-the-clutter-online/&quot;&gt;here&lt;/a&gt; regarding ads, especially on pages that are intended for reading.&lt;/p&gt;
 &lt;p&gt;As for &lt;a href=&quot;http://lab.arc90.com/experiments/readability/&quot;&gt;Readability&lt;/a&gt;, I wish that it were an unnecessary tool. It is a much more difficult project to try to educate writers and designers and readers about typographic treatment on the web. It is more work for the standards makers and browser builders to devise, agree on, and implement ways for type to be treated far more intelligently on the web. But it&amp;#8217;s worth it, because even though there are rules and guidelines to making texts more readable, writing will never be one-design-fits-all.&lt;/p&gt;
@@ -58,7 +58,7 @@
 	<entry>
 		<title>John Kricfalusi's Review of Meatballs</title>
 		<link href="http://nevan.org/2009/09/meatballs/"/>
-		<updated>2009-09-21T00:00:00-07:00</updated>
+		<updated>2009-09-21T00:00:00-04:00</updated>
 		<id>http://nevan.org/2009/09/meatballs</id>
 		<content type="html">&lt;p&gt;For context, John Kricfalusi created &lt;cite&gt;The Ren &amp;amp; Stimpy Show&lt;/cite&gt;. Here&amp;#8217;s &lt;a href=&quot;http://johnkstuff.blogspot.com/2009/09/review-of-meatballs.html&quot;&gt;his take&lt;/a&gt; on the new movie based on &lt;cite&gt;Cloudy with a Chance of Meatballs&lt;/cite&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -76,7 +76,7 @@
 	<entry>
 		<title>The Guts of a New Machine</title>
 		<link href="http://nevan.org/2009/09/guts/"/>
-		<updated>2009-09-11T00:00:00-07:00</updated>
+		<updated>2009-09-11T00:00:00-04:00</updated>
 		<id>http://nevan.org/2009/09/guts</id>
 		<content type="html">&lt;p&gt;Came across this again while digging through the &lt;a href=&quot;http://daringfireball.net/&quot;&gt;DF&lt;/a&gt; archives. Rob Walker &lt;a href=&quot;http://www.nytimes.com/2003/11/30/magazine/30IPOD.html?pagewanted=all&quot;&gt;profiles the then-two-year-old iPod&lt;/a&gt; for the &lt;cite&gt;Times&lt;/cite&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -90,7 +90,7 @@
 	<entry>
 		<title>Kernest</title>
 		<link href="http://nevan.org/2009/08/kernest/"/>
-		<updated>2009-08-01T00:00:00-07:00</updated>
+		<updated>2009-08-01T00:00:00-04:00</updated>
 		<id>http://nevan.org/2009/08/kernest</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;http://kernest.com/&quot;&gt;Kernest&lt;/a&gt; is one of the first good options for using embedded fonts in a website. Unlike projects like &lt;a href=&quot;http://wiki.github.com/sorccu/cufon/about&quot;&gt;Cuf&amp;oacute;n&lt;/a&gt; or &lt;a href=&quot;http://www.mikeindustries.com/blog/sifr/&quot;&gt;sIFR&lt;/a&gt;, Kernest takes advantage of @font-face embedding, which is now supported by Firefox, Internet Explorer, and Safari.&lt;/p&gt;
 &lt;p&gt;One of the problems with @font-face at the moment is that Safari and Firefox support font formats like OpenType and TrueType, while Internet Explorer only supports Embedded OpenType. The usual workaround is to supply a different format depending on the requesting browser. This is exactly what Kernest takes care of for you.&lt;/p&gt;
@@ -105,7 +105,7 @@
 	<entry>
 		<title>Exclusive! Sarah Palin Interview</title>
 		<link href="http://nevan.org/2008/10/palin/"/>
-		<updated>2008-10-02T00:00:00-07:00</updated>
+		<updated>2008-10-02T00:00:00-04:00</updated>
 		<id>http://nevan.org/2008/10/palin</id>
 		<content type="html">&lt;p&gt;&lt;em&gt;Sadie Lou&amp;#8217;s own Rebecca Rubenstein lands an exclusive debate-day interview with Sarah Palin.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Rebecca Rubenstein:&lt;/strong&gt; As a Sarah Lawrence student, I tend to be very confrontational and opinionated, so I&amp;#8217;m just going to put it out there &amp;#8212;&lt;/p&gt;
@@ -141,7 +141,7 @@
 	<entry>
 		<title>Making Complicated Machines</title>
 		<link href="http://nevan.org/2007/12/making-complicated-machines/"/>
-		<updated>2007-12-26T00:00:00-08:00</updated>
+		<updated>2007-12-26T00:00:00-05:00</updated>
 		<id>http://nevan.org/2007/12/making-complicated-machines</id>
 		<content type="html">&lt;p&gt;Computers offer a fascinating window into the play between the simple and the complex. The alphabet of computer language is as simple as they come, with two figures: 1 and 0, known as bits, which typically correspond to high and low voltage electronic pulses. From such a simple base, however, complex functionality can be achieved. On the other hand, seemingly simple behavior can require a substantially complex arrangement of ones and zeros. It also requires well-designed complex machinery to sculpt the flow of bits into something useful.&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&quot;http://www.amazon.com/Computer-Organization-Design-Revised-Printing/dp/0123706068/&quot;&gt;&lt;cite&gt;Computer Organization and Design&lt;/cite&gt;&lt;/a&gt;, David Patterson and John Hennessy describe in detail the design of a particular type of machine and its instruction set called &lt;a href=&quot;http://en.wikipedia.org/wiki/MIPS_architecture&quot;&gt;&lt;span class=&quot;caps&quot;&gt;MIPS&lt;/span&gt;&lt;/a&gt; (originally for Microprocessor without Interlocked Pipeline Stages). &lt;span class=&quot;caps&quot;&gt;MIPS&lt;/span&gt; is one way to create the balance needed to make a good computer. The questions at hand in designing such a system include: what functionality need be built directly into the machine itself? how will instructions be represented? how will data be represented? how will the reduced set of operations be sufficient to accomplish a wide variety of more complicated operations? how will these operations be carried out quickly and efficiently?&lt;/p&gt;
@@ -169,7 +169,7 @@
 	<entry>
 		<title>Some Thoughts on Choice and Reason</title>
 		<link href="http://nevan.org/2007/06/choice-and-reason/"/>
-		<updated>2007-06-08T00:00:00-07:00</updated>
+		<updated>2007-06-08T00:00:00-04:00</updated>
 		<id>http://nevan.org/2007/06/choice-and-reason</id>
 		<content type="html">&lt;p&gt;Last week I read Michael Bierut&amp;#8217;s &lt;a href=&quot;http://www.designobserver.com/archives/002559.html&quot;&gt;On (Design) Bullshit&lt;/a&gt; in Design Observer from a couple of years ago. He talks about the need to give reasons for design choices in order to sell your work to clients:&lt;/p&gt;
 &lt;blockquote&gt;
