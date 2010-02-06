@@ -1,9 +1,0 @@
----
-layout: post
-title: My First Essay Using Jekyll
-published: false
----
-
-I've been wanting to add a new section to my website for quite a while now, but have been pretty frustrated with the options available to me for publishing essays to my website. I think I may have found a really nice solution, which I'm currently using to power what you're reading at this very moment.
-
-Before I get ahead of myself, I should explain a little bit about what I was looking for in the first place and why. Over the years, I have used a fair amount of what I considered to be really top-notch server-side software for building websites and managing their content. I started off exploring "Wordpress":http://wordpress.org/ in 2005 and quickly turned my attention to "Textpattern":http://textpattern.com/. Wordpress has, as far as I can tell, always been vastly more popular and widely-used than Textpattern.

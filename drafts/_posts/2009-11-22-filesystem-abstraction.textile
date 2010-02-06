@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Abstracting Away the File System
-published: false
 ---
 
 When I was in school, my computer science professor was fond of saying, "Bits is bits." What he meant is that all of computer science is an abstraction.[1] When thinking about computers, it is important to keep the principle of abstraction in mind. Without going into too much detail, computers are essentially made up of ones and zeros. The idea of the filesystem, the one that most users interact with through a graphical operating system, is a metaphor or abstraction that the operating system provides to the user and to the applications that the user interacts with.

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Nevan.org &middot; Moving Web Type Forward</title>
+	<link href="/writing.xml" rel="alternate" title="Nevan.org" type="application/atom+xml" />
+	<link href="/media/css/grid.css" rel="stylesheet" type="text/css" />
+	<link href="/media/css/new.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://use.typekit.com/omw4yuy.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+<div id="page">
+
+<div id="head">
+	<div class="container">
+		<div class="column span-4">
+			<ul class="inline">
+				<li><a href="/">Nevan.org</a></li>
+				<li><em>the eponymous website of <cite>Nevan Scott<cite></em></li>		
+			</ul>
+		</div>
+		<div class="column span-3 last">
+			<ul class="inline right">
+				<li><a href="/work/">Work</a></li>
+				<li><a href="/archive/">Writing</a></li>
+				<li><a href="/about/">About</a></li>
+				<li>Recommended</li>
+			</ul>
+		</div>
+	</div><!-- /.container -->
+</div><!-- /#head -->
+
+<div id="main">
+
+<hr class="space" />
+
+<div class="container">
+	<div class="column span-5 append-2 last">
+		<div class="post">
+			<div class="column span-1">
+				<div class="date">
+					26 Nov 2009
+				</div>
+			</div>
+			<div class="column span-4 last">
+				<div class="essay">
+					<h3>Moving Web Type Forward</h3>
+					<p>In recent years, a lot has been done to improve the state of typography on the web, and it shows. It is actually possible to read online on a regular basis, or print newspapers wouldn&#8217;t be struggling as much as they are to transition into a new economic system.</p>
+<p>Luckily, for those of us who are energized by the renaissance of the visual word, there is still much to be done. To add to the excitement, many of the things needed to move things forward are probably going to take joint effort from a variety of specialties. So, let&#8217;s get started.</p>
+<h4>Hyphenation</h4>
+<p>When type was set in medal, the process of hyphenation and justification was literally in the hands of the typesetter. On the web, the typesetter is the browser, which renders type guided by <span class="caps">CSS</span> rules. The browser knows where text is broken onto new lines when the producer of the site does not, partially because the browser knows about the device that it is rendering text on. Fonts may be substituted, sizes may be altered, the width of the view may be narrower or wider. This is as it should be: the browser should handle typesetting.</p>
+<p>At the moment, the following <span class="caps">CSS</span> rule will ask the typesetter to justify paragraph text:</p>
+<pre><code>
+p { text-align: justify; }
+</code></pre>
+<p>This isn&#8217;t a trivial problem to solve,</p>
+<hr />
+<p>This is some information about the kind of stuff we need going forward.</p>
+<p>As a quick aside before getting into this list, I should point out that I think for the most part the issue of web fonts is a bit of a distraction from a lot of other problems that are less sexy because they&#8217;re (intentionally) less visible to most users.</p>
+<p>Here are the real things that would be helpful immediately:</p>
+<hr />
+<p>We need a good dictionary system to work in conjunction with web browsers to feed them hyphenation information for different languages and implementation across the board of a standard <span class="caps">CSS</span> rule for giving the browser instructions for how to hyphenate. This also needs to be really fast.</p>
+<hr />
+<p>We need simple <span class="caps">CSS</span> rules for giving instructions about widows and their handling. We also need to be better able to give an indication regarding orphaned lines in print media. Both of these should be handled in a reasonable way by the defaults for the browser.</p>
+<p>Automatic detection of ligatures and <span class="caps">CSS</span> rules for <span class="caps">OTF</span> features such as lining, text, and tabular figures; stylistic alternates; discretionary ligatures; true small caps; etc.</p>
+<p>There should be a way to specify whether text is vertically centered within the line-height as it is now, or instead attached to the baseline as expected by most print designers. For now, the default should be left. This is less critical than the above.</p>
+<p>Along with the things mentioned, we also really need at least one solid typeface to work with. That&#8217;s what is so encouraging about the work currently being done to refresh the ubiquitous Georgia typeface. I can only hope that the family will be free to download and easy to install, or possibly that it might be bundled with the browsers in some kind of update or something. Without a free typeface installed on a vast majority of machines, in order to take advantage of open-type features we would need a consistent and stable way to embed such a font (even for a fee) into websites.</p>
+<p>Either way we need at least one rock-solid typeface with support for internationalization and al of the open-type features in order to avoid a separation between websites that can afford a budget for fonts and those that cannot.</p>
+				</div>
+			</div>
+		</div><!-- /.post -->
+	</div>
+</div><!-- /.container -->
+</div><!-- /#main -->
+
+</div><!-- /#page -->
+</body>
+</html>
