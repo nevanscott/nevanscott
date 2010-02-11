@@ -10,6 +10,8 @@ h3. About Me
 
 Hi, I'm Nevan Scott, just like it says up top. I recently started a new job at "Arc 90":http://arc90.com/. (This is a big change. So far my third day is a Snow Day - why didn't I get a Fire Day in L.A.? - and one of my co-workers prodded me to update my about page "via Twitter":https://twitter.com/closacco/status/8911811265.) For now, I'm staying with a friend in Harlem and looking for a new place to call home.
 
+Ever since 10th grade, I have always written using too many dashes, parens, and ellipses.
+
 <hr />
 
 h3. About the Site
@@ -34,7 +36,7 @@ while(x=eval(x));
 //]]>
 </script> - or you can find me "on Twitter":http://twitter.com/nevan.
 
-If you are using a modern browser on a desktop or laptop, you are probably reading this in Font Font's Meta Serif Web Pro and Meta Web Pro. Meta was originally designed by Erik Spiekermann in 1986. In 2007, Font Font released Meta Serif as a companion to Meta, a collaboration of Erik Spiekermann, Christian Schwartz, and Kris Sowersby. (You may know "the beautiful work":http://christianschwartz.com/guardian.shtml Christian Schwartz did for ??The Gaurdian?? with Phil Barnes.)
+If you are using a modern browser on a desktop or laptop, you are probably reading this in Font Font's Meta Serif Web Pro and Meta Web Pro. Meta was originally designed by Erik Spiekermann in 1986. In 2007, Font Font released Meta Serif as a companion to Meta, a collaboration of Erik Spiekermann, Christian Schwartz, and Kris Sowersby. (You may know "the beautiful work":http://christianschwartz.com/guardian.shtml Christian Schwartz did for ??The Guardian?? with Phil Barnes.)
 
 I am still relatively new to "Typekit":http://typekit.com/, which is delivering these fine fonts. The service is worth looking into if you like typography and haven't already explored it. You might also get some good mileage out of "Kernest":http://kernest.com/ or "Font Squirrel":http://fontsquirrel.com/, especially if you prefer to serve your own fonts.
 
