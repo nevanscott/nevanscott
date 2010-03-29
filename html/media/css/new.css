@@ -299,6 +299,52 @@ p.sidenote {
 	float: right;
 	}
 
+.xx-large { font-size: xx-large; }
+.x-large { font-size: x-large; }
+.large { font-size: large; }
+.medium { font-size: medium; }
+.small { font-size: small; }
+.x-small { font-size: x-small; }
+.xx-small { font-size: xx-small; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.tight { letter-spacing: -.1em; }
+.loose { letter-spacing: .1em; }
+.arial { font-family: Arial; }
+.lucidagrande { font-family: Lucida Grande; }
+.verdana { font-family: Verdana; }
+.times { font-family: Times; }
+.timesnewroman { font-family: Times New Roman; }
+.georgia { font-family: Georgia; }
+.box {
+	padding: 1px 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	}
+.example-box {
+	padding: 20px 20px 1px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #000;
+	background: #DDC;
+	}
+.example-box.one { width: 70px; }
+.example-box.two { width: 200px; }
+.example-box.three { width: 330px; }
+.example-box.four { width: 460px; }
+.example-box.five { width: 590px; }
+.example-box.six { width: 720px; }
+.example-box.seven { width: 850px; }
+p.drop {
+	margin-top: 3em;
+	text-indent: -.5em;
+	}
+p.drop:first-letter {
+	color: #456;
+	font-size: 6em;
+	}
+
+
 .clear {
 	clear: both;
 	}
