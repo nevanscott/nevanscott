@@ -5,18 +5,14 @@ layout: default
 <hr class="space" />
 
 <div class="container">
-	<div class="column span-5 append-2 last">
+	<div class="column span-4 prepend-1 append-2 last">
 		<div class="post">
-			<div class="column span-1">
-				<div class="date">
-					{{ page.date | date_to_string }}
-				</div>
+			<div class="date">
+				{{ page.date | date: "%B %Y" }}
 			</div>
-			<div class="column span-4 last">
-				<div class="essay">
-					<h3>{{ page.title | textilize | strip_html }}</h3>
-					{{ content }}
-				</div>
+			<div class="essay">
+				<h3>{{ page.title | textilize | strip_html }}</h3>
+				{{ content }}
 			</div>
 		</div><!-- /.post -->
 	</div>

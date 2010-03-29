@@ -90,6 +90,17 @@ a.left {
 	float: left;
 	display: block;
 	}
+a.title {
+	border: none;
+	float: left;
+	clear: left;
+	}
+a.title h3 {
+	color: #000;
+	}
+a.title:hover .date {
+	color: #468;
+	}
 small a {
 	color: #C3CCCF;
 	border: none;
