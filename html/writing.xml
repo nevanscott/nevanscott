@@ -3,7 +3,7 @@
 	<title>Nevan.org</title>
 	<link href="http://nevan.org/atom.xml" rel="self"/>
 	<link href="http://nevan.org/"/>
-	<updated>2010-03-29T02:42:16-04:00</updated>
+	<updated>2010-03-29T02:44:50-04:00</updated>
 	<id>http://nevan.org/</id>
 	<author>
 		<name>Nevan Scott</name>
@@ -56,7 +56,7 @@
 	</entry>
 	
 	<entry>
-		<title>John Kricfalusi's Review of Meatballs</title>
+		<title>John Kricfalusi&#8217;s Review of Meatballs</title>
 		<link href="http://nevan.org/2009/09/meatballs/"/>
 		<updated>2009-09-21T00:00:00-04:00</updated>
 		<id>http://nevan.org/2009/09/meatballs</id>
