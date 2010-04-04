@@ -27,10 +27,10 @@ bq. But with the iPad, it seems like Apple's model customer is that same stupid 
 
 Doctorow's argument sounds a lot like "Here, finally, is something that's going to stop kids from wondering about the world."
 
-John Gruber has a nice piece in response, ""The Kids Are All Right":http://daringfireball.net/2010/04/kids_are_all_right," in which he points out an email he received from 13-year-old Sam Kaplan who has "a chalkboard app":http://itunes.apple.com/us/app/ichalkboard/id322491414?mt=8 already for sale in the iPad App Store. In Gruber's words, "Somehow I don’t think young Mr. Kaplan sees the iPad as hurting his sense of wonder or entrepreneurism."
+John Gruber has a nice piece in response, ""The Kids Are All Right":http://daringfireball.net/2010/04/kids_are_all_right," in which he points out an email he received from 13-year-old Sam Kaplan who has "a chalkboard app":http://itunes.apple.com/us/app/ichalkboard/id322491414?mt=8 already for sale in the iPad App Store. In Gruber's words, "Somehow I don't think young Mr. Kaplan sees the iPad as hurting his sense of wonder or entrepreneurism."
 
 This is, in a way, how it always goes, and Gruber's conclusion in his piece is on point:
 
-bq. Something important and valuable is indeed being lost as Apple shifts to this model of computing. But it’s a trade-off, because something new that is important and valuable has been gained.
+bq. Something important and valuable is indeed being lost as Apple shifts to this model of computing. But it's a trade-off, because something new that is important and valuable has been gained.
 
 All change is of that nature. Some attempts at change don't catch on, and so don't make a difference. Those that do inherently bring loss and gain. I don't fault Cory Doctorow for standing on the side of concern, but looking ahead pessimism is no more warranted than optimism. That being the case, I'd prefer to choose optimism. At least enough so as to try to promote a good outcome. I think that Doctorow is missing the fact that his opinion is based in the same kind of demeaning view of humanity that he seems to be deriding. Too bad there's not an app for that.
