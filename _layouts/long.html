@@ -6,9 +6,9 @@ layout: default
 	<h2>{{ page.title | textilize | strip_html }}</h2>
 	<div class="post">
 		<div class="column span-4 prepend-2 append-1 last">
-			<div class="column span-1 pull-2">
+			<div class="column span-1 pull-1">
 				<div class="date">
-					{{ page.date | date_to_string }}
+					{{ page.date | date: "%B %Y" }}
 				</div>
 			</div>
 			<div class="essay">
