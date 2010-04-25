@@ -33,6 +33,9 @@ body {
 	}
 
 @media only screen and (max-device-width: 480px) {
+	body {
+		background: #FFF;
+		}
 	#page {
 		width: 985px;
 		margin: 0 auto;
