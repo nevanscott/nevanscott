@@ -1,0 +1,39 @@
+body {
+	background: #FFF;
+	-webkit-text-size-adjust: 150%;
+	}
+#page {
+	width: 725px;
+	margin: 0 auto;
+	background: #FFF;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	}
+
+.container {
+	width: 665px;
+	}
+
+.column {
+	clear: both;
+	width: 100%;
+	margin: 0;
+	}
+
+/* Add these to a column to append empty cols. */
+.append-1  { padding-right: 0}
+.append-2  { padding-right: 0}
+.append-3  { padding-right: 0}
+.append-4  { padding-right: 0}
+.append-5  { padding-right: 0}
+.append-6  { padding-right: 0}
+
+
+/* Add these to a column to prepend empty cols. */
+.prepend-1  { padding-left: 0}
+.prepend-2  { padding-left: 0}
+.prepend-3  { padding-left: 0}
+.prepend-4  { padding-left: 0}
+.prepend-5  { padding-left: 0}
+.prepend-6  { padding-left: 0}
