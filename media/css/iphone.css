@@ -21,6 +21,8 @@ body {
 	margin: 0;
 	}
 
+#head ul.right { display: none; }
+
 /* Add these to a column to append empty cols. */
 .append-1  { padding-right: 0}
 .append-2  { padding-right: 0}
