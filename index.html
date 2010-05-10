@@ -6,10 +6,7 @@ layout: default
 
 <div class="container">
 	<div class="group">
-		<div class="column span-2">
-			<img src="/media/images/nevan_v1.jpg" />
-		</div>
-		<div class="column span-5 last">
+		<div class="column span-5">
 			<div class="description">
 				<br />
 				<br />
@@ -25,6 +22,9 @@ layout: default
 				<h3>{{ post.title | textilize | strip_html }}</h3>
 			</a>
 			{% endfor %}
+		</div>
+		<div class="column span-2 last">
+			<img src="/media/images/nevan_v1.jpg" />
 		</div>
 	</div>
 </div><!-- /.container -->
