@@ -1,0 +1,10 @@
+body {
+	background: #FFF;
+	}
+#page {
+	margin: 0 auto;
+	background: #FFF;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	}
