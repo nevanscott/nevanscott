@@ -8,15 +8,15 @@ permalink: /about/
 
 h3. About Me
 
-Hi, I'm Nevan Scott, just like it says up top. I'm a web designer, front-end developer, and writer, recently exported from Los Angeles to New York.
+I live and work in New York City, but I have close friends and family in San Francisco, Seattle, Austin, and Dublin. The thing to know about me is that I really like people. Nothing gets me out of bed in the morning like the thought of collaborating closely with people whom I respect, and nothing keeps me going on nights and weekends like the great conversations I have with friends whom I love.
 
-Ever since 10th grade, I have always written using too many dashes, parens, and ellipses.
+I have many interests, which is only notable in a section called "About Me" because it is so much of who I am. I have always prided myself on being able to talk to people about the things that interest them and that they care about. I sometimes take ideas a little too seriously, but that's just a result of my innate belief that there is something fundamentally captivating about being a human among humans. Every individual has so much inside - in a way, there is no way to avoid this while going through the act of living. The way some people put this is that we all have a story. I tend to think that we all _are_ a story.
 
 <hr />
 
 h3. About the Site
 
-This is where I sometimes try to write and show some of the projects I've been working on. I have a feed for my writing, if you like. I don't employ any tracking, so if you like something here (or don't) and want to get in touch, I always like getting emails at <script type="text/javascript">
+This site holds some of my writing and projects I've been working on. There's "a feed for my writing":/writing.xml, if you like. I don't employ any tracking, so if you like something here (or don't) and want to get in touch, I always like getting emails at <script type="text/javascript">
 //<![CDATA[
 <!--
 var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
