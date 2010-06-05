@@ -54,7 +54,7 @@ body {
 
 #footer {
 	padding: .75em 0;
-	background: #D6DFE3;
+	border-top: 1px solid #D6DFE3;
 	margin: 0;
 	}
 

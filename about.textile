@@ -16,7 +16,7 @@ I have many interests, which is only notable in a section called "About Me" beca
 
 h3. About the Site
 
-This site holds some of my writing and projects I've been working on. There's "a feed for my writing":/writing.xml, if you like. I don't employ any tracking, so if you like something here (or don't) and want to get in touch, I always like getting emails at <script type="text/javascript">
+This site holds some of my writing and projects I've been working on. There's "a feed for my writing":/writing.xml, if you like. If you want to get in touch, I always like getting emails at <script type="text/javascript">
 //<![CDATA[
 <!--
 var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
