@@ -276,10 +276,12 @@ p.sidenote {
 	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #93999F;
+	margin-bottom: 1.5em;
 	}
 .date a {
 	border-bottom: none;
 	}
+h3+.date { margin-top: -1.5em; }
 .title {
 	}
 
