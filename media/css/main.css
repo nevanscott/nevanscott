@@ -145,22 +145,9 @@ pre {
 	}
 
 h1 {
-	font-family: "ff-meta-condensed-web-pro-1", "ff-meta-condensed-web-pro-2", League Gothic, sans-serif;
-	font-size: 1em;
+	font-size: 3em;
 	line-height: 1.5em;
-	margin: 0;
-	float: left;
-	clear: both;
-	text-align: center;
-	}
-h1 a {
-	display: block;
-	border: none;
-	background: #345;
-	color: #FFF;
-	padding: 1px 20px;
-	width: 100px;
-	margin-right: 20px;
+	margin: .5em 0;
 	}
 h1 a:hover {
 	border: none;
