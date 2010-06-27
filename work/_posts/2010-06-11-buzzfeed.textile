@@ -1,0 +1,11 @@
+---
+layout: project
+title: Buzzfeed
+permalink: /work/buzzfeed/
+description: As part of some contract work for "Buzzfeed":http://www.buzzfeed.com/, I designed and implemented a new version of their mobile site optimized for the iPhone and Android platforms. We significantly pared down the feature set of the main site to create a very focused site for users on the go.
+external: http://m.buzzfeed.com/
+slides:
+  - image: coming
+    description: This is the description.
+published: false
+---
