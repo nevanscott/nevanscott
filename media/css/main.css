@@ -22,6 +22,7 @@ body {
 	background: #FFF;
 	background: #EEE;
 	color: #333;
+	text-rendering: optimizeLegibility;
 	}
 #page {
 	width: 985px;
