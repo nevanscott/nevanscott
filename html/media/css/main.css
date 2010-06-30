@@ -72,12 +72,11 @@ a:hover {
 	border-bottom: 1px solid #C3CCCF;
 	}
 a.button {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
 	font-size: .9em;
 	line-height: 2em;
 	color: #FFF;
 	background: #345;
-	padding: 0 10px;
+	padding: 0 10px 2px;
 	border: 1px solid #234;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -91,17 +90,7 @@ a.left {
 	float: left;
 	display: block;
 	}
-a.title {
-	border: none;
-	float: left;
-	clear: left;
-	}
-a.title h3 {
-	color: #000;
-	}
-a.title:hover .date {
-	color: #468;
-	}
+a.title small { font-weight: normal; }
 small a {
 	color: #C3CCCF;
 	border: none;
@@ -160,7 +149,6 @@ h2 {
 	border-bottom: 1px solid #D6DFE3;
 	}
 h3 {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 1.375em;
 	line-height: 1.0909em;
@@ -263,8 +251,6 @@ p.sidenote {
 	padding: 1px 0;
 	}
 .date {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
-	font-weight: bold;
 	color: #93999F;
 	margin-bottom: 1.5em;
 	}
@@ -278,6 +264,8 @@ h3+.date { margin-top: -1.5em; }
 .post {
 	margin: 1.5em 0 3em 0;
 	}
+.post .date { margin-top: 1.5em; }
+.post h3 { font-size: 2em; margin-top: .43em; }
 .link {
 	margin: 0 0 1.5em 0;
 	}
@@ -293,8 +281,6 @@ h3+.date { margin-top: -1.5em; }
 	}
 
 .update {
-	font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", Helvetica Neue, Arial, Helvetica, sans-serif;
-	font-weight: bold;
 	color: #93999F;
 	}
 

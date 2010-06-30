@@ -6,19 +6,23 @@ layout: default
 
 <div class="container">
 	<div class="group">
-		<div class="column span-4 prepend-1">
+		<div class="column span-4">
+			<div class="description">
+				<h1>Oh. Hello.</h1>
+				<p>
+					My name is Nevan Scott.
+					I currently live in New York, where I <a href="/work/">make websites</a> and occasionally write.
+					I really like typography, just ask my friends, family, and therapist.
+					For more about myself and this site, read <a href="/about/">here</a>.
+				</p>
+			</div>
+			<br />
 			{% for post in site.categories.writing %}
-			<div class="post">
-				<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
-				<div class="date">
-					{{ post.date | date: "%B %Y" }}
-				</div>
-				{{ post.content }}
-			</div><!-- /.post -->
+				<h3><a class="title" href="{{ post.url }}">{{ post.title | textilize | strip_html }} &nbsp; <small class="date">{{ post.date | date: "%B %Y" }}</small></a></h3>
 			{% endfor %}
 		</div>
-		<div class="column span-2 last">
-			<img src="/media/images/nevan_250.jpg" />
+		<div class="column span-3 last">
+			<img src="/media/images/nevan_v1.jpg" />
 		</div>
 	</div>
 </div><!-- /.container -->
