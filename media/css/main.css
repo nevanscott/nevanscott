@@ -90,7 +90,7 @@ a.left {
 	float: left;
 	display: block;
 	}
-a.title small { font-weight: normal; }
+a.title small { font-weight: normal; white-space: nowrap; }
 small a {
 	color: #C3CCCF;
 	border: none;
