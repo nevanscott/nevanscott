@@ -2,7 +2,7 @@
 layout: project
 title: Buzzfeed
 permalink: /work/buzzfeed/
-description: As part of some contract work for "Buzzfeed":http://www.buzzfeed.com/, I designed and implemented a new version of their mobile site optimized for the iPhone and Android platforms. We significantly pared down the feature set of the main site to create a focused experience for users on the go.
+description: <a href="http://www.buzzfeed.com/">Buzzfeed</a> asked me to design and implement a new version of their mobile site optimized for the iPhone and Android platforms. We significantly pared down the feature set of the main site to create a focused experience for users on the go.
 image: buzzfeed/main.png
 external: http://m.buzzfeed.com/
 slides:
