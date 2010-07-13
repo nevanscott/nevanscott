@@ -2,12 +2,12 @@
 layout: project
 title: Buzzfeed
 permalink: /work/buzzfeed/
-description: As part of some contract work for "Buzzfeed":http://www.buzzfeed.com/, I designed and implemented a new version of their mobile site optimized for the iPhone and Android platforms. We significantly pared down the feature set of the main site to create a very focused site for users on the go.
+description: As part of some contract work for "Buzzfeed":http://www.buzzfeed.com/, I designed and implemented a new version of their mobile site optimized for the iPhone and Android platforms. We significantly pared down the feature set of the main site to create a focused experience for users on the go.
 image: buzzfeed/main.png
 external: http://m.buzzfeed.com/
 slides:
   - image: buzzfeed/main.png
-    description: I went with a very clean interface, informed by Buzzfeed's red and blue coloring and the emerging conventions around mobile sites. Everything was kept very small so that load times would be good even over slow cellular networks.
+    description: I went with a very clean interface, informed by Buzzfeed's red and blue coloring and the emerging conventions around mobile sites. Everything was kept small so that load times would be fast even over slow cellular connections.
   - image: buzzfeed/image.png
     description: One of my minor accomplishments was setting images up so that they would grow in size when the device is rotated to landscape.
 published: true
