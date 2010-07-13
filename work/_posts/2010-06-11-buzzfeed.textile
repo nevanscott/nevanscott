@@ -7,7 +7,7 @@ image: buzzfeed/main.png
 external: http://m.buzzfeed.com/
 slides:
   - image: buzzfeed/main.png
-    description: I went with a very clean interface, informed by Buzzfeed's red and blue coloring and the emerging conventions around mobile sites. Everything was kept small so that load times would be fast even over slow cellular connections.
+    description: I crafted a clean interface, informed by Buzzfeed's red and blue coloring and the emerging conventions around mobile sites. Everything was kept small so that load times would be fast even over slow cellular connections.
   - image: buzzfeed/image.png
     description: One of my minor accomplishments was setting images up so that they would grow in size when the device is rotated to landscape.
 published: true
