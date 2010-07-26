@@ -1,3 +1,4 @@
+/* Reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td { margin: 0; padding: 0; }
 table { border-collapse: collapse; border-spacing: 0; }
 fieldset,img { border: 0; }
@@ -8,6 +9,31 @@ h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal; }
 abbr,acronym { border: 0; font-variant: normal; }
 input,textarea,select { font-family: inherit; font-size: inherit; font-weight: inherit; }
 a { text-decoration: none; color: inherit; }
+
+/* Grid */
+@media screen and (max-width: 600px) {.unit{float: none !important; width: auto !important;}}
+.line:after,.lastUnit:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.line{*zoom:1;}
+.unit{float:left;padding: 0 1%;}
+.size1of1{float:none;}
+.size1of2{width:48%;}
+.size1of3{width:31.33333%;}
+.size2of3{width:64.66666%;}
+.size1of4{width:23%;}
+.size3of4{width:73%;}
+.size1of5{width:18%;}
+.size2of5{width:38%;}
+.size3of5{width:58%;}
+.size4of5{width:78%;}
+.size1of7{width:12.2857%;}
+.size2of7{width:26.5714%;}
+.size3of7{width:40.8571%;}
+.size4of7{width:55.1429%;}
+.size5of7{width:69.4286%;}
+.size6of7{width:83.7143%;}
+.lastUnit{display:table-cell;float:none;width:auto;*display:block;*zoom:1;_position:relative;_left:-3px;_margin-right:-3px;}
+
+/* Main */
 
 html {
 	margin: 0;
@@ -20,29 +46,26 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #FFF;
-	background: #EEE;
 	color: #333;
 	text-rendering: optimizeLegibility;
 	}
-#page {
-	width: 985px;
-	margin: 20px auto 30px auto;
-	background: #FFF;
-	box-shadow: 0 5px 10px rgba(0,0,0,.2);
-	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-	}
+
+.wrapper { max-width: 960px; margin: 0 auto; padding: 0 30px; }
+img { display: block; max-width: 100%; }
 
 .container {
 	padding: 0 30px;
+	margin: 0 auto;
+	}
+#page {
 	margin: 0;
+	padding: 0;
 	}
 
 #head {
-	background: #345;
-	color: #9AB;
 	padding: .75em 0;
-	border-bottom: 1px solid #234;
+	background: #222;
+	font-weight: bold;
 	}
 #head a {
 	color: #FFF;
@@ -56,6 +79,7 @@ body {
 #footer {
 	padding: .75em 0;
 	margin: 0;
+	background: #EEE;
 	color: #93999F;
 	}
 
@@ -77,7 +101,7 @@ a.button {
 	color: #FFF;
 	background: #345;
 	padding: 0 10px 2px;
-	border: 1px solid #234;
+	border: none;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -187,7 +211,7 @@ p.footnote {
 	font-size: .9em;
 	line-height: 1.5em;
 	}
-.pic img {
+not.pic img {
 	border: 5px solid #D6DFE3;
 	}
 
@@ -287,52 +311,6 @@ h3+.date { margin-top: -1.5em; }
 .right {
 	float: right;
 	}
-
-.xx-large { font-size: xx-large; }
-.x-large { font-size: x-large; }
-.large { font-size: large; }
-.medium { font-size: medium; }
-.small { font-size: small; }
-.x-small { font-size: x-small; }
-.xx-small { font-size: xx-small; }
-.bold { font-weight: bold; }
-.italic { font-style: italic; }
-.tight { letter-spacing: -.1em; }
-.loose { letter-spacing: .1em; }
-.arial { font-family: Arial; }
-.lucidagrande { font-family: Lucida Grande; }
-.verdana { font-family: Verdana; }
-.times { font-family: Times; }
-.timesnewroman { font-family: Times New Roman; }
-.georgia { font-family: Georgia; }
-.box {
-	padding: 1px 0;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	}
-.example-box {
-	padding: 20px 20px 1px 20px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	color: #000;
-	background: #DDC;
-	}
-.example-box.one { width: 70px; }
-.example-box.two { width: 200px; }
-.example-box.three { width: 330px; }
-.example-box.four { width: 460px; }
-.example-box.five { width: 590px; }
-.example-box.six { width: 720px; }
-.example-box.seven { width: 850px; }
-p.drop {
-	margin-top: 3em;
-	text-indent: -.5em;
-	}
-p.drop:first-letter {
-	color: #456;
-	font-size: 6em;
-	}
-
 
 .clear {
 	clear: both;

@@ -4,9 +4,9 @@ layout: default
 
 <hr class="space" />
 
-<div class="container">
-	<div class="group">
-		<div class="column span-4">
+<div class="wrapper">
+	<div class="line">
+		<div class="unit size4of7">
 			<div class="description">
 				<h1>Oh. Hello.</h1>
 				<p>
@@ -21,8 +21,8 @@ layout: default
 				<h3><a class="title" href="{{ post.url }}">{{ post.title | textilize | strip_html }} &nbsp; <small class="date">{{ post.date | date: "%d %b %Y" }}</small></a></h3>
 			{% endfor %}
 		</div>
-		<div class="column span-3 last">
+		<div class="unit size3of7">
 			<img src="/media/images/nevan_v1.jpg" />
 		</div>
-	</div>
-</div><!-- /.container -->
+	</div><!-- /.line -->
+</div><!-- /.wrapper -->

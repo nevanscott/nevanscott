@@ -4,21 +4,23 @@ layout: default
 
 <hr class="space" />
 
-<div class="container">
-	<div class="post">
-		<div class="column span-1">
-			<div class="date">
-				{{ page.date | date: "%d %b %Y" }}
+<div class="wrapper">
+	<div class="line">
+		<div class="post">
+			<div class="unit size1of7">
+				<div class="date">
+					{{ page.date | date: "%d %b %Y" }}
+				</div>
 			</div>
-		</div>
-		<div class="column span-4">
-			<div class="essay">
-				<h3>{{ page.title | textilize | strip_html }}</h3>
-				{{ content }}
+			<div class="unit size4of7">
+				<div class="essay">
+					<h3>{{ page.title | textilize | strip_html }}</h3>
+					{{ content }}
+				</div>
 			</div>
-		</div>
-		<div class="column span-2 last">
-			<img src="/media/images/nevan_250.jpg" />
-		</div>
-	</div><!-- /.post -->
-</div><!-- /.container -->
+			<div class="unit size2of7">
+				<img src="/media/images/nevan_250.jpg" />
+			</div>
+		</div><!-- /.post -->
+	</div><!-- /.line -->
+</div><!-- /.wrapper -->

@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 <head>
-	<title>Nevan.org &middot; Abstracting Away the File System</title>
+	<title>Nevan Scott &middot; Abstracting Away the File System</title>
 	<meta name="viewport" content="width=985;" />
-	<link href="/writing.xml" rel="alternate" title="Nevan.org" type="application/atom+xml" />
-	<link href="/media/css/grid.css" rel="stylesheet" type="text/css" />
+	<link href="/writing.xml" rel="alternate" title="Nevan Scott" type="application/atom+xml" />
 	<link href="/media/css/main.css" rel="stylesheet" type="text/css" />
-	<link media="only screen and (max-device-width: 1024px)" href="/media/css/ipad.css" type="text/css" rel="stylesheet" />
 	<script type="text/javascript" src="http://use.typekit.com/omw4yuy.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script type="text/javascript">
@@ -24,41 +22,42 @@
 	</script>
 </head>
 <body>
-<div id="page">
 
 <div id="head">
-	<div class="container">
-		<div class="column span-4">
-			<ul class="inline">
-				<li><a href="/">Nevan.org</a></li>
-				<li><em>the eponymous website of <cite>Nevan Scott<cite></em></li>		
-			</ul>
-		</div>
-		<div class="column span-3 last">
-			<ul class="inline right">
-				<li><a href="/work/">Work</a></li>
-				<!-- <li><a href="/archive/">Writing</a></li> -->
-				<li><a href="/about/">About</a></li>
-				<!-- <li>Recommended</li> -->
-			</ul>
-		</div>
-	</div><!-- /.container -->
+	<div class="wrapper">
+		<div class="line">
+			<div class="unit size4of7">
+				<ul class="inline">
+					<li><a href="/">Nevan Scott</a></li>
+				</ul>
+			</div>
+			<div class="unit size3of7">
+				<ul class="inline right">
+					<li><a href="/work/">Work</a></li>
+					<li><a href="/archive/">Writing</a></li>
+					<li><a href="/about/">Profile</a></li>
+					<!-- <li>Recommended</li> -->
+				</ul>
+			</div>
+		</div><!-- /.container -->
+	</div><!-- /.wrapper -->
 </div><!-- /#head -->
 
 <div id="main">
 <hr class="space" />
 
-<div class="container">
-	<div class="post">
-		<div class="column span-1">
-			<div class="date">
-				22 Nov 2009
+<div class="wrapper">
+	<div class="line">
+		<div class="post">
+			<div class="unit size1of7">
+				<div class="date">
+					22 Nov 2009
+				</div>
 			</div>
-		</div>
-		<div class="column span-4">
-			<div class="essay">
-				<h3>Abstracting Away the File System</h3>
-				<p>When I was in school, my computer science professor was fond of saying, &#8220;Bits is bits.&#8221; What he meant is that all of computer science is an abstraction.<sup class="footnote"><a href="#fn1">1</a></sup> When thinking about computers, it is important to keep the principle of abstraction in mind. Without going into too much detail, computers are essentially made up of ones and zeros. The idea of the filesystem, the one that most users interact with through a graphical operating system, is a metaphor or abstraction that the operating system provides to the user and to the applications that the user interacts with.</p>
+			<div class="unit size4of7">
+				<div class="essay">
+					<h3>Abstracting Away the File System</h3>
+					<p>When I was in school, my computer science professor was fond of saying, &#8220;Bits is bits.&#8221; What he meant is that all of computer science is an abstraction.<sup class="footnote"><a href="#fn1">1</a></sup> When thinking about computers, it is important to keep the principle of abstraction in mind. Without going into too much detail, computers are essentially made up of ones and zeros. The idea of the filesystem, the one that most users interact with through a graphical operating system, is a metaphor or abstraction that the operating system provides to the user and to the applications that the user interacts with.</p>
 <p>As we approach another decade in computing, it might be worth asking why our computers organize information in this way and why it is presented in such a fashion to the user. I know people, myself included, who still use pieces of paper that can be filed away in a real folder or sometimes stored more permanently in a file cabinet. But modern use of those organizational tools is significantly lower than it was two decades ago. Some people my age are entering the workforce having spent more time interacting with their computer&#8217;s file system than they have spent looking at sheets of paper, much less using them or storing them away.</p>
 <p>So why continue to think about the data storage using the same filesystem metaphor, especially in cases where another metaphor may make more sense? TK I believe this is one of the reasons for the early success of iTunes. When Napster popularized music downloading and made MP3 a household word, one of the biggest problems was trying to make these files fit into a storage metaphor based on organizing business documents. Everyone was coming up with their own systems for keeping these files organized. Some would create folders for every artist and every album; others might split up files by genre first, then by artist; some (like me) tended to keep everything in a flat structure and rely on filename conventions like <code>Cream_White_Room.mp3</code> to find a track. This was a mess, and clearly a broken system because you could only organize tracks in one way. If you wanted to keep your music organized by album, you couldn&#8217;t also organize tracks into playlists unless you made copies of the songs.<sup class="footnote"><a href="#fn2">2</a></sup> And then what if you wanted to have a single track in more then one playlist? In 1999, I thought The Beatles went with everything&#8212;what if I wanted <cite>Nowhere Man</cite> in playlists for &#8220;Happy&#8221;, &#8220;Sad&#8221;, and &#8220;Fun&#8221;?</p>
 <p>I don&#8217;t recall if iTunes had figured out how to address these problems when it was first released, but not long after iTunes had figure out a good way to keep the user from every worrying about where their music files were or how they were organized. The solution on the Mac runs somewhat deep: When Apple was putting together OS X, it clearly already had at least an inkling of its &#8220;digital hub strategy&#8221; in mind, and decided that User folders would include a few folders for media right out of the box, including Music. On OS X, iTunes took advantage of this folder to give users the option to let iTunes keep their music files organized for them.</p>
@@ -101,13 +100,14 @@
 		<li>The directory/file system structure is only one way to store information (relational, others?)</li>
 	</ul></li>
 </ul>
+				</div>
 			</div>
-		</div>
-		<div class="column span-2 last">
-			<img src="/media/images/nevan_250.jpg" />
-		</div>
-	</div><!-- /.post -->
-</div><!-- /.container -->
+			<div class="unit size2of7">
+				<img src="/media/images/nevan_250.jpg" />
+			</div>
+		</div><!-- /.post -->
+	</div><!-- /.line -->
+</div><!-- /.wrapper -->
 </div><!-- /#main -->
 
 <div id="footer">
@@ -140,6 +140,5 @@ while(x=eval(x));
 	</div><!-- /.container -->	
 </div><!-- /#footer -->
 
-</div><!-- /#page -->
 </body>
 </html>

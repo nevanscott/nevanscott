@@ -4,20 +4,22 @@ title: Recent Work
 published: true
 ---
 
-<div class="container">
-	<h2>Recent Work</h2>
-	{% for post in site.categories.work %}
-	<div class="group project">
-		<div class="column span-5 pic">
-			<img src="/media/images/{{ post.image }}" />
-		</div>
-		<div class="column span-2 last">
-			<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
-			<div class="caption">
-				{{ post.description | textilize }}
+<div class="wrapper">
+	<div class="line">
+		<h2>Recent Work</h2>
+		{% for post in site.categories.work %}
+		<div class="group project">
+			<div class="unit size5of7 pic">
+				<img src="/media/images/{{ post.image }}" />
 			</div>
-			<p><a class="button right" href="{{ post.url }}">More &rsaquo;</a></p>
+			<div class="unit size2of7">
+				<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
+				<div class="caption">
+					{{ post.description | textilize }}
+				</div>
+				<p><a class="button right" href="{{ post.url }}">More &rsaquo;</a></p>
+			</div>
 		</div>
-	</div>
-	{% endfor %}
-</div><!-- /.container -->
+		{% endfor %}
+	</div><!-- /.line -->
+</div><!-- /.wrapper -->

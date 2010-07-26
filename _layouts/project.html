@@ -2,29 +2,55 @@
 layout: default
 ---
 
-<div class="container">
-	<h2>{{ page.title | textilize | strip_html }}</h2>
-	<div class="column span-5 prepend-1 description">
-		{{ page.description | textilize }}
-	</div>
-	<div class="column span-1 last">
-		{% if page.external %}
-		<p>
-			<a class="button right" href="{{ page.external }}">Visit Site &rsaquo;</a>
-		</p>
-		{% endif %}
-	</div>
-	{% for slide in page.slides %}
-	<div class="group">
-		<div class="column span-5 pic">
-			<img src="/media/images/{{ slide.image }}" />
+{% if page.colors %}
+<style type="text/css">
+	{% if page.colors.background %}
+	#main { background: #{{ page.colors.background }}; }
+	{% endif %}
+	{% if page.colors.link %}
+	#main a { color: #{{ page.colors.link }}; }
+	{% endif %}
+	{% if page.colors.button.background %}
+	#main a.button { background: #{{ page.colors.button.background }}; }
+	{% endif %}
+	{% if page.colors.button.color %}
+	#main a.button { color: #{{ page.colors.button.color }}; }
+	{% endif %}
+</style>
+{% endif %}
+
+<div id="page">
+	<div class="wrapper">
+		<div class="line">
+			<div class="unit size1of1">
+				<h2>{{ page.title | textilize | strip_html }}</h2>
+			</div>
 		</div>
-		<div class="column span-2 last caption">
-			{{ slide.description | textilize }}
+		<div class="line">
+			<div class="unit size1of7">&nbsp;</div>
+			<div class="unit size5of7 description">
+				{{ page.description | textilize }}
+			</div>
+			<div class="unit size1of7 last">
+				{% if page.external %}
+				<p>
+					<a class="button right" href="{{ page.external }}">Visit Site &rsaquo;</a>
+				</p>
+				{% endif %}
+			</div>
+		</div><!-- /.line -->
+		{% for slide in page.slides %}
+		<div class="line">
+			<div class="unit size5of7 pic">
+				<img src="/media/images/{{ slide.image }}" />
+			</div>
+			<div class="unit size2of7 caption">
+				{{ slide.description | textilize }}
+			</div>
+		</div><!-- /.line -->
+		{% endfor %}
+		<div class="column span-4 prepend-2 append-1 last">
+			{{ content }}
 		</div>
-	</div>
-	{% endfor %}
-	<div class="column span-4 prepend-2 append-1 last">
-		{{ content }}
-	</div>
-</div><!-- /.container -->
+	</div><!-- /.wrapper -->
+</div><!-- /#page -->
