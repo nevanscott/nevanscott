@@ -130,10 +130,9 @@ pre {
 	}
 
 h1 {
-	font-size: 4.5em;
-	font-style: italic;
+	font-size: 3em;
 	line-height: 1.5em;
-	margin: .2em 0;
+	margin: .5em 0;
 	}
 h1 a:hover {
 	border: none;
@@ -209,7 +208,7 @@ ul li {
 
 hr {
 	border: none;
-	border-top: 1px solid #C3CCCF;
+	border-top: 1px solid #EEE;
 	margin: 1.5em auto;
 	width: 300px;
 	}
