@@ -132,7 +132,7 @@ pre {
 h1 {
 	font-size: 3em;
 	line-height: 1.5em;
-	margin: .5em 0;
+	margin: 0 0 .5em 0;
 	}
 h1 a:hover {
 	border: none;
