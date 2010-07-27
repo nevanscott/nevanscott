@@ -59,7 +59,7 @@ body {
 	}
 #head .container { padding-top: .5em; padding-bottom: .75em; }
 #head a {
-	color: #000;
+	color: #333;
 	text-decoration: none;
 	}
 #head a:hover { color: #3586B9; }
@@ -90,6 +90,9 @@ a.button {
 	background: #3586B9;
 	padding: 0 15px 2px;
 	text-decoration: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 	}
 a.right {
 	float: right;
@@ -164,7 +167,7 @@ h3 {
 	line-height: 1.0909em;
 	margin-bottom: 1.0909em;
 	}
-h3 a { text-decoration: none; color: #000; }
+h3 a { text-decoration: none; color: #333; }
 h3 a:hover { text-decoration: none; color: #3586B9; }
 h4 {
 	font-size: 1em;
