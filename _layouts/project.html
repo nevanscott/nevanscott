@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
 	<h2>{{ page.title | textilize | strip_html }}</h2>
-	<div class="column span-5 prepend-1 description">
+	<div class="column span-4 prepend-1 description">
 		{{ page.description | textilize }}
 	</div>
 	<div class="column span-1 last">
@@ -16,15 +16,15 @@ layout: default
 	</div>
 	{% for slide in page.slides %}
 	<div class="group">
-		<div class="column span-5 pic">
+		<div class="column span-5 append-1 last pic">
 			<img src="/media/images/{{ slide.image }}" />
 		</div>
-		<div class="column span-2 last caption">
+		<div class="column span-4 prepend-1 append-1 last">
 			{{ slide.description | textilize }}
 		</div>
 	</div>
 	{% endfor %}
-	<div class="column span-4 prepend-2 append-1 last">
+	<div class="column span-4 prepend-1 append-1 last">
 		{{ content }}
 	</div>
 </div><!-- /.container -->
