@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<hr class="space" />
-
 h3. About Me
 
 I live and work in New York City, but I have close friends and family in San Francisco, Seattle, Austin, and Dublin. The thing to know about me is that I really like people. Nothing gets me out of bed in the morning like the thought of collaborating closely with people whom I respect, and nothing keeps me going on nights and weekends like the great conversations I have with friends whom I love.
@@ -13,8 +11,6 @@ I live and work in New York City, but I have close friends and family in San Fra
 I have many interests, which is only notable in a section called "About Me" because it is so much of who I am. I have always prided myself on being able to talk to people about the things that interest them and that they care about. I sometimes take ideas a little too seriously, but that's just a result of my innate belief that there is something fundamentally captivating about being a human among humans. Every individual has so much inside - in a way, there is no way to avoid this while going through the act of living. The way some people put this is that we all have a story. I tend to think that we all _are_ a story.
 
 <hr />
-
-h3. About the Site
 
 This site holds some of my writing and projects I've been working on. There's "a feed for my writing":/writing.xml, if you like. If you want to get in touch, I always like getting emails at <script type="text/javascript">
 //<![CDATA[
@@ -35,13 +31,3 @@ while(x=eval(x));
 //-->
 //]]>
 </script> - or you can find me "on Twitter":http://twitter.com/nevan.
-
-If you are using a modern browser on a desktop or laptop, you are probably reading this in Font Font's Meta Serif Web Pro. Meta was originally designed by Erik Spiekermann in 1986. In 2007, Font Font released Meta Serif as a companion to Meta, a collaboration of Erik Spiekermann, Christian Schwartz, and Kris Sowersby. (You may know "the beautiful work":http://christianschwartz.com/guardian.shtml Christian Schwartz did for ??The Guardian?? with Phil Barnes.)
-
-I am still relatively new to "Typekit":http://typekit.com/, which is delivering these fine fonts. The service is worth looking into if you like typography and haven't already explored it. You might also get some good mileage out of "Kernest":http://kernest.com/ or "Font Squirrel":http://fontsquirrel.com/, especially if you prefer to serve your own fonts.
-
-If you are on a device that Typekit doesn't support, you're in for a real treat: Matthew Carter's beautiful Georgia and that old standby Helvetica. Georgia was designed specifically for the screen in the 90s and has stood well the test of time as screen resolutions have increased, pixels have gotten smaller, and display technologies have changed.
-
-A special thanks to "Tom Preston-Werner":http://tom.preston-werner.com/ and others for their work on "Jekyll":http://wiki.github.com/mojombo/jekyll, which I use to generate the site from some intuitive source files.
-
-For the purposes of laying out the site quickly, I'm relying on a grid stylesheet provided by "Blueprint":http://www.blueprintcss.org/, generated "here":http://bgg.kematzy.com/.
