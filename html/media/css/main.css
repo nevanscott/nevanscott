@@ -122,6 +122,15 @@ strong {
 	color: #678;
 	}
 
+aside {
+	float: right;
+	margin: 0 -270px 0 20px;
+	width: 250px;
+	color: #93999C;
+	font-size: .9em;
+	line-height: 1.5em;
+	}
+
 code {
 	color: #93999F;
 	font-family: "inconsolata-1", "inconsolata-2", monospace;
