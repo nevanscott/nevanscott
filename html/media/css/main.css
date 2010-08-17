@@ -118,8 +118,7 @@ em em, em cite, cite em, cite cite {
 	font-style: normal;
 	}
 strong {
-	color: #93999F;
-	color: #678;
+	font-weight: bold;
 	}
 
 img { margin: 0; }
@@ -172,8 +171,9 @@ h3 a { text-decoration: none; color: #333; }
 h3 a:hover { text-decoration: none; color: #3586B9; }
 h4 {
 	font-size: 1em;
-	margin: 3em 0 0 0;
+	margin: 3em 0 .75em 0;
 	text-transform: uppercase;
+	font-weight: bold;
 	letter-spacing: .15em;
 	}
 p {
