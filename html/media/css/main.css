@@ -122,6 +122,7 @@ strong {
 	color: #678;
 	}
 
+img { margin: 0; }
 aside {
 	float: right;
 	margin: 0 -270px 0 20px;
