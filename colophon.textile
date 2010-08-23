@@ -1,0 +1,9 @@
+---
+layout: page
+title: Colophon
+permalink: /colophon/
+---
+
+h4. Colophon
+
+If your browser supports it, this site is set in Carol Twombly's "Chaparral":http://typekit.com/fonts/chaparral-pro. It is generated from intuitive source files using "Jekyll":http://wiki.github.com/mojombo/jekyll/. I strive to adhere to web standards, and these pages are all served using the "HTML5":http://dev.w3.org/html5/spec/Overview.html doctype. Please email me if you find any errors.

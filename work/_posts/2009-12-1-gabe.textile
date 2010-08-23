@@ -3,6 +3,7 @@ layout: project
 title: Gabriel Aronson
 permalink: /work/gabriel-aronson/
 published: true
+short: Gabe is a wonderful motion graphic artist. I built him a website.
 description: Gabe is a close friend and frequent collaborator, and I have helped him with his web presence for a couple of years now. For this most recent round, I asked him to let me take on the bulk of the design work for his portfolio, so that he could focus on what he was working on at the time. After my initial draft, he worked on a great background and we hammered out details until we arrived at a good starting place to grow the site from. Really, you should stop reading this and "go see his stuff":http://gabrielaronson.com/.
 external: http://gabrielaronson.com/
 image: gabe-about-645.png

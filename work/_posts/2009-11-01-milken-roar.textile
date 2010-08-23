@@ -3,6 +3,7 @@ layout: project
 title: The Roar
 permalink: /work/roar/
 published: true
+short: I designed a new high school newspaper website.
 description: At "Reason Media Group":http://www.reasonmediagroup.com/, we started dialogue with the "Milken Community High School":http://www.milkenschool.org/ in Los Angeles about building and designing a site for the school's student-run newspaper. I got to take the design lead for this early prototype, which showcases some of our thinking about what a modern high school online publication might be like.
 image: roar-home-645.png
 slides:

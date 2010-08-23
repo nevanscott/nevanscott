@@ -227,6 +227,15 @@ ul {
 ul li {
 	list-style: square;
 	}
+dl {
+	margin: 0 0 1.5em 0;
+	}
+dl dt {
+	margin: .75em 0 0 0;
+	}
+dl dd {
+	margin: 0 0 0 .75em;
+	}
 
 hr {
 	border: none;
