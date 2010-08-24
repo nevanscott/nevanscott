@@ -43,6 +43,8 @@ h4. Annals of Type
 
 I recently came across this essay on ESPN, ""The Franchise"":http://sports.espn.go.com/espn/eticket/story?page=100805/madden by Patrick Hruby. The essay itself is interesting, but I was excited to see a mainstream publisher like ESPN throwing their weight behind web-based editorial design. Outfits like Fray published online this way before the advent of content management systems hit full swing. Efforts have been going to revive it for a few years now, including Khoi Vinh and Liz Danzico's "A Brief Message":http://abriefmessage.com/ and Jason Santa Maria's "current website":http://jasonsantamaria.com/. In introducing his new site in 2008, Santa Maria "said":http://jasonsantamaria.com/articles/a-new-day/:
 
+<aside>The best art direction on Jason Santa Maria's site is probably to be found in the "Candygrams":http://jasonsantamaria.com/articles/category/candygram/ he published for Halloween in 2009. Each piece was written by a guest author - I imagine that the spark of collaboration is what gives these pieces their special flavor.</aside>
+
 bq.. We've made so many advancements in how we publish content that we haven't looked back to what it is we're actually creating. Many of us see the clear separation between things like print design and web design, but I've really been questioning the reality of why things are this way.
 
 I don't believe it has as much to do with time and capabilities--the notion that it takes too long to achieve the same design fidelity we enjoy in slower print endeavors--I think it has more to do with us merely having convinced ourselves it does. We've developed so many ways of creating and coding websites faster, but we really haven't scratched the surface for art directing them in that same light.
