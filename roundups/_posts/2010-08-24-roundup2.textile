@@ -39,6 +39,8 @@ If you haven't seen it, ""Fuck Me, Ray Bradbury"":http://www.youtube.com/watch?v
 
 h4. Annals of Type
 
+<aside>ESPN.com was also "one of the first major websites to be built using web standards":http://www.mikeindustries.com/blog/archive/2003/06/espn-interview like CSS for layout.</aside>
+
 I recently came across this essay on ESPN, ""The Franchise"":http://sports.espn.go.com/espn/eticket/story?page=100805/madden by Patrick Hruby. The essay itself is interesting, but I was excited to see a mainstream publisher like ESPN throwing their weight behind web-based editorial design. Outfits like Fray published online this way before the advent of content management systems hit full swing. Efforts have been going to revive it for a few years now, including Khoi Vinh and Liz Danzico's "A Brief Message":http://abriefmessage.com/ and Jason Santa Maria's "current website":http://jasonsantamaria.com/. In introducing his new site in 2008, Santa Maria "said":http://jasonsantamaria.com/articles/a-new-day/:
 
 bq.. We've made so many advancements in how we publish content that we haven't looked back to what it is we're actually creating. Many of us see the clear separation between things like print design and web design, but I've really been questioning the reality of why things are this way.
