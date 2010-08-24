@@ -45,7 +45,7 @@ bq.. We've made so many advancements in how we publish content that we haven't l
 
 I don't believe it has as much to do with time and capabilities--the notion that it takes too long to achieve the same design fidelity we enjoy in slower print endeavors--I think it has more to do with us merely having convinced ourselves it does. We've developed so many ways of creating and coding websites faster, but we really haven't scratched the surface for art directing them in that same light.
 
-p. David Cole and Tag Savage started "Sleepover":http://www.sleepoversf.com/ in the past year as "a very earnest attempt to make the world of online publishing better." One service they offer is "editorial design":
+p. David Cole and Tag Savage started "Sleepover":http://www.sleepoversf.com/ in the past year as "a very earnest attempt to make the world of online publishing better." One service they offer is editorial design:
 
 bq. Sometimes content demands new forms, sometimes content is just so special it needs an extra layer of love. Sleepover can design individual articles or serial features to make the most of your content. We'll work with your publishing system and draw on your existing design to expand the possibilities of your content.
 
