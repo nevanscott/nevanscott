@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Round-up No. 2
+title: Roundup No. 2
 ---
 
 h4. Education
@@ -53,4 +53,4 @@ p. David Cole and Tag Savage started "Sleepover":http://www.sleepoversf.com/ in 
 
 bq. Sometimes content demands new forms, sometimes content is just so special it needs an extra layer of love. Sleepover can design individual articles or serial features to make the most of your content. We'll work with your publishing system and draw on your existing design to expand the possibilities of your content.
 
-Seeing "so":http://sports.espn.go.com/espn/eticket/story?page=100725/stadiumconcessions "many":http://sports.espn.go.com/espn/eticket/story?page=100630/tarponfishing "of":http://sports.espn.go.com/espn/eticket/story?page=100513/KermitAlexander "these":http://sports.espn.go.com/espn/eticket/story?page=100427/Haitisoccer "art-directed":http://sports.espn.go.com/espn/eticket/story?page=100407/tigerwoods "essays":http://sports.espn.go.com/espn/eticket/story?page=100218/myronrolle under ESPN's "Outside the Lines" certainly encourages me to think that the "extra layer of love" may not be just a micro-niche of web design work for much longer.
+Seeing so many of these art-directed essays (see "here":http://sports.espn.go.com/espn/eticket/story?page=100725/stadiumconcessions, "here":http://sports.espn.go.com/espn/eticket/story?page=100630/tarponfishing, "here":http://sports.espn.go.com/espn/eticket/story?page=100513/KermitAlexander, "here":http://sports.espn.go.com/espn/eticket/story?page=100427/Haitisoccer, "here":http://sports.espn.go.com/espn/eticket/story?page=100407/tigerwoods, and "here":http://sports.espn.go.com/espn/eticket/story?page=100218/myronrolle) under ESPN's "Outside the Lines" certainly encourages me to think that the "extra layer of love" may not be just a micro-niche of web design work for much longer.
