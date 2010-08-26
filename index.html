@@ -56,12 +56,20 @@ while(x=eval(x));
 				<p><a class="button buttonSmall right" href="/journal/">All &rsaquo;</a></p>
 				<h3>From the Journal</h3>
 				<ul>
-				{% for post in site.categories.writing limit:6 %}
+				{% for post in site.categories.writing limit:5 %}
 					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
 				{% endfor %}
 				</ul>
 			</div><!-- /.group -->
-			<p><strong>New:</strong> <a href="/roundups/">Roundups</a></p>
+			<div class="group">
+				<p><a class="button buttonSmall right" href="/roundups/">All &rsaquo;</a></p>
+				<h3>Roundups</h3>
+				<ul>
+				{% for post in site.categories.roundups limit:4 %}
+					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
+				{% endfor %}
+				</ul>
+			</div><!-- /.group -->
 		</div>
 	</div>
 </div><!-- /.container -->
