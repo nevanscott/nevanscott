@@ -1,5 +1,6 @@
 ---
 layout: default
+head: false
 ---
 
 <hr class="space" />
@@ -42,19 +43,24 @@ while(x=eval(x));
 		</div>
 		<div class="column span-2 prepend-1 last">
 			<hr class="space" />
-			<h3>Recent Work</h3>
-			<ul>
-			{% for post in site.categories.work %}
-				<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
-			{% endfor %}
-			</ul>
-			<br />
-			<h3>From the Journal</h3>
-			<ul>
-			{% for post in site.categories.writing limit:6 %}
-				<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
-			{% endfor %}
-			</ul>
+			<div class="group">
+				<p><a class="button buttonSmall right" href="/work/">All &rsaquo;</a></p>
+				<h3>Recent Work</h3>
+				<ul>
+				{% for post in site.categories.work %}
+					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
+				{% endfor %}
+				</ul>
+			</div><!-- /.group -->
+			<div class="group">
+				<p><a class="button buttonSmall right" href="/journal/">All &rsaquo;</a></p>
+				<h3>From the Journal</h3>
+				<ul>
+				{% for post in site.categories.writing limit:6 %}
+					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
+				{% endfor %}
+				</ul>
+			</div><!-- /.group -->
 			<p><strong>New:</strong> <a href="/roundups/">Roundups</a></p>
 		</div>
 	</div>

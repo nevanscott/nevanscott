@@ -25,6 +25,7 @@
 <body>
 <div id="page">
 
+{% if page.head != false %}
 <div id="head">
 	<div class="container">
 		<div class="column span-4">
@@ -43,6 +44,7 @@
 		</div>
 	</div><!-- /.container -->
 </div><!-- /#head -->
+{% endif %}
 
 <div id="main">
 {{ content }}
