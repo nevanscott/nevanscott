@@ -7,13 +7,15 @@ published: true
 <div class="container">
 	<h2>Recent Work</h2>
 	{% for post in site.categories.work %}
-	<div class="group project">
-		<div class="column span-5 pic">
-			<img src="/media/images/{{ post.image }}" />
+	<div class="group project{% if forloop.last %} projectLast{% endif %}">
+		<div class="column span-3">
+			<div class="pic">
+				<a href="{{ post.url }}"><img src="/media/images/{{ post.image }}" /></a>
+			</div>
 		</div>
-		<div class="column span-2 last">
+		<div class="column span-4 last">
 			<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
-			<div class="caption">
+			<div>
 				{{ post.description | textilize }}
 			</div>
 			<p><a class="button right" href="{{ post.url }}">More &rsaquo;</a></p>

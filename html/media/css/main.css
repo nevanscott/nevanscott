@@ -125,7 +125,7 @@ strong {
 	font-weight: bold;
 	}
 
-img { margin: 0; }
+img { margin: 0; max-width: 100%; }
 aside {
 	float: right;
 	margin: 0 -270px 0 20px;
@@ -205,8 +205,11 @@ p.footnote {
 	font-size: .9em;
 	line-height: 1.5em;
 	}
-.pic img {
+.pic {
 	border: 5px solid #EEE;
+	}
+.pic img {
+	display: block;
 	}
 
 blockquote {
@@ -297,14 +300,23 @@ h3+.date { margin-top: -1.5em; }
 	margin: 0 0 1.5em 0;
 	}
 .project {
-	margin: 0 0 3em 0;
+	border-bottom: 1px solid #EEE;
+	padding: 0 0 1.5em 0;
+	margin: 0 0 1.5em 0;
 	}
+.projectLast {
+	border: none;
+	}
+.project h3 { margin-top: .54545em; }
 .post:after, .link:after, .group:after {
     content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden;
+	}
+.group {
+	margin: 1.5em 0;
 	}
 
 .update {

@@ -16,10 +16,12 @@ layout: default
 	</div>
 	{% for slide in page.slides %}
 	<div class="group">
-		<div class="column span-5 pic">
-			<img src="/media/images/{{ slide.image }}" />
+		<div class="column span-5">
+			<div class="pic">
+				<img src="/media/images/{{ slide.image }}" />
+			</div>
 		</div>
-		<div class="column span-2 last caption">
+		<div class="column span-2 caption last">
 			{{ slide.description | textilize }}
 		</div>
 	</div>
