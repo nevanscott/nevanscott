@@ -1,15 +1,35 @@
 ---
 layout: post
 title: Roundup No. 3
-published: false
+published: true
 ---
 
-h4. The Liberal Arts
+h4. The Social Sciences
 
-One of my favorite writers, Louis Menand, has a new book out this year that I've started digging into called "??The Marketplace of Ideas??":http://books.wwnorton.com/books/detail.aspx?ID=6082. It would be unfair to summarize his intentions with the text, so here are his words describing the questions he attempts to answer:
+Jim Manzi offers an interesting "critique of the social sciences":http://www.city-journal.org/printable.php?id=6330:
 
-bq. Why is it so hard to institute a general education curriculum? Why did the humanities disciplines undergo a crisis of legitimization? Why has "interdisciplinarity" become a magic word? And why do professors all tend to have the same politics?
+bq. Over many decades, social science has groped toward the goal of applying the experimental method to evaluate its theories for social improvement. Recent developments have made this much more practical, and the experimental revolution is finally reaching social science. The most fundamental lesson that emerges from such experimentation to date is that our scientific ignorance of the human condition remains profound. Despite confidently asserted empirical analysis, persuasive rhetoric, and claims to expertise, very few social-program interventions can be shown in controlled experiments to create real improvement in outcomes of interest.
 
-His thoughts on general education are interesting, but I find myself wishing that he had commented on Sarah Lawrence's strategy where this is concerned. He talks about Harvard and Columbia, which both have different histories with regards to core curricula and distribution requirements. Columbia's core, with its focus on "great books" is the model on which St. John's College's is based. When I tell people that I went to Sarah Lawrence, I often hear quick comparisons to other schools such as Reed, Hampshire, Bennington, Bard. The most surprising comparison to me is to St. John's. Even on a superficial level, the schools are very different: at St. John's, everyone takes the same classes throughout, there are no electives. Sarah Lawrence, by contrast, is all electives.
+He writes in fairly broad strokes, but I find myself wishing that there was more available constructive public debate over what the social sciences are, how they work, what they can tell us, and what the limitations are.
 
-In fact, Sarah Lawrence as a model exists almost entirely outside of what Menand describes as general education for liberal arts students. Menand gives two options: the core model and the distribution model. 
+h4. Sarah Palin
+
+??Vanity Fair?? has published a piece on her by Michael Joseph Gross called ""Sarah Palin: The Sound and the Fury"":http://www.vanityfair.com/politics/features/2010/10/sarah-palin-201010?printable=true&currentPage=1. Not much new here, but worth the read to get a better sense of how removed she is even from her own neighbors.
+
+h4. Current History
+
+Another September 11th has come and gone, and ??McSweeney's?? has again published John Hodgman's ""Welcoming Remarks Made at a Literary Reading, 9/25/01"":http://www.mcsweeneys.net/2010/9/11hodgman.html by way of remembrance:
+
+bq. Every year, we wonder what might be appropriate on this day, and we can never think of anything more appropriate than this piece, which Mr. Hodgman originally delivered at a literary reading shortly after September 11, 2001.
+
+I had't read the piece before this year, but I'm inclined to agree.
+
+h4. Everything is OK, really.
+
+"A gentle reminder":http://www.viruscomix.com/monstrepancies.jpg courtesy of my friend, Cori.
+
+h4. Annals of Type
+
+I missed this last month: Hoefler & Frere-Jones announced a new font called "Forza":http://www.typography.com/ask/showBlog.php?blogID=247, based on rounded rectangular shapes. As usual, I love the colors on the "specimen page":http://www.typography.com/fonts/font_overview.php?productLineID=100041. I'm especially fond of the slanted setting in the "9th frame":http://www.typography.com/images/overviewPageImages/forza_09.png. Seems like it would be a natural fit as a display face for a magazine. (Actually, it reminds me of ??Wired?? for some reason.)
+
+Also, don't miss the interview with "Roger Black on ??The Big Web Show??":http://5by5.tv/bigwebshow/18 about web type and templates. Some of the fonts available through his new project "Webtype":http://www.webtype.com/ look really great, especially the Clarendon-esque "BentonModernRE":http://www.webtype.com/font/bentonmodernre-family/. It would be nice if the specimens were set at a more comfortable reading width and with more breathing room between lines.
