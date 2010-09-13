@@ -3,8 +3,8 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Nevan Scott&rsquo;s Journal</title>
-	<link href="http://nevanscott.com/writing.xml" rel="self"/>
+	<title>Nevan Scott</title>
+	<link href="http://nevanscott.com/index.xml" rel="self"/>
 	<link href="http://nevanscott.com/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://nevanscott.com/</id>
@@ -12,7 +12,8 @@ layout: nil
 		<name>Nevan Scott</name>
 		<email>nfscott@gmail.com</email>
 	</author>
-	{% for post in site.categories.writing %}
+	{% for post in site.posts %}
+	{% if post.categories contains 'drafts' %}{% else %}
 	<entry>
 		<title>{{ post.title | textilize | strip_html }}</title>
 		<link href="http://nevanscott.com{{ post.url }}"/>
@@ -20,5 +21,6 @@ layout: nil
 		<id>http://nevanscott.com{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
+	{% endif %}
 	{% endfor %}
 </feed>
