@@ -7,7 +7,7 @@ permalink: /about/
 h3. About Me
 
 <aside>
-	<div>!/media/images/nevan.jpg!</div>
+	<div class="photo">!/media/images/nevan.jpg!</div>
 	<div class="right">_photo by "Gabriel Aronson":http://gabrielaronson.com/_</div>
 </aside>
 
