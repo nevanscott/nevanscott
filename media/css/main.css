@@ -344,3 +344,14 @@ h3+.date { margin-top: -1.5em; }
 .clear {
 	clear: both;
 	}
+
+#offair { display: none; }
+body.offair { overflow: hidden; }
+body.offair #page { display: none; }
+body.offair #offair { display: block; }
+
+.offairCell { position: absolute; }
+.offairCellTop { top: 0; width: 15%; height: 66%; }
+.offairCellMiddle { top: 65%; width: 15%; height: 11%; }
+.offairCellBottom { top: 75%; width: 17%; height: 26%; }
+.offairCellBottomThin { width: 6%; }
