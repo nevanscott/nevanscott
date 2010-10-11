@@ -63,7 +63,7 @@ while(x=eval(x));
 			<div class="group">
 				<h3><a href="/roundups/">Roundups &rsaquo;</a></h3>
 				<ul>
-				{% for post in site.categories.roundups limit:3 %}
+				{% for post in site.categories.roundups limit:4 %}
 					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
 				{% endfor %}
 				</ul>
