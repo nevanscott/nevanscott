@@ -20,12 +20,9 @@ body {
 	line-height: 1.5em;
 	margin: 0;
 	padding: 0;
-	background: #F6F6F6;
-	background: #E3DDD3;
-	background: #FFF;
 	background: #F3F3F3;
+	background: #FFF;
 	color: #333;
-	border-top: 5px solid #000;
 	text-rendering: optimizeLegibility;
 	}
 
@@ -36,17 +33,19 @@ body {
 	}
 
 #head {
-	border-bottom: 1px solid #DDD;
 	padding: 0;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 1.25em;
+	background: #C30;
+	color: #FFF;
 	}
 #head .container { padding-top: .75em; padding-bottom: .6em; }
 #head a {
 	color: #333;
+	color: #FFF;
 	text-decoration: none;
+	border-bottom: none;
 	}
-#head a:hover { color: #3586B9; }
 
 #main {
 	padding: 1.5em 0;
@@ -56,7 +55,10 @@ body {
 	padding: .75em 0;
 	margin: 0;
 	color: #93999F;
-	border-top: 1px solid #DDD;
+	border-top: 2px solid #EEE;
+	}
+#footer a {
+	color: #C30;
 	}
 
 h1, h2, h3, h4 {
@@ -64,8 +66,9 @@ h1, h2, h3, h4 {
 	}
 
 a {
-	text-decoration: underline;
 	color: #3586B9;
+	text-decoration: none;
+	border-bottom: 2px solid #EEE;
 	}
 a.button {
 	font-size: .9em;
@@ -77,12 +80,10 @@ a.button {
 	color: #000;
 	padding: 3px 15px 0;
 	text-decoration: none;
+	border-bottom: none;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	}
-a.button:hover {
-	text-decoration: underline;
 	}
 a.buttonSmall {
 	font-size: .9em;
@@ -166,13 +167,11 @@ h2 {
 	border-bottom: 1px solid #DDD;
 	}
 h3 {
-	font-weight: bold;
 	font-size: 1.375em;
 	line-height: 1.0909em;
 	margin-bottom: 1.0909em;
 	}
-h3 a { text-decoration: none; color: #333; }
-h3 a:hover { text-decoration: none; color: #3586B9; }
+h3 a { text-decoration: none; border-bottom: none; color: #C30; }
 h4 {
 	font-size: 1em;
 	margin: 3em 0 .75em 0;
