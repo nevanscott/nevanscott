@@ -1,0 +1,43 @@
+---
+layout: page
+title: Text Adventure
+---
+
+h3. {{ page.title }}
+
+In anticipation of building an engine for a web-based text adventure game, we'll start out by discussing HTML and CSS to get a handle on the technical side of building interfaces for web browsers. Then we'll look at some of the concepts of user interaction more generally, motivating the role of human user-oriented thinking in developing a piece of software, and open discussion into how to apply some of this thinking to the project at hand.
+
+h4. For Wednesday, Nov. 3
+
+In preparation, take some time to work through the following tutorials:
+
+* "HTML Tutorial":http://www.w3schools.com/html/default.asp, W3Schools
+* "CSS Tutorial":http://www.w3schools.com/css/default.asp, W3Schools
+
+Breeze through the parts that you're already familiar with, and don't spend too much time on sticking points. The point is just to have some familiarity so things don't look completely foreign when we start talking.
+
+*Exercise:* Write a single HTML page for an imaginary text-based adventure game, using some CSS to change how the page looks. The page should be an example of what a player might see at any given moment of gameplay - probably a description of where they are and some indication of what their options are for continuing. This is just for practice, so have some fun with it if you have time. Please post online somewhere by Tuesday night, Nov. 2, and email me a link to your page.
+
+h4. For Wednesday, Nov. 10
+
+Read through the following pieces. They're short, but we won't have time to discuss everything, so please note a passage or two that strike you, and pay particular attention to any common threads between some of these different takes.
+
+* Bruce Tognazzini, "First Principles of Interaction Design":http://www.asktog.com/basics/firstPrinciples.html
+* Jakob Nielsen, "Ten Usability Heuristics":http://www.useit.com/papers/heuristic/heuristic_list.html
+* Luke Wroblewski, "Visible Narratives: Understanding Visual Organization":http://www.boxesandarrows.com/view/visible_narratives_understanding_visual_organization
+* Julia Hayden, "Language: The Ultimate User Interface":http://www.alistapart.com/articles/ultimate/
+* Curt Cloninger, "A Case for Web Storytelling":http://www.alistapart.com/articles/storytelling/
+* Daniel Burka and David Gillis, "Friction Can Be a Good Thing":http://uxmag.com/design/friction-can-be-a-good-thing
+
+*Exercise:* Write another single HTML page with a sample form for creating a new node in the story, using CSS to change how the page looks. Don't worry about having the values of the form post anywhere or to a database, this is purely an exercise in HTML and CSS.
+
+h4. Further Reading
+
+* Gerd Waloszek, "User Interface Design - Is it A Science, An Art, or A Craft?":http://www.sapdesignguild.org/community/editorials/editorial_03_2003.asp
+* "Apple Human Interface Guidelines":http://developer.apple.com/library/mac/#documentation/UserExperience/Conceptual/AppleHIGuidelines/XHIGIntro/XHIGIntro.html
+* IBM, "What is user experience design?":http://www-01.ibm.com/software/ucd/designconcepts/whatisUXD.html
+* Rick Oppedisano, "Common Principles: A Usable Interface Design Primer":http://www.usabilityprofessionals.org/upa_publications/upa_voice/volumes/4/issue_3/common_principles.htm
+* Talin, "A Summary of Principles for User-Interface Design":http://www.sylvantech.com/~talin/projects/ui_design.html
+* Cornell University, "Ergonomic Guidelines for Interface Design":http://ergo.human.cornell.edu/ahtutorials/interface.html
+* Nick Finck, "Form vs. Function: Finding the Balance":http://www.digital-web.com/articles/form_vs_function/
+* Luke Wroblewski, "Inline Validation in Web Forms":http://www.alistapart.com/articles/inline-validation-in-web-forms/
