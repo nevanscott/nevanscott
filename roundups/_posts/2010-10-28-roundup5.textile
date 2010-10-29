@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Roundup No. 5
+published: false
 ---
 
 h4. Easy A
@@ -9,7 +10,7 @@ I can't think of better way to start than to whole-heartedly recommend the movie
 
 h4. Write a Letter
 
-I used to write letters to friends in high school, and I have recently taken up doing so again. This subject matter probably deserves some more extensive consideration, but I wanted to plant the seed with anyone who may be reading. Writing a personal letter for an audience of one gives me a great feeling that is impossible to justify, but clearly exists. My writing feels sharper and more focused in letters because I know exactly who I'm writing for, and the pressure the write well is gone because a genuinely caring friend will be the only one with an opportunity to criticize.
+I used to write letters to friends in high school, and I have recently taken up doing so again. This subject matter probably deserves some more extensive consideration, but I wanted to plant the seed with anyone who may be reading. Writing a personal letter for an audience of one gives me a great feeling that is impossible to justify, but clearly exists. My writing feels sharper and more focused in letters because I know exactly who I'm writing for, and the pressure to write well is gone because a genuinely caring friend will be the only one with an opportunity to criticize.
 
 There's also something really soothing about a bit of written communication going out to a friend that isn't leaving digital traces all over a bunch of servers in God knows how many places in the world. Letters can be intercepted, but they give me a feeling of privacy. I'm not one to crave privacy in the sense that I don't want others to know what is going on with me. But I do relish that privacy of shared intimate moments, and as odd as it may sound, a letter is one of those moments.
 
@@ -49,6 +50,6 @@ Germany especially, emerging victorious from the Franco-Prussian war, was floode
 
 The whole era is characterized on the one hand by a slavishly and entirely superficial copying of every conceivable old style, and on the other by a capriciousness in design without precedent. A town hall, for example, might be built to look like a pseudo-Gothic palace (Munich) or a "Romanesque" villa.
 
-p. Sometimes it is nice to realize that technology, design, and culture have gone hand in hand (in hand) since well before computers or the web were really even imagined. How many pieces of modern software or websites can you think of that could be "characterized on the one hand by a slavishly and entirely superficial copying of every conceivable old style, and on the other by a capriciousness in design without precedent"? This text is still very much alive. See Khoi Vinh talking about "bringing magazines to the iPad":http://www.subtraction.com/2010/10/27/my-ipad-magazine-stand only yesterday:
+p. Sometimes it is nice to realize that technology, design, and culture have gone hand in hand (in hand) since well before computers or the web were really even imagined. How many pieces of modern software or websites can you think of that could be "characterized on the one hand by a slavishly and entirely superficial copying of every conceivable old style, and on the other by a capriciousness in design without precedent"? This text is still very much alive. See Khoi Vinh talking about "bringing magazines to the iPad":http://www.subtraction.com/2010/10/27/my-ipad-magazine-stand only days ago:
 
 bq. The Adobe promise, as I understand it, is that publications can design for one medium and, with minimal effort, have their work product viably running on tablets and other media. It says: what works in print, with some slight modifications and some new software purchases, will work in new media. It's a promise that we've heard again and again from many different software vendors with the rise of every new publishing platform, but it has never come to pass. And it never will.
