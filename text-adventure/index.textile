@@ -16,6 +16,8 @@ In preparation, take some time to work through the following tutorials:
 
 Breeze through the parts that you're already familiar with, and don't spend too much time on sticking points. The point is just to have some familiarity so things don't look completely foreign when we start talking.
 
+<aside>I've set up a little example "here":ex1.html. Please feel free to use that code as a starting point.</aside>
+
 *Exercise:* Write a single HTML page for an imaginary text-based adventure game, using some CSS to change how the page looks. The page should be an example of what a player might see at any given moment of gameplay - probably a description of where they are and some indication of what their options are for continuing. This is just for practice, so have some fun with it if you have time. Please post online somewhere by Tuesday night, Nov. 2, and email Mike a link to your page. He'll make sure I can get to them.
 
 h4. For Wednesday, Nov. 10
