@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Roundup No. 5
-published: false
 ---
 
 h4. Easy A
 
-I can't think of better way to start than to whole-heartedly recommend the movie ??Easy A??, currently out in theatres. Emma Stone is a pleasure, and the entire supporting cast is fantastic. Lisa Kudrow puts in a toned down performance with a wonderful flare for the dramatic and bitchy. Stanley Tucci and Patricia Clarkson were laugh out loud funny, and very touching in a way only possible in a high school comedy. The movie plays homage to its roots without getting too heavy about it, or too meta. Interestingly, the movie is framed with a YouTube confessional, which combined with the new electronic ways that gossip flits about the high school does a great job of showing us that times have changed but teenagers have not. A lot of fun, and required viewing for anyone who needs a bit of escape from the realities of Christian extremism.
+I can't think of better way to start than to whole-heartedly recommend the movie ??Easy A??, currently out in theatres. Emma Stone is a pleasure, and the entire supporting cast is fantastic. Stanley Tucci and Patricia Clarkson are particularly great as two parents clearly in love with their children. The movie plays homage to its roots (??Ferris Bueller??, ??Say Anything??, etc., but also ??Huckleberry Finn?? and ??The Scarlet Letter??) without getting too heavy about it, or too meta. Interestingly, the movie is framed with a YouTube confessional, which combined with the new electronic ways that gossip flits about the high school does a great job of showing us that times have changed but teenagers have not. A lot of fun, and required viewing for anyone who needs a bit of escape from the realities of Christian extremism.
 
 h4. Write a Letter
 
@@ -36,7 +35,7 @@ I think Wallace was tapping into something we all feel a need for. Listen to thi
 
 h4. Annals of Type
 
-I finally picked up an English translation of Jan Tschichold's "??The New Typography??":http://www.amazon.com/New-Typography-Weimar-Now-Criticism/dp/0520250125/. The translation seems to pick up what I imagine must even in the German be Tschichold's "intense and engaging style":http://www.mcsweeneys.net/links/hellbox/hellbox3.html. In some ways, his mode of describing the past, present, and future in ??The New Typography?? remind me of some of Nietzsche's writing on what he called the "new philosophers" and "philosophers of the future" in ??Beyond Good and Evil??. For "example":http://www.marxists.org/reference/archive/nietzsche/1886/beyond-good-evil/ch06.htm:
+I finally picked up an English translation of "??The New Typography??":http://www.amazon.com/New-Typography-Weimar-Now-Criticism/dp/0520250125/, Jan Tschichold's attempt in 1928 to descibe recent movements in typographic and design practice to illustrate the need and way forward for a new approach to typography, taking into account technological changes in typesetting and printing. The translation seems to pick up what I imagine must even in the German be Tschichold's "intense and engaging style":http://www.mcsweeneys.net/links/hellbox/hellbox3.html. In some ways, his mode of describing the past, present, and future in ??The New Typography?? remind me of some of Nietzsche's writing on what he called the "new philosophers" and "philosophers of the future" in ??Beyond Good and Evil??. For "example":http://www.marxists.org/reference/archive/nietzsche/1886/beyond-good-evil/ch06.htm:
 
 bq. Critical discipline, and every habit that conduces to purity and rigour in intellectual matters, will not only be demanded from themselves by these philosophers of the future, they may even make a display thereof as their special adornment-- nevertheless they will not want to be called critics on that account. It will seem to them no small indignity to philosophy to have it decreed, as is so welcome nowadays, that "philosophy itself is criticism and critical science--and nothing else whatever!" Though this estimate of philosophy may enjoy the approval of all the Positivists of France and Germany (and possibly it even flattered the heart and taste of Kant: let us call to mind the titles of his principal works), our new philosophers will say, notwithstanding, that critics are instruments of the philosopher, and just on that account, as instruments, they are far from being philosophers themselves! Even the great Chinaman of Konigsberg was only a great critic.
 
