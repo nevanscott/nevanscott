@@ -26,7 +26,7 @@ Read through the following pieces. They're short, but we won't have time to disc
 
 * Bruce Tognazzini, "First Principles of Interaction Design":http://www.asktog.com/basics/firstPrinciples.html
 * Jakob Nielsen, "Ten Usability Heuristics":http://www.useit.com/papers/heuristic/heuristic_list.html
-* Luke Wroblewski, "Visible Narratives: Understanding Visual Organization":http://www.boxesandarrows.com/view/visible_narratives_understanding_visual_organization
+* Luke Wroblewski, "Visible Narratives: Understanding Visual Organization":http://www.lukew.com/ff/entry.asp?981
 * Julia Hayden, "Language: The Ultimate User Interface":http://www.alistapart.com/articles/ultimate/
 * Curt Cloninger, "A Case for Web Storytelling":http://www.alistapart.com/articles/storytelling/
 * Daniel Burka and David Gillis, "Friction Can Be a Good Thing":http://uxmag.com/design/friction-can-be-a-good-thing
