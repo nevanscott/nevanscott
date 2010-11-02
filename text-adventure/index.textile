@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: project
 title: Text Adventure
+description: In anticipation of building an engine for a web-based text adventure game, we'll start out by discussing HTML and CSS to get a handle on the technical side of building interfaces for web browsers. Then we'll look at some of the concepts of user interaction more generally, motivating the role of human user-oriented thinking in developing a piece of software, and open discussion into how to apply some of this thinking to the project at hand.
 ---
-
-h3. {{ page.title }}
-
-In anticipation of building an engine for a web-based text adventure game, we'll start out by discussing HTML and CSS to get a handle on the technical side of building interfaces for web browsers. Then we'll look at some of the concepts of user interaction more generally, motivating the role of human user-oriented thinking in developing a piece of software, and open discussion into how to apply some of this thinking to the project at hand.
 
 h4. For Wednesday, Nov. 3
 
