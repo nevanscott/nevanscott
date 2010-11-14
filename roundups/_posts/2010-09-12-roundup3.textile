@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Roundup No. 3
-published: true
+excerpt: The social sciences, Sarah Palin, remembering 9/11, putting your inner and outer monsters in perspective, H&FJ's Forza, Roger Black on web fonts.
 ---
 
 h4. The Social Sciences

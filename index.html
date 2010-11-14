@@ -8,66 +8,64 @@ head: true
 <div class="container">
 	<div class="group">
 		<div class="column span-4">
-			<div class="description">
-				<h1>Hi, I&rsquo;m Nevan.</h1>
+			{% for post in site.categories.roundups %}
+				<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
+				<div class="date">{{ post.date | date: "%d %b %Y" }}</div>
+				{{ post.excerpt | textilize }}
+				{% if forloop.last %}
+				{% else %}
+					<hr />
+				{% endif %}
+			{% endfor %}
+		</div><!-- /.column -->
+		<div class="column span-3 last">
+			<div class="group">
+				<h3>Hi, I&rsquo;m Nevan</h3>
 				<p>
 					I live in New York, where I make <a href="/work/">websites</a> and occasionally&nbsp;<a href="/journal/">write</a>.
 					I&nbsp;really like typography, just ask my friends, family, and&nbsp;<a href="http://wondermark.com/650/">therapist</a>.
 					For&nbsp;more about myself, read&nbsp;<a href="/about/">here</a>.
 				</p>
-			</div>
-			<p>
-				I&rsquo;m currently working on projects with <a href="http://www.tyfujimura.com/">Ty Fujimura</a>, a great designer based in Brooklyn. If you&rsquo;d like to get in touch with me for any reason, I always enjoy getting emails at <script type="text/javascript">
-//<![CDATA[
-<!--
-var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
-"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
-"\\\\,l=x.length;for(i=0;i<l;i++){if(i<18)y++;y%=127;o+=String.fromCharCode(" +
-"x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\wztlvxqU\\\\\\\\rRU@_HC_\\\\\\\\"+
-"033\\\\\\\\027\\\\\\\\nV\\\\\\\\030QH^Z\\\\\\\\000b\\\\\\\\035- +/0*|).:)$8" +
-"9\\\\\\\\016(=0;?z69:\\\\\\\\004{z/5)2:]=@&\\\\\\\\t\\\\\\\\004\\\\\\\\017\\"+
-"\\\\\\013H'\\\\\\\\017\\\\\\\\035\\\\\\\\r\\\\\\\\0032MN\\\\\\\\037\\\\\\\\" +
-"024\\\\\\\\000\\\\\\\\027\\\\\\\\032\\\\\\\\002\\\\\\\\0038\\\\\\\\036\\\\\\"+
-"\\027\\\\\\\\032\\\\\\\\025\\\\\\\\021Pcno?+d8%!2:0\\\"\\\\,18)\\\"(f};)lo," +
-"0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x" +
-"{yrt{)84=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f n" +
-"oitcnuf\")"                                                                  ;
-while(x=eval(x));
-//-->
-//]]>
-</script> &ndash; or you can find me <a href="http://twitter.com/nevan">on Twitter</a>.
-			</p>
-			<h4>Bent Quill Players</h4>
-			<p>I just finished playing Sir Jealous Traffick in the <a href="http://bentquillplayers.weebly.com/">Bent Quill Players</a> production of Susanna Centlivre&rsquo;s <cite>The Busybody</cite>. Thanks to all who made it out to the show, we had a great time!</p>
-			<p>Richard Grayson has kindly written <a href="http://who-will-kiss-the-pig.blogspot.com/2010/08/saturday-evening-in-washington-heights.html">some background and an excellent review of the show</a>. Apparently, yours truly &ldquo;played the blustery Sir Jealous Traffic with aplomb.&rdquo;</p>
-			<p><strong>Update:</strong> I&rsquo;m excited to be joining the Bent Quill Players team and looking forward to helping put together more great shows in the future. Stay tuned.</p>
-		</div>
-		<div class="column span-2 prepend-1 last">
-			<hr class="space" />
-			<div class="group">
-				<h3><a href="/work/">Recent Work &rsaquo;</a></h3>
-				<ul>
-				{% for post in site.categories.work %}
-					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
-				{% endfor %}
-				</ul>
+				<div class="caption">
+					<p>
+						I&rsquo;m currently working on projects with <a href="http://www.tyfujimura.com/">Ty Fujimura</a>, a great designer based in Brooklyn. If you&rsquo;d like to get in touch with me for any reason, I always enjoy getting emails at <script type="text/javascript">
+		//<![CDATA[
+		<!--
+		var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+		"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+		"\\\\,l=x.length;for(i=0;i<l;i++){if(i<18)y++;y%=127;o+=String.fromCharCode(" +
+		"x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\wztlvxqU\\\\\\\\rRU@_HC_\\\\\\\\"+
+		"033\\\\\\\\027\\\\\\\\nV\\\\\\\\030QH^Z\\\\\\\\000b\\\\\\\\035- +/0*|).:)$8" +
+		"9\\\\\\\\016(=0;?z69:\\\\\\\\004{z/5)2:]=@&\\\\\\\\t\\\\\\\\004\\\\\\\\017\\"+
+		"\\\\\\013H'\\\\\\\\017\\\\\\\\035\\\\\\\\r\\\\\\\\0032MN\\\\\\\\037\\\\\\\\" +
+		"024\\\\\\\\000\\\\\\\\027\\\\\\\\032\\\\\\\\002\\\\\\\\0038\\\\\\\\036\\\\\\"+
+		"\\027\\\\\\\\032\\\\\\\\025\\\\\\\\021Pcno?+d8%!2:0\\\"\\\\,18)\\\"(f};)lo," +
+		"0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x" +
+		"{yrt{)84=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f n" +
+		"oitcnuf\")"                                                                  ;
+		while(x=eval(x));
+		//-->
+		//]]>
+		</script> &ndash; or you can find me <a href="http://twitter.com/nevan">on Twitter</a>.
+					</p>
+				</div><!-- /.caption -->
 			</div><!-- /.group -->
 			<div class="group">
 				<h3><a href="/journal/">From the Journal &rsaquo;</a></h3>
-				<ul>
-				{% for post in site.categories.writing limit:5 %}
-					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
+				<p>
+				{% for post in site.categories.writing limit:6 %}
+					<a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a>{% if forloop.last %}{% else %} &middot; {% endif %}
 				{% endfor %}
-				</ul>
+				</p>
 			</div><!-- /.group -->
 			<div class="group">
-				<h3><a href="/roundups/">Roundups &rsaquo;</a></h3>
-				<ul>
-				{% for post in site.categories.roundups limit:4 %}
-					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
+				<h3><a href="/work/">Recent Work &rsaquo;</a></h3>
+				<p>
+				{% for post in site.categories.work %}
+					<a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a>{% if forloop.last %}{% else %} &middot; {% endif %}
 				{% endfor %}
-				</ul>
+				</p>
 			</div><!-- /.group -->
-		</div>
-	</div>
+		</div><!-- /.column -->
+	</div><!-- /.group -->
 </div><!-- /.container -->

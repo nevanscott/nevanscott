@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Roundup No. 2
+excerpt: Miscellaneous thoughts on education, The Bent Quill Players' production of Susanna Centlivre's ??The Busybody??, a special appearance by Ray Bradbury, art-directed essays on the web.
 ---
 
 h4. Education

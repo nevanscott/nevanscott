@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Roundup No. 1
+excerpt: Scala's cover of "Creep", Kurt Vonnegut talks to Albion College, catching up on David Foster Wallace, reminders about life and laughter, Denis O'Hare on ??True Blood??, Radiolab's "Words", Adobe loves Typekit.
 ---
 
 h4. Creep

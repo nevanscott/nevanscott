@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Roundup No. 5
+excerpt: ??Easy A??, letter-writing, Rebecca's new blog, David Foster Wallace on the need for good communicators, Jan Tschichold's 1928 text ??The New Typography?? is still relevant.
 ---
 
 h4. Easy A
