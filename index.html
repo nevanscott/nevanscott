@@ -7,18 +7,20 @@ head: true
 
 <div class="container">
 	<div class="group">
-		<div class="column span-4">
+		<div class="column span-5">
 			{% for post in site.categories.roundups %}
-				<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
-				<div class="date">{{ post.date | date: "%d %b %Y" }}</div>
-				{{ post.excerpt | textilize }}
-				{% if forloop.last %}
-				{% else %}
-					<hr />
-				{% endif %}
+			<div class="group">
+				<div class="column span-1">
+					<div class="date">{{ post.date | date: "%d %b %Y" }}</div>
+				</div>
+				<div class="column span-4 last">
+					<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
+					{{ post.excerpt | textilize }}
+				</div>
+			</div>
 			{% endfor %}
 		</div><!-- /.column -->
-		<div class="column span-3 last">
+		<div class="column span-2 last">
 			<div class="group">
 				<h3>Hi, I&rsquo;m Nevan</h3>
 				<p>
@@ -52,19 +54,19 @@ head: true
 			</div><!-- /.group -->
 			<div class="group">
 				<h3><a href="/journal/">From the Journal &rsaquo;</a></h3>
-				<p>
+				<ul>
 				{% for post in site.categories.writing limit:6 %}
-					<a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a>{% if forloop.last %}{% else %} &middot; {% endif %}
+					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
 				{% endfor %}
-				</p>
+				</ul>
 			</div><!-- /.group -->
 			<div class="group">
 				<h3><a href="/work/">Recent Work &rsaquo;</a></h3>
-				<p>
+				<ul>
 				{% for post in site.categories.work %}
-					<a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a>{% if forloop.last %}{% else %} &middot; {% endif %}
+					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
 				{% endfor %}
-				</p>
+				</ul>
 			</div><!-- /.group -->
 		</div><!-- /.column -->
 	</div><!-- /.group -->
