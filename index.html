@@ -21,12 +21,12 @@ head: true
 			{% endfor %}
 		</div><!-- /.column -->
 		<div class="column span-2 last">
-			<div class="group">
-				<h3>Hi, I&rsquo;m Nevan</h3>
+			<div class="group callout">
+				<h3>About Me</h3>
 				<p>
-					I live in New York, where I make <a href="/work/">websites</a> and occasionally&nbsp;<a href="/journal/">write</a>.
+					Hi, I&rsquo;m Nevan. I live in New York, where I make <a href="/work/">websites</a> and occasionally&nbsp;<a href="/journal/">write</a>.
 					I&nbsp;really like typography, just ask my friends, family, and&nbsp;<a href="http://wondermark.com/650/">therapist</a>.
-					For&nbsp;more about myself, read&nbsp;<a href="/about/">here</a>.
+					<a href="/about/">More &rsaquo;</a>
 				</p>
 				<div class="caption">
 					<p>
@@ -52,7 +52,7 @@ head: true
 					</p>
 				</div><!-- /.caption -->
 			</div><!-- /.group -->
-			<div class="group">
+			<div class="group callout">
 				<h3><a href="/journal/">From the Journal &rsaquo;</a></h3>
 				<ul>
 				{% for post in site.categories.writing limit:6 %}
@@ -60,7 +60,7 @@ head: true
 				{% endfor %}
 				</ul>
 			</div><!-- /.group -->
-			<div class="group">
+			<div class="group callout">
 				<h3><a href="/work/">Recent Work &rsaquo;</a></h3>
 				<ul>
 				{% for post in site.categories.work %}
