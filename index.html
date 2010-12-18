@@ -1,73 +1,60 @@
 ---
 layout: default
 head: true
+bodyclass: home
 ---
 
-<hr class="space" />
-
-<div class="container">
-	<div class="group">
-		<div class="column span-5">
-			{% for post in site.categories.roundups %}
-			<div class="group">
-				<div class="column span-1">
-					<div class="date">{{ post.date | date: "%d %b %Y" }}</div>
-				</div>
-				<div class="column span-4 last">
-					<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
-					{{ post.excerpt | textilize }}
-				</div>
-			</div>
-			{% endfor %}
-		</div><!-- /.column -->
-		<div class="column span-2 last">
-			<div class="group callout">
-				<h3>About Me</h3>
-				<p>
-					Hi, I&rsquo;m Nevan. I live in New York, where I make <a href="/work/">websites</a> and occasionally&nbsp;<a href="/journal/">write</a>.
-					I&nbsp;really like typography, just ask my friends, family, and&nbsp;<a href="http://wondermark.com/650/">therapist</a>.
-					<a href="/about/">More &rsaquo;</a>
-				</p>
-				<div class="caption">
-					<p>
-						I&rsquo;m currently working on projects with <a href="http://www.tyfujimura.com/">Ty Fujimura</a>, a great designer based in Brooklyn. If you&rsquo;d like to get in touch with me for any reason, I always enjoy getting emails at <script type="text/javascript">
-		//<![CDATA[
-		<!--
-		var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
-		"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
-		"\\\\,l=x.length;for(i=0;i<l;i++){if(i<18)y++;y%=127;o+=String.fromCharCode(" +
-		"x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\wztlvxqU\\\\\\\\rRU@_HC_\\\\\\\\"+
-		"033\\\\\\\\027\\\\\\\\nV\\\\\\\\030QH^Z\\\\\\\\000b\\\\\\\\035- +/0*|).:)$8" +
-		"9\\\\\\\\016(=0;?z69:\\\\\\\\004{z/5)2:]=@&\\\\\\\\t\\\\\\\\004\\\\\\\\017\\"+
-		"\\\\\\013H'\\\\\\\\017\\\\\\\\035\\\\\\\\r\\\\\\\\0032MN\\\\\\\\037\\\\\\\\" +
-		"024\\\\\\\\000\\\\\\\\027\\\\\\\\032\\\\\\\\002\\\\\\\\0038\\\\\\\\036\\\\\\"+
-		"\\027\\\\\\\\032\\\\\\\\025\\\\\\\\021Pcno?+d8%!2:0\\\"\\\\,18)\\\"(f};)lo," +
-		"0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x" +
-		"{yrt{)84=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f n" +
-		"oitcnuf\")"                                                                  ;
-		while(x=eval(x));
-		//-->
-		//]]>
-		</script> &ndash; or you can find me <a href="http://twitter.com/nevan">on Twitter</a>.
-					</p>
-				</div><!-- /.caption -->
-			</div><!-- /.group -->
-			<div class="group">
-				<h3><a href="/journal/">From the Journal &rsaquo;</a></h3>
-				<ul>
-				{% for post in site.categories.writing limit:6 %}
-					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
-				{% endfor %}
-				</ul>
-			</div><!-- /.group -->
-			<div class="group">
-				<h3><a href="/work/">Recent Work &rsaquo;</a></h3>
-				<ul>
-				{% for post in site.categories.work %}
-					<li><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></li>
-				{% endfor %}
-				</ul>
-			</div><!-- /.group -->
-		</div><!-- /.column -->
-	</div><!-- /.group -->
-</div><!-- /.container -->
+<div class="group callout">
+	<div class="description">
+		<p>
+			Hi, I&rsquo;m Nevan. I live in New York, where I make <a href="/work/">websites</a> and occasionally&nbsp;<a href="/journal/">write</a>.
+			I&nbsp;really like typography, just ask my friends, family, and&nbsp;<a href="http://wondermark.com/650/">therapist</a>.
+			<a href="/about/">More &rsaquo;</a>
+		</p>
+	</div>
+	<p>
+		I&rsquo;m currently working on projects with <a href="http://www.tyfujimura.com/">Ty Fujimura</a>, a great designer based in Brooklyn. If you&rsquo;d like to get in touch with me for any reason, I always enjoy getting emails at <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+"\\\\,l=x.length;for(i=0;i<l;i++){if(i<18)y++;y%=127;o+=String.fromCharCode(" +
+"x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\wztlvxqU\\\\\\\\rRU@_HC_\\\\\\\\"+
+"033\\\\\\\\027\\\\\\\\nV\\\\\\\\030QH^Z\\\\\\\\000b\\\\\\\\035- +/0*|).:)$8" +
+"9\\\\\\\\016(=0;?z69:\\\\\\\\004{z/5)2:]=@&\\\\\\\\t\\\\\\\\004\\\\\\\\017\\"+
+"\\\\\\013H'\\\\\\\\017\\\\\\\\035\\\\\\\\r\\\\\\\\0032MN\\\\\\\\037\\\\\\\\" +
+"024\\\\\\\\000\\\\\\\\027\\\\\\\\032\\\\\\\\002\\\\\\\\0038\\\\\\\\036\\\\\\"+
+"\\027\\\\\\\\032\\\\\\\\025\\\\\\\\021Pcno?+d8%!2:0\\\"\\\\,18)\\\"(f};)lo," +
+"0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x" +
+"{yrt{)84=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f n" +
+"oitcnuf\")"                                                                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script> &ndash; or you can find me <a href="http://twitter.com/nevan">on Twitter</a>.
+	</p>
+	<p>
+		<strong>Recently:</strong>
+		<a href="/2010/10/roundup5/">Roundup 5</a>
+		&middot;
+		<a href="/2010/07/obscurity/">Obscurity</a>
+		&middot;
+		<a href="/2010/06/magical/">Magical</a>
+		&middot;
+		<a href="/2010/04/making-hay/">Making Hay</a>
+	</p>
+	<p>
+		<strong>Work:</strong>
+		<a href="/work/buzzfeed/">Buzzfeed</a>
+		&middot;
+		<a href="/work/pom/">Pom Wonderful</a>
+		&middot;
+		<a href="/work/gabriel-aronson/">Gabriel Aronson</a>
+		&middot;
+		<a href="/work/roar/">The Roar</a>
+	</p>
+	<p>
+		<strong>Also:</strong>
+		<a href="/projects/the-person/">The Person</a> (2008)
+	</p>
+</div><!-- /.group -->

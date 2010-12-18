@@ -27,7 +27,7 @@
 	
 	</script>
 </head>
-<body>
+<body{% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
 <div id="page">
 
 {% if page.head != false %}

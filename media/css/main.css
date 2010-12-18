@@ -83,6 +83,28 @@ body {
 	box-shadow: 0 0 3px rgba(0,0,0,.2);
 	}
 
+body.home #main {
+	border: none;
+	background-image: url(/media/images/person/995/19.jpg);
+	background-repeat: no-repeat;
+	height: 662px;
+	padding: 0;
+	position: relative;
+	}
+body.home #main .callout {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	width: 520px;
+	margin: 0;
+	text-align: left;
+	background: rgba(255,255,255,.8);
+	color: #000;
+	}
+body.home #main .callout .description p {
+	color: #000;
+	}
+
 #footer {
 	padding: .7em 0;
 	margin: 0;
