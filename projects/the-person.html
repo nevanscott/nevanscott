@@ -1,0 +1,44 @@
+---
+layout: default
+title: The Person
+permalink: /the-person/
+description: Type is the visual form we use to represent verbal expression and communication. Reading and writing depend on conservative conventions, while the spoken language grows and morphs with no need for intention. These works are part of a year-long endeavor to play with the visual nature of language itself. They offer a challenge to remember that the very letters, signs, papers, books we write, type, and read - everywhere and everyday - are works of visual art worth noticing and admiring.
+gallery:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 1
+---
+
+<div class="container">
+	<h2>{{ page.title | textilize | strip_html }}</h2>
+	<div class="column span-5 prepend-1 description">
+		{{ page.description | textilize }}
+	</div>
+	{% for image in page.gallery %}
+	<div class="group">
+		<div class="column span-7">
+			<div class="pic">
+				<img src="/media/images/person/925/{{ image }}.jpg" />
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+	<div class="column span-4 prepend-1 append-2 last">
+		{{ content }}
+	</div>
+</div><!-- /.container -->

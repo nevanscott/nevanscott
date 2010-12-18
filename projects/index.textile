@@ -1,0 +1,8 @@
+---
+layout: page
+title: Projects
+---
+
+h4. Projects
+
+For now, just one: "The Person":/projects/the-person/, a gallery showing I put together at the Sarah Lawrence College Library in 2008.
