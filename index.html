@@ -39,12 +39,10 @@ while(x=eval(x));
 	<p>
 		<strong>Recently:</strong>
 		<a href="/roundups/">Roundups</a>
+		{% for post in site.categories.writing limit:3 %}
 		&middot;
-		<a href="/2010/07/obscurity/">Obscurity</a>
-		&middot;
-		<a href="/2010/06/magical/">Magical</a>
-		&middot;
-		<a href="/2010/04/making-hay/">Making Hay</a>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		{% endfor %}
 	</p>
 	<p>
 		<strong>Work:</strong>
