@@ -17,4 +17,4 @@ I have many interests, which is only notable in a section called "About Me" beca
 
 <hr />
 
-This site holds some of my writing and projects I've been working on. There's "a feed for my writing":/writing.xml, if you like.
+This site holds some of my writing and projects I've been working on. There's "a feed for my writing":/index.xml, if you like.
