@@ -355,7 +355,8 @@ h3+.date { margin-top: -1.4em; }
 	margin: 1.4em 0 2.8em 0;
 	}
 .post .date { margin-top: 1.4em; }
-.post h3 { font-size: 2em; margin-top: .4em; }
+not.post h3 { font-size: 2em; margin-top: .4em; }
+.post h3 { margin-top: .9em; }
 .link {
 	margin: 0 0 1.4em 0;
 	}

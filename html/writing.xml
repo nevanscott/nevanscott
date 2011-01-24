@@ -3,12 +3,24 @@
 	<title>Nevan Scott&rsquo;s Journal</title>
 	<link href="http://nevanscott.com/writing.xml" rel="self"/>
 	<link href="http://nevanscott.com/"/>
-	<updated>2011-01-24T00:14:43-05:00</updated>
+	<updated>2011-01-24T01:09:25-05:00</updated>
 	<id>http://nevanscott.com/</id>
 	<author>
 		<name>Nevan Scott</name>
 		<email>nfscott@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>How Many Spaces After the Period?</title>
+		<link href="http://nevanscott.com/2011/01/spaces/"/>
+		<updated>2011-01-24T01:10:00-05:00</updated>
+		<id>http://nevanscott.com/2011/01/spaces</id>
+		<content type="html">&lt;aside&gt;This month, the discussion resurfaced. Farhad Manjoo &lt;a href=&quot;http://www.slate.com/id/2281146/pagenum/all/&quot;&gt;argues for the single space&lt;/a&gt;, with a rebuttal &lt;a href=&quot;http://www.manifestdensity.net/2011/01/14/everyone-has-a-right-to-their-beliefs/&quot;&gt;from Tom Lee&lt;/a&gt;. My favorite take is still &lt;a href=&quot;http://hellbox.org/archives/001585.html&quot;&gt;Martin McClellan&amp;#8217;s&lt;/a&gt;: &amp;#8220;Here&amp;#8217;s the rule: when setting type in a monospaced typeface, such as Courier, use double spaces. Otherwise, use single spaces.&amp;#8221;&lt;/aside&gt;
+&lt;p&gt;This issue gets batted around every now and then, and seems to bring out a lot of polemicizing. I think that there is a distinction to be made between typing and typesetting, similar to the difference between composing and editing. For most writers, drafts are probably riddled with typos, spelling errors, poor sentence construction, etc. At some point in the editing process, before a piece of writing is published, these are meant to be ironed out.&lt;/p&gt;
+&lt;p&gt;The one-space/two-space issue is similar in my mind. Published writing, meant for reading, should be set with a single space between sentences. It doesn&amp;#8217;t matter at what point in the process this happens, and drafts need not adhere to the rule. This is similar to how apostrophes, quotation marks, dashes, and ellipses are treated. At some point prior to publication, the single and double primes (generally reserved for feet and inches, minutes and seconds) must be replaced with apostrophes and quotation marks; some hyphens and double-hyphens must be replaced with en- and em-dashes; triple periods must be replaced with ellipses.&lt;/p&gt;
+&lt;p&gt;With unpolished type-written prose &amp;#8211; such as an email or text message &amp;#8211; it is much more up to the individual where to set a tolerance for variation in spacing, spelling, grammar, etc. Conventions will probably emerge, but these casual forms of type-written exchange are still fairly new, and more time is needed.&lt;/p&gt;
+&lt;p&gt;However, with more and more writers having access to a &amp;#8220;Publish&amp;#8221; button, we&amp;#8217;ve had to adjust some of our expectations surrounding writers&amp;#8217; ability to edit their own writing either on the fly or prior to hitting &amp;#8220;Publish&amp;#8221;. It is not unreasonable to add &lt;a href=&quot;http://www.alistapart.com/articles/emen/&quot;&gt;proper typography&lt;/a&gt; to the list of quick checks along with &amp;#8220;its&amp;#8221; and &amp;#8220;it&amp;#8217;s&amp;#8221;.&lt;/p&gt;</content>
+	</entry>
 	
 	<entry>
 		<title>Managing Change</title>
