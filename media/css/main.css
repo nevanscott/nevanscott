@@ -85,10 +85,13 @@ body {
 body.home #main {
 	border: none;
 	background-image: url(/media/images/person/995/19.jpg);
+	background-image: url(/media/images/busybody/wide995.jpg);
 	background-repeat: no-repeat;
-	height: 662px;
+	background: #FFF;
+	height: 550px;
 	padding: 0;
 	position: relative;
+	overflow: hidden;
 	}
 body.home #main .callout {
 	position: absolute;
@@ -102,6 +105,75 @@ body.home #main .callout {
 	}
 body.home #main .callout .description p {
 	color: #000;
+	}
+
+#homepage { text-align: left; }
+#homepage #new {
+	background: rgba(0,0,0,.65);
+	color: #CCC;
+	padding: 5px 10px;
+	position: relative;
+	z-index: 2;
+	}
+#homepage #work {
+	background: rgba(0,0,0,.45);
+	color: #CCC;
+	padding: 5px 10px;
+	position: relative;
+	z-index: 2;
+	}
+#homepage #controls {
+	position: absolute;
+	z-index: 3;
+	bottom: 50px;
+	right: 50px;
+	}
+#homepage #controls div {
+	float: left;
+	margin-left: 10px;
+	background: #3586B9;
+	color: #FFF;
+	font-weight: bold;
+	padding: 0 10px;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+#homepage #slides {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	}
+#homepage .slide {
+	position: relative;
+	width: 995px;
+	height: 550px;
+	float: left;
+	}
+#homepage .slide .image {
+	position: absolute;
+	}
+#homepage .slide .info {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	background: rgba(255,255,255,.75);
+	color: #000;
+	padding: 10px 70px 50px 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}
+#homepage .slide .info .title {
+	margin: 0;
+	}
+#homepage .slide .info h3 a {
+	color: #3586B9;
+	}
+#homepage .slide .info .meta {
+	color: #83898F;
 	}
 
 #footer {
