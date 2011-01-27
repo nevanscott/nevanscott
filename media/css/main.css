@@ -62,7 +62,6 @@ body {
 #head {
 	color: #CCC;
 	padding: 0;
-	font-weight: bold;
 	font-size: 1.25em;
 	}
 #head .container { padding-top: .75em; padding-bottom: .6em; }
@@ -218,7 +217,6 @@ h2 {
 	border-bottom: 1px solid #DDD;
 	}
 h3 {
-	font-weight: bold;
 	font-size: 1.375em;
 	line-height: 1.0909em;
 	margin-bottom: 1.0909em;
@@ -356,7 +354,7 @@ h3+.date { margin-top: -1.4em; }
 	}
 .post .date { margin-top: 1.4em; }
 not.post h3 { font-size: 2em; margin-top: .4em; }
-.post h3 { margin-top: .9em; }
+.post h3 { margin-top: .95em; }
 .link {
 	margin: 0 0 1.4em 0;
 	}

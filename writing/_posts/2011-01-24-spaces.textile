@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Many Spaces After the Period?
-date: 1:10am
+date: January 24, 2011, 1:10am
 ---
 
 <aside>This month, the discussion resurfaced. Farhad Manjoo "argues for the single space":http://www.slate.com/id/2281146/pagenum/all/, with a rebuttal "from Tom Lee":http://www.manifestdensity.net/2011/01/14/everyone-has-a-right-to-their-beliefs/. My favorite take is still "Martin McClellan's":http://hellbox.org/archives/001585.html: "Here's the rule: when setting type in a monospaced typeface, such as Courier, use double spaces. Otherwise, use single spaces."</aside>
