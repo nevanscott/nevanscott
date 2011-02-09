@@ -14,14 +14,6 @@ bodyclass: home
 			</p>
 		</div>
 	</div>
-	<div id="new">
-		<strong>From the Journal:</strong>
-		<a href="/roundups/">Roundups</a>
-		{% for post in site.categories.writing limit:4 %}
-		<span class="sep">|</span>
-		<a href="{{ post.url }}">{{ post.title }}</a>
-		{% endfor %}
-	</div>
 	<div id="slideshow">
 		<div id="controls">
 			<div id="prev">&lsaquo;</div>
@@ -42,11 +34,18 @@ bodyclass: home
 				</div>
 			</div><!-- /.slide -->
 			<div class="slide">
+				<div class="image">
+					<img src="/media/images/home/seagull.jpg" alt="The Seagull" />
+				</div>
 				<div class="info">
 					<h3 class="title"><cite>The Seagull</cite></h3>
 					<div class="meta">by Anton Checkov</div>
+					<div class="meta">adapted by Tom Stoppard</div>
+					<div class="meta">directed by Anne Beaumont</div>
 					<div class="meta">Sarah Lawrence College, 2008</div>
-					<p>As usual, I played the grouchy old man &ndash; in this case, Sorin. Also, I got to almost die on stage.</p>
+					<p>Standing: <em>Michael&nbsp;Bradey&nbsp;Cohen, Micah&nbsp;Levin, William&nbsp;Forber, Gary&nbsp;Ploski, Nevan&nbsp;Scott, Zack&nbsp;Chaykin, Jesse&nbsp;Brenneman</em>
+					<p>Sitting: <em>Rachel&nbsp;Troy, Lydian&nbsp;Blossom, Loletta&nbsp;Darden, Mariana&nbsp;Simoes, and Tiffany&nbsp;Chen</em></p>
+					<p><em>Photo by <a href="http://danbretl.com/">Dan Bretl</a></em></p>
 				</div>
 			</div><!-- /.slide -->
 			<div class="slide">
@@ -57,7 +56,7 @@ bodyclass: home
 					<h3 class="title"><a href="/projects/the-person/">The Person</a></h3>
 					<div class="meta">Gallery Show, 2008</div>
 					<p>&ldquo;The Person&rdquo; was the culmination of a year-long project I worked on as a student of Dan Hurlin&rsquo;s at <a href="http://slc.edu/">Sarah Lawrence College</a>.</p> 
-					<p>I was exploring typography throughout the process, which originally was going to be a performance piece. In the end, I had pieces that fit a gallery show better, so I prepared them and had the wonderful chance to show in the library on empty shelf space where the books were being rearranged.</p>
+					<p>I was exploring typography throughout the process, originally to make a performance piece. In the end, I had pieces that fit a gallery show better, so I prepared them and had the wonderful chance to show in the library on empty shelf space where the books were being rearranged.</p>
 				</div>
 			</div><!-- /.slide -->
 			<div class="slide">
@@ -72,6 +71,7 @@ bodyclass: home
 					<p><em>Bradley&nbsp;Harris, Meaghan&nbsp;Cross, Maggie&nbsp;Robinson, Elspeth&nbsp;Shell-Moyer, and Michelle&nbsp;Ellis</em></p>
 				</div>
 			</div><!-- /.slide -->
+<!-- 
 			<div class="slide">
 				<div class="info">
 					<h3 class="title"><cite>The Blind Mathematician</cite></h3>
@@ -79,8 +79,12 @@ bodyclass: home
 					<p>I created <cite>The Blind Mathematician</cite> from scratch during my second year as a puppetry student at Sarah Lawrence. I used the toy theatre format to tell a semi-autobiographical story about growing up, introducing more color as the story progressed.</p>
 					<p>Bronwen Mullen composed and performed original music on the piano, and Hunter Kaczorowski puppeteered with me.</p> 
 				</div>
-			</div><!-- /.slide -->
+			</div>
+ -->
 			<div class="slide">
+				<div class="image">
+					<img src="/media/images/home/cabaret.jpg" alt="Midnight Cabaret" />
+				</div>
 				<div class="info">
 					<h3 class="title">Midnight Cabaret</h3>
 					<div class="meta">Weekly Performance Ensemble</div>
@@ -90,13 +94,21 @@ bodyclass: home
 			</div><!-- /.slide -->
 		</div><!-- /#slides -->
 	</div><!-- /#slideshow -->
+	<div id="new">
+		<strong>From the Journal:</strong>
+		<a href="/roundups/">Roundups</a>
+		{% for post in site.categories.writing limit:3 %}
+		<span class="sep">|</span>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		{% endfor %}
+	</div>
 	<div id="homefooter" class="container">
 		<div class="column span-1">
 			<h4 class="title">Currently</h4>
 		</div>
 		<div class="column span-3">
 	<p>
-		I&rsquo;m primarily working on projects with <a href="http://www.tyfujimura.com/">Ty Fujimura</a>, a great designer based in Brooklyn. If you&rsquo;d like to get in touch with me for any reason, I always enjoy getting emails at <script type="text/javascript">
+		I&rsquo;m primarily working on web development projects with <a href="http://www.tyfujimura.com/">Ty Fujimura</a>, a great designer based in Brooklyn. If you&rsquo;d like to get in touch with me for any reason, I always enjoy getting emails at <script type="text/javascript">
 //<![CDATA[
 <!--
 var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
