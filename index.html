@@ -5,48 +5,122 @@ bodyclass: home
 ---
 
 <div id="homepage">
+	<div class="container">
+		<div class="column span-7">
+			<p class="intro">
+				Hi, I&rsquo;m Nevan. I live in New York, where I make <a href="/work/">websites</a> and occasionally&nbsp;<a href="/journal/">write</a>.
+				I&nbsp;really&nbsp;like typography, just ask my friends, family, and&nbsp;<a href="http://wondermark.com/650/">therapist</a>.
+				<a href="/about/" class="more">More &rsaquo;</a>
+			</p>
+		</div>
+	</div>
 	<div id="new">
-		<strong>Recently:</strong>
+		<strong>From the Journal:</strong>
 		<a href="/roundups/">Roundups</a>
-		{% for post in site.categories.writing limit:3 %}
-		&middot;
+		{% for post in site.categories.writing limit:4 %}
+		<span class="sep">|</span>
 		<a href="{{ post.url }}">{{ post.title }}</a>
 		{% endfor %}
 	</div>
-	<div id="work">
-		<strong>Work:</strong>
-		<a href="/work/buzzfeed/">Buzzfeed</a>
-		&middot;
-		<a href="/work/pom/">Pom Wonderful</a>
-		&middot;
-		<a href="/work/gabriel-aronson/">Gabriel Aronson</a>
-		&middot;
-		<a href="/work/roar/">The Roar</a>
-	</div>
-	<div id="controls">
-		<div id="prev">&lsaquo;</div>
-		<div id="next">&rsaquo;</div>
-	</div>
-	<div id="slides">
-		<div class="slide">
-			<div class="image">
-				<img src="/media/images/busybody/wide995.jpg" alt="The Busybody" />
-			</div>
-			<div class="info">
-				<h3 class="title"><cite>The Busybody</cite></h3>
-				<div class="meta">by Susana Centlivre</div>
-				<div class="meta">Fort Tryon Park, 2010</div>
-				<div class="meta"><a href="http://bentquillplayers.com/">The Bent Quill Players</a></div>
-			</div>
+	<div id="slideshow">
+		<div id="controls">
+			<div id="prev">&lsaquo;</div>
+			<div id="next">&rsaquo;</div>
+		</div><!-- /#controls -->
+		<div id="slides">
+			<div class="slide">
+				<div class="image">
+					<img src="/media/images/busybody/wide995.jpg" alt="The Busybody" />
+				</div>
+				<div class="info">
+					<h3 class="title"><cite>The Busybody</cite></h3>
+					<div class="meta">by Susana Centlivre</div>
+					<div class="meta">Fort Tryon Park, 2010</div>
+					<div class="meta"><a href="http://bentquillplayers.com/">The Bent Quill Players</a></div>
+					<p>I played Sir Jealous Traffick in a revival of Susana Centlivre&rsquo;s Restoration comedy, directed by Raney Cumbow. We had a great time, and got <a href="http://who-will-kiss-the-pig.blogspot.com/2010/08/saturday-evening-in-washington-heights.html">at least one glowing review</a>.</p>
+					<p><em>Bradley&nbsp;Harris, Chet&nbsp;Siegel, Chuk&nbsp;Obasi, Elspeth&nbsp;Shell-Moyer, Nevan&nbsp;Scott, and James&nbsp;Santos</em></p>
+				</div>
+			</div><!-- /.slide -->
+			<div class="slide">
+				<div class="info">
+					<h3 class="title"><cite>The Seagull</cite></h3>
+					<div class="meta">by Anton Checkov</div>
+					<div class="meta">Sarah Lawrence College, 2008</div>
+					<p>As usual, I played the grouchy old man &ndash; in this case, Sorin. Also, I got to almost die on stage.</p>
+				</div>
+			</div><!-- /.slide -->
+			<div class="slide">
+				<div class="image">
+					<img src="/media/images/person/995/19.jpg" alt="The Person" />
+				</div>
+				<div class="info">
+					<h3 class="title"><a href="/projects/the-person/">The Person</a></h3>
+					<div class="meta">Gallery Show, 2008</div>
+					<p>&ldquo;The Person&rdquo; was the culmination of a year-long project I worked on as a student of Dan Hurlin&rsquo;s at <a href="http://slc.edu/">Sarah Lawrence College</a>.</p> 
+					<p>I was exploring typography throughout the process, which originally was going to be a performance piece. In the end, I had pieces that fit a gallery show better, so I prepared them and had the wonderful chance to show in the library on empty shelf space where the books were being rearranged.</p>
+				</div>
+			</div><!-- /.slide -->
+			<div class="slide">
+				<div class="image">
+					<img src="/media/images/brickbybrick/homepage.jpg" alt="Brick by Brick" />
+				</div>
+				<div class="info">
+					<h3 class="title"><cite>Brick by Brick</cite></h3>
+					<div class="meta">by Ross Wade and Nehemiah Luckett</div>
+					<div class="meta">New Musical, 2006</div>
+					<p>I directed an involved staged reading of this new musical based on the life and writing of Edgar Allan Poe. Our production successfully persuaded the Theatre Department at Sarah Lawrence to mount a full production the following semester.</p> 
+					<p><em>Bradley&nbsp;Harris, Meaghan&nbsp;Cross, Maggie&nbsp;Robinson, Elspeth&nbsp;Shell-Moyer, and Michelle&nbsp;Ellis</em></p>
+				</div>
+			</div><!-- /.slide -->
+			<div class="slide">
+				<div class="info">
+					<h3 class="title"><cite>The Blind Mathematician</cite></h3>
+					<div class="meta">Puppetry Festival, 2006</div>
+					<p>I created <cite>The Blind Mathematician</cite> from scratch during my second year as a puppetry student at Sarah Lawrence. I used the toy theatre format to tell a semi-autobiographical story about growing up, introducing more color as the story progressed.</p>
+					<p>Bronwen Mullen composed and performed original music on the piano, and Hunter Kaczorowski puppeteered with me.</p> 
+				</div>
+			</div><!-- /.slide -->
+			<div class="slide">
+				<div class="info">
+					<h3 class="title">Midnight Cabaret</h3>
+					<div class="meta">Weekly Performance Ensemble</div>
+					<div class="meta">Director, 2005</div>
+					<p>I started Midnight Cabaret in 2005 as a space for workshopping and experimenting with theatre, dance, music, and comedy at Sarah Lawrence College. We performed new work every Friday to a packed lecture hall. At the end of the first semester, I handed off the reigns, and the group has been performing every year since.</p> 
+				</div>
+			</div><!-- /.slide -->
+		</div><!-- /#slides -->
+	</div><!-- /#slideshow -->
+	<div id="homefooter" class="container">
+		<div class="column span-1">
+			<h4 class="title">Currently</h4>
 		</div>
-		<div class="slide">
-			<div class="image">
-				<img src="/media/images/person/995/19.jpg" alt="The Person" />
-			</div>
-			<div class="info">
-				<h3 class="title"><a href="/projects/the-person/">The Person</a></h3>
-				<div class="meta">Gallery Show, 2008</div>
-			</div>
+		<div class="column span-3">
+	<p>
+		I&rsquo;m primarily working on projects with <a href="http://www.tyfujimura.com/">Ty Fujimura</a>, a great designer based in Brooklyn. If you&rsquo;d like to get in touch with me for any reason, I always enjoy getting emails at <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+"\\\\,l=x.length;for(i=0;i<l;i++){if(i<18)y++;y%=127;o+=String.fromCharCode(" +
+"x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\wztlvxqU\\\\\\\\rRU@_HC_\\\\\\\\"+
+"033\\\\\\\\027\\\\\\\\nV\\\\\\\\030QH^Z\\\\\\\\000b\\\\\\\\035- +/0*|).:)$8" +
+"9\\\\\\\\016(=0;?z69:\\\\\\\\004{z/5)2:]=@&\\\\\\\\t\\\\\\\\004\\\\\\\\017\\"+
+"\\\\\\013H'\\\\\\\\017\\\\\\\\035\\\\\\\\r\\\\\\\\0032MN\\\\\\\\037\\\\\\\\" +
+"024\\\\\\\\000\\\\\\\\027\\\\\\\\032\\\\\\\\002\\\\\\\\0038\\\\\\\\036\\\\\\"+
+"\\027\\\\\\\\032\\\\\\\\025\\\\\\\\021Pcno?+d8%!2:0\\\"\\\\,18)\\\"(f};)lo," +
+"0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;x=+x" +
+"{yrt{)84=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x(f n" +
+"oitcnuf\")"                                                                  ;
+while(x=eval(x));
+//-->
+//]]>
+</script> &ndash; or you can find me <a href="http://twitter.com/nevan">on Twitter</a>.
+	</p>
 		</div>
-	</div>
+		<div class="column span-3 last">
+			<p>
+				I am also part of <a href="http://bentquillplayers.com/">The Bent Quill Players</a>, a young theatre company right here in New York. If you&rsquo;re feeling generous and love a good show, please consider supporting our upcoming project, <a href="http://www.kickstarter.com/projects/1665248400/a-doctor-in-spite-of-himself-by-monsieur-moliere">Moli&egrave;re&rsquo;s <cite>A Doctor in Spite of Himself</cite></a>.
+			</p>
+		</div>		
+	</div><!-- /.container -->
 </div>

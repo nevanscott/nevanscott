@@ -43,14 +43,17 @@ html {
 	padding: 0;
 	}
 body {
-	font-family: "chaparral-pro-1", "chaparral-pro-2", sans-serif;
-	font-size: 16px;
+	font-family: "chaparral-pro-1", "chaparral-pro-2", Georgia, serif;
+	font-size: 14px;
 	line-height: 1.4em;
 	margin: 0;
 	padding: 0;
 	background: #F3F3F3;
 	color: #333;
 	text-rendering: optimizeLegibility;
+	}
+.wf-active body {
+	font-size: 16px;
 	}
 
 .container {
@@ -83,50 +86,67 @@ body {
 	}
 
 body.home #main {
-	border: none;
-	background-image: url(/media/images/person/995/19.jpg);
-	background-image: url(/media/images/busybody/wide995.jpg);
-	background-repeat: no-repeat;
 	background: #FFF;
-	height: 550px;
 	padding: 0;
-	position: relative;
-	overflow: hidden;
 	}
-body.home #main .callout {
-	position: absolute;
-	bottom: 30px;
-	right: 30px;
-	width: 520px;
-	margin: 0;
-	text-align: left;
-	background: rgba(255,255,255,.8);
-	color: #000;
-	}
-body.home #main .callout .description p {
-	color: #000;
-	}
-
-#homepage { text-align: left; }
+#homepage { text-align: left; position: relative; z-index: 1; }
 #homepage #new {
-	background: rgba(0,0,0,.65);
-	color: #CCC;
+	background: #EFEFEF;
 	padding: 5px 10px;
+	margin: 20px 20px;
+	position: relative;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	}
+#homepage #new:before,
+#homepage #new:after {
+	content: "";
+	position: absolute; 
+	z-index: -2;
+	bottom: 15px;
+	left: 5px;
+	width: 98.75%;
+	height: 20%;
+	-webkit-box-shadow: 0 12px 4px rgba(0, 0, 0, 0.15);   
+	   -moz-box-shadow: 0 12px 4px rgba(0, 0, 0, 0.15);
+			box-shadow: 0 12px 4px rgba(0, 0, 0, 0.15);
+	-webkit-transform: rotate(1deg);   
+	   -moz-transform: rotate(1deg);  
+		 -o-transform: rotate(1deg);
+			transform: rotate(1deg);
+	}
+#homepage #new:after {
+	left: auto;
+	right: 5px;
+	-webkit-transform: rotate(-1deg);   
+	   -moz-transform: rotate(-1deg);  
+		 -o-transform: rotate(-1deg);
+			transform: rotate(-1deg);
+	}
+#homepage #new a { text-decoration: none; }
+#homepage #new a:hover { text-decoration: underline; }
+#homepage #new strong { margin-right: 8px; }
+#homepage #new .sep { margin: 0 5px; color: #DDD; }
+#homepage #work {
+	background: #E3E3E3;
+	padding: 5px 30px;
 	position: relative;
 	z-index: 2;
 	}
-#homepage #work {
-	background: rgba(0,0,0,.45);
-	color: #CCC;
-	padding: 5px 10px;
+#homepage #work a { text-decoration: none; }
+#homepage #work a:hover { text-decoration: underline; }
+#homepage #slideshow {
 	position: relative;
-	z-index: 2;
+	width: 995px;
+	height: 390px;
+	overflow: hidden;
+	background: #111;
 	}
 #homepage #controls {
 	position: absolute;
 	z-index: 3;
-	bottom: 50px;
-	right: 50px;
+	bottom: 20px;
+	right: 20px;
 	}
 #homepage #controls div {
 	float: left;
@@ -149,31 +169,35 @@ body.home #main .callout .description p {
 #homepage .slide {
 	position: relative;
 	width: 995px;
-	height: 550px;
+	height: 390px;
 	float: left;
 	}
 #homepage .slide .image {
 	position: absolute;
+	width: 685px;
+	border-right: 1px solid #000;
 	}
 #homepage .slide .info {
-	position: absolute;
-	bottom: 40px;
-	right: 40px;
-	background: rgba(255,255,255,.75);
-	color: #000;
-	padding: 10px 70px 50px 10px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+	float: right;
+	padding: 20px;
+	width: 270px;
+	color: #AAA;
+	font-size: .9em;
+	line-height: 1.4em;
 	}
 #homepage .slide .info .title {
-	margin: 0;
+	margin: 0 0 .35em;
 	}
 #homepage .slide .info h3 a {
 	color: #3586B9;
 	}
 #homepage .slide .info .meta {
-	color: #83898F;
+	}
+#homepage .slide .info p {
+	margin: 1.4em 0;
+	}
+#homefooter {
+	margin: 1.4em 0 0 0;
 	}
 
 #footer {
@@ -302,6 +326,7 @@ h4 {
 	font-weight: bold;
 	letter-spacing: .15em;
 	}
+.title { margin-top: 0; }
 p {
 	margin: 1.5em 0 0 0;
 	margin: 0 0 1.4em 0;
@@ -321,6 +346,23 @@ p.footnote {
 	font-size: 1.2em;
 	line-height: 1.4em;
 	margin-bottom: 1.4em;
+	}
+p.intro {
+	font-style: italic;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	margin: 1.2em 0 0;
+	}
+p.intro a { text-decoration: none; }
+p.intro a:hover { text-decoration: underline; }
+p.intro a.more {
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: .75em;
+	color: #93999C;
+	margin-left: .5em;
 	}
 
 .caption p {
