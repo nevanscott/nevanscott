@@ -1,0 +1,15 @@
+---
+layout: project
+title: The Well
+permalink: /work/well/
+description: I worked with <a href="http://www.tyfujimura.com/">Ty Fujimura</a> to design and build out this website for a new publication focused on activities related to well-being - primarily nutrition, yoga, and meditation. With Ty's  direction, I fleshed out the design with room for photography to evoke the contents of the site. I then implemented the design and built out the necessary functionality on Expression Engine.
+external: http://www.thewelldaily.com/new-york/
+image: well/top-645.png
+slides:
+  - image: well/top-645.png
+    description: The homepage features new articles across all of the sections, and encourages readers to sign up for the newsletter.
+  - image: well/middle-645.png
+    description: For each of the sections, we wanted a quick way for visitors to browse through to find something of interest on the homepage, so I built these "infinite" sliders, which send new requests to Expression Engine to continue to pull content as you click on the arrows.
+  - image: well/sections-645.png
+    description: Each section is meant to feel like its own home, so the image in the header changes out to match.
+---
