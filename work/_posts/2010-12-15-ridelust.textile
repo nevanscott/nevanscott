@@ -9,7 +9,7 @@ slides:
   - image: ridelust/home-645.png
     description: Ty designed this great way to feature articles on the homepage, which presented some fun challenges for Alex and me as we built it. I'm really pleased with how it turned out.
   - image: ridelust/single-645.png
-    description: The biggest challenge with the design was making something that would work with the ads that make up the site's revenue without making it too difficult for readers to focus on what they were there for - "hoonage":http://www.urbandictionary.com/define.php?term=hoonage.
+    description: <p>The biggest design challenge was supporting all the ads without making it too difficult for readers to focus on what they came for - "hoonage":http://www.urbandictionary.com/define.php?term=hoonage.</p><p>(The biggest development challenge was accomodating all the slanted boxes.)</p>
   - image: ridelust/endmatter-645.png
     description: I was responsible for designing some of the secondary site elements shown here, based on the major elements designed by Ty.
 ---
