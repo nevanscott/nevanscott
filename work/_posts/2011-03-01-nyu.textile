@@ -1,0 +1,15 @@
+---
+layout: project
+title: NYU Enterprise Learning
+permalink: /work/nyu/
+description: I worked with <a href="http://www.tyfujimura.com/">Ty Fujimura</a> and Nick Hughes on this site for NYU's Enterprise Learning Program, a joint continuing education program of the Polytechnic Institue of New York University (<a href="http://www.poly.edu/">NYU-Poly</a>) and the NYU School of Continuing and Professional Studies (<a href="http://www.scps.nyu.edu/">SCPS</a>).
+external: http://enterprise.poly.edu/
+image: nyu/home_645.png
+slides:
+  - image: nyu/home_645.png
+    description: As Ty designed the site, I consulted on the overall layout and clarity of the page, working with Ty to find a balance between ease-of-use and compelling visual design.
+  - image: nyu/filters_645.png
+    description: Programs can be filtered by degree offered and course location. We sweated the details of the design and interaction to make the process beautiful and intuitive. Subtle animations add clarity to the effect of the filters, and subtle visual changes in the filters themselves make it clear which are active.
+  - image: nyu/responsive_645.png
+    description: We wanted the site to look perfect across a variety of browser sizes, so the program grid expands and collapses based on available space.
+---
