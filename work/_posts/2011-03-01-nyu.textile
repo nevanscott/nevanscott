@@ -2,7 +2,7 @@
 layout: project
 title: NYU Enterprise Learning
 permalink: /work/nyu/
-description: I worked with <a href="http://www.tyfujimura.com/">Ty Fujimura</a> and Nick Hughes on this site for NYU's Enterprise Learning Program, a joint continuing education program of the Polytechnic Institue of New York University (<a href="http://www.poly.edu/">NYU-Poly</a>) and the NYU School of Continuing and Professional Studies (<a href="http://www.scps.nyu.edu/">SCPS</a>).
+description: I worked with <a href="http://www.tyfujimura.com/">Ty Fujimura</a> and Nick Hughes on this site for NYU's Enterprise Learning Program, a joint continuing education program of the Polytechnic Institute of New York University (<a href="http://www.poly.edu/">NYU-Poly</a>) and the NYU School of Continuing and Professional Studies (<a href="http://www.scps.nyu.edu/">SCPS</a>).
 external: http://enterprise.poly.edu/
 image: nyu/home_645.png
 slides:
