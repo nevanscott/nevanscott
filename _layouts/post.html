@@ -6,6 +6,7 @@ layout: default
 
 <div class="container">
 	<div class="post">
+		<h1>{{ page.title | textilize | strip_html }}</h1>
 		<div class="column span-1">
 			<div class="date">
 				{{ page.date | date: "%d %b %Y" }}
@@ -13,7 +14,6 @@ layout: default
 		</div>
 		<div class="column span-4 append-2 last">
 			<div class="essay">
-				<h3>{{ page.title | textilize | strip_html }}</h3>
 				{{ content }}
 			</div>
 		</div>
