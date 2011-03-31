@@ -4,25 +4,23 @@ title: Roundups
 ---
 
 <div class="container">
-	<h2>Roundups</h2>
-	<div class="column span-5 prepend-1 append-1 last description">
-		<p>Something new. Every week or so, I&rsquo;ll post a round-up of stuff I&rsquo;ve been watching, reading, hearing, etc. and try to make some sense of it all.</p>
-	</div>
-	<div class="column span-5 append-2 last">
 	{% for post in site.categories.roundups %}
-	<div class="post">
+	<div class="column span-7 last post">
+		<h1><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h1>
 		<div class="column span-1">
 			<div class="date">
 				{{ post.date | date: "%d %b %Y" }}
 			</div>
 		</div>
-		<div class="column span-4 last">
+		<div class="column span-4 append-2 last">
 			<div class="essay">
-				<h3><a href="{{ post.url }}">{{ post.title | textilize | strip_html }}</a></h3>
 				{{ post.content }}
 			</div>
 		</div>
 	</div><!-- /.post -->
+	{% if forloop.last %}
+	{% else %}
+	<hr class="wide" />
+	{% endif %}
 	{% endfor %}
-	</div>
 </div><!-- /.container -->

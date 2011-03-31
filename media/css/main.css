@@ -329,6 +329,9 @@ h4 {
 	font-weight: bold;
 	letter-spacing: .15em;
 	}
+h4:first-child {
+	margin-top: 0;
+	}
 .title { margin-top: 0; }
 p {
 	margin: 1.5em 0 0 0;
