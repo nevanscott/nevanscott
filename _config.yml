@@ -3,3 +3,4 @@ destination: ./html
 auto: false
 server: false
 pygments: false
+markdown: kramdown
