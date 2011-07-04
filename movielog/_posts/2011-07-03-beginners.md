@@ -31,7 +31,7 @@ It's an exciting way for a relationship to start: one of the partners able only 
 
 We start to get a third story, of Oliver and his mother when he's just a boy, and his father is always off doing work at the museum. I don't want to give much more of the story away, but it starts to become clear that Oliver undermines his romantic relationships in part because his parents never seemed to be happy, and that there is something of his mother's off-kilteredness in Anna.
 
-The movie is quite beautiful and at times moving. I felt like it slowed toward the end, but is still worth seeing. Mary Page Keller's performance as Georgia, Oliver's mother, is especially fun. This movie will appeal most strongly to romantic young people who want to keep hope for love alive, but perhaps haven't quite found it or figured it out yet.[^beginners5]
+The movie is quite beautiful and at times moving. I felt like it slowed toward the end, but is still worth seeing. Mary Page Keller's performance as Georgia, Oliver's mother, is especially fun. <cite>Beginners</cite> will appeal most strongly to romantic young people who want to keep hope for love alive, but perhaps haven't quite found it or figured it out yet.[^beginners5]
 
 <hr class="footnote" />
 
