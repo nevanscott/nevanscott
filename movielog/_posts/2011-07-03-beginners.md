@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Beginners
+published: true
 ---
 
 A couple of weeks ago, I received this email from a friend:
