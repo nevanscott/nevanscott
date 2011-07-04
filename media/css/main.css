@@ -81,12 +81,14 @@ body {
 
 body.home #main {
 	padding: 0;
+	width: auto;
 	}
 #homepage { text-align: left; position: relative; z-index: 1; }
 #homepage .updates {
 	background: #FFF;
 	padding: 5px 10px;
-	margin: 20px 20px;
+	margin: 2.1em auto;
+	width: 935px;
 	position: relative;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -94,31 +96,6 @@ body.home #main {
 	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
 	-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
 	-box-shadow: 0 0 3px rgba(0,0,0,.2);
-	}
-#homepage .updates:before,
-#homepage .updates:after {
-	content: "";
-	position: absolute; 
-	z-index: -2;
-	bottom: 15px;
-	left: 5px;
-	width: 98.75%;
-	height: 20%;
-	-webkit-box-shadow: 0 12px 4px rgba(0, 0, 0, 0.15);   
-	   -moz-box-shadow: 0 12px 4px rgba(0, 0, 0, 0.15);
-			box-shadow: 0 12px 4px rgba(0, 0, 0, 0.15);
-	-webkit-transform: rotate(1deg);   
-	   -moz-transform: rotate(1deg);  
-		 -o-transform: rotate(1deg);
-			transform: rotate(1deg);
-	}
-#homepage .updates:after {
-	left: auto;
-	right: 5px;
-	-webkit-transform: rotate(-1deg);   
-	   -moz-transform: rotate(-1deg);  
-		 -o-transform: rotate(-1deg);
-			transform: rotate(-1deg);
 	}
 #homepage .updates a { text-decoration: none; }
 #homepage .updates a:hover { text-decoration: underline; }
@@ -135,10 +112,14 @@ body.home #main {
 	}
 #homepage #work a { text-decoration: none; }
 #homepage #work a:hover { text-decoration: underline; }
+#homepage #slideshow_wrapper {
+	background: #222;
+	}
 #homepage #slideshow {
 	position: relative;
 	width: 995px;
 	height: 390px;
+	margin: auto;
 	overflow: hidden;
 	background: #111;
 	}
@@ -197,7 +178,7 @@ body.home #main {
 	margin: 1.4em 0;
 	}
 #homefooter {
-	margin: 1.4em 0 0 0;
+	margin: 1.4em auto .7em;
 	}
 
 #footer {
@@ -383,15 +364,20 @@ p.intro a.more {
 	line-height: 1.4em;
 	}
 .pic {
-	border: 5px solid #EEE;
 	}
 .pic img {
 	display: block;
 	background: #FFF;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	}
 .photo {
 	margin-bottom: 5px;
-	border: 5px solid #EEE;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	border: 5px solid #FFF;
 	}
 .photo img {
 	display: block;
