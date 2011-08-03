@@ -1,0 +1,15 @@
+---
+layout: project
+title: Root-1
+permalink: /work/root-1/
+description: <a href="http://root-1.com/">Root-1</a> is a start-up specializing in educational software, based out of San Francisco. They approached me to design and build this initial website for them to show off the products they've been rolling out over the past several months.
+external: http://root-1.com/
+image: root-1/home.png
+slides:
+  - image: root-1/home.png
+    description: Root-1 is still growing, so I kept to something simple with the seeds for the site mature as their products and services expand and become more refined. For now, the homepage nicely showcases the apps they've been working on, and introduces the company.
+  - image: root-1/products.png
+    description: <p>This page is designed to give more detail regarding their current game offerings, with links to play online or download from available app stores.</p><p>It is easy to see here the importance of keeping the design simple, so as not to overpower or clash with the visual design of each game.</p>
+  - image: root-1/about.png
+    description: The design includes a simple template for more informational pages. As the site grows, the basic design building blocks are in place to grow from in lockstep.
+---
