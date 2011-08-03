@@ -2,8 +2,8 @@
 layout: project
 title: Root-1
 permalink: /work/root-1/
-description: <a href="http://root-1.com/">Root-1</a> is a start-up specializing in educational software, based out of San Francisco. They approached me to design and build this initial website for them to show off the products they've been rolling out over the past several months.
-external: http://root-1.com/
+description: <a href="http://www.root-1.com/">Root-1</a> is a start-up specializing in educational software, based out of San Francisco. They approached me to design and build this initial website for them to show off the products they've been rolling out over the past several months.
+external: http://www.root-1.com/
 image: root-1/home.png
 slides:
   - image: root-1/home.png
