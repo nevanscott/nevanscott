@@ -515,3 +515,17 @@ not.post h3 { font-size: 2em; margin-top: .4em; }
 .clear {
 	clear: both;
 	}
+
+body.dark { background: #29333C; color: #FFF; }
+
+body.dark #head { border-bottom-color: #3C4349; }
+body.dark #footer { border-top-color: #3C4349; }
+body.dark h2 { border-bottom-color: #3C4349; }
+body.dark .project { border-bottom-color: #3C4349; }
+
+body.dark #head a { color: #FFF; }
+body.dark #head a:hover { color: #3586B9; }
+body.dark h3 a { color: #FFF; }
+body.dark h3 a:hover { color: #3586B9; }
+body.dark a.button { background: #3C4349; color: #FFF; }
+
