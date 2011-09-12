@@ -1,0 +1,23 @@
+---
+layout: project
+title: IEH
+permalink: /work/ieh/
+published: false
+short: I helped design and build a new site for the Brooklyn-based connector manufacturer.
+description: Test
+external: http://iehcorp.com/
+image: ieh/home.png
+slides:
+  - image: ieh/products.png
+    description: Something.
+  - image: ieh/filters.png
+    description: Something.
+  - image: ieh/single.png
+    description: Something.
+  - image: ieh/edit.png
+    description: Something.
+  - image: ieh/international.png
+    description: Something.
+  - image: ieh/representatives.png
+    description: Something.
+---
