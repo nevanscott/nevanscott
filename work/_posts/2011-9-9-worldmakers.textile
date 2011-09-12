@@ -1,0 +1,13 @@
+---
+layout: project
+title: World Makers
+permalink: /work/worldmakers/
+published: true
+short: I designed and built a teaser website.
+description: <a href="http://worldmakers.com/">World Makers</a> is an ambitious startup aiming to merge commercial and philanthropic interest in a unique way, and they asked me to help put together this teaser site in advance of their official launch.
+external: http://worldmakers.com/
+image: worldmakers/teaser-crop.png
+slides:
+  - image: worldmakers/teaser.png
+    description: <p>I worked with the co-founder to keep the site simple and straight-forward in both design and content.</p><p>To complement the Trade Gothic logo, I decided to pair <a href="http://www.suitcasetype.com/index.php?part=fonts&font=26">Kulturista</a> from Suitcase Type Foundry with <a href="http://www.fontshop.com/fontlist/families/ff_tisa/">FF Tisa</a>.</p>
+---
