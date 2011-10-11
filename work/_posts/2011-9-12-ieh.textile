@@ -2,22 +2,18 @@
 layout: project
 title: IEH
 permalink: /work/ieh/
-published: false
+published: true
 short: I helped design and build a new site for the Brooklyn-based connector manufacturer.
-description: Test
+description: <a href="http://iehcorp.com/">IEH</a> is a small manufacturing company in Brooklyn, now in the the fourth generation of the family that runs it. They specialize in making these incredibly precise hyperboloid-shaped connectors, which are used in high-tech industries such as aerospace and defense. I helped design and build a new site for them, with special attention paid to making their catalog of available parts easier to browse.
 external: http://iehcorp.com/
 image: ieh/home.png
 slides:
-  - image: ieh/products.png
-    description: Something.
-  - image: ieh/filters.png
-    description: Something.
-  - image: ieh/single.png
-    description: Something.
-  - image: ieh/edit.png
-    description: Something.
-  - image: ieh/international.png
-    description: Something.
-  - image: ieh/representatives.png
-    description: Something.
+  - image: ieh/crop/products.png
+    description: To start out, I broke down their existing database of connectors into a manageable set of filters, and rewrote the backend so that drilling down to a specific part could start with any attributes, not just contact count.
+  - image: ieh/crop/filters.png
+    description: The same filters remain so that you can narrow your search.
+  - image: ieh/crop/single.png
+    description: These product pages were redesigned to be easier to scan and get a snapshot of pertinent information quickly, with links to more information where appropriate.
+  - image: ieh/crop/edit.png
+    description: "Peaking behind the curtain: this is a simple interfaced I put together to manage the database of all the parts, their attributes, and related appendices."
 ---
