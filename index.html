@@ -2,6 +2,19 @@
 layout: default
 head: true
 bodyclass: home
+currently:
+  - updates:
+    - name: Cantilever
+      url: http://cantilever.co/
+      note: <a href="http://www.tyfujimura.com/">Ty Fujimura</a> and I work on websites for some pretty groovy clients. Please feel free to <a href="mailto:inquiries@cantilever.co">say hi</a>!
+  - updates:
+    - name: Bent Quill Players
+      url: http://bentquillplayers.com/
+      note: Right now we’re running the “Classically Forgotten” reading series to highlight oft-forgotten plays.
+  - updates:
+    - name: Noble Desktop
+      url: http://nobledesktop.com/
+      note: I’ve started to teach <a href="http://www.nobledesktop.com/wp-org-syllabus.html">Wordpress classes</a>, and am helping out with some new course development.
 updates:
   - friends:
     - name: Gabriel Aronson
@@ -146,16 +159,23 @@ updates:
 		<div class="column span-1">
 			<h4 class="title">Currently</h4>
 		</div>
-		<div class="column span-3">
-			<p>
-				I&rsquo;m working as the lead developer on web projects at Cantilever alongside <a href="http://www.tyfujimura.com/">Ty Fujimura</a>. We’ll hopefully have a  website of our own sometime in the near future. For now, please email us at <a href="mailto:inquiries@cantilever.co">inquiries@cantilever.co</a> if you’d like to get in touch.
-			</p>
+		{% for column in page.currently %}
+		<div class="column span-2{% if forloop.last %} last{% endif %}">
+			{% for update in column.updates %}
+				<div>
+				{% if update.url %}
+					<a class="external" href="{{ update.url }}">
+						<strong>{{ update.name }}</strong>
+						<span>&rsaquo;</span>
+					</a>
+				{% else %}
+					<strong>{{ update.name }}</strong>
+				{% endif %}
+				</div>
+				{{ update.note | textilize }}
+			{% endfor %}
 		</div>
-		<div class="column span-3 last">
-			<p>
-				I am also part of <a href="http://bentquillplayers.com/">The Bent Quill Players</a>, a young theatre company right here in New York. We’re currently <a href="http://www.kickstarter.com/projects/1665248400/the-bent-quill-players-2012-season">raising funds</a> for our 2012 season, which will include the “Classically Forgotten” reading series, and a music video follow-up to <a href="http://www.youtube.com/watch?v=TwR6bCNjPho">“Dear Ophelia”</a>.
-			</p>
-		</div>
+		{% endfor %}
 		<hr class="wide" />
 		<div class="column span-1">
 			<h4 class="title">Friends</h4>
