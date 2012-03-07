@@ -219,6 +219,9 @@ a.buttonSmall {
 	padding: 4px 10px 0;
 	margin-top: -.2em;
 	}
+a.external { text-decoration: none; }
+a.external strong { color: #333; }
+a.external:hover strong { color: #3586B9; }
 a.right {
 	float: right;
 	display: block;

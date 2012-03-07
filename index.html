@@ -2,12 +2,30 @@
 layout: default
 head: true
 bodyclass: home
-friends_updates:
-  - Adam Stepinski is doing some wonderful work on educational games and software at <a href="http://root-1.com/">Root-1</a>.
-  - Alex Berger is working at <a href="http://www.bluestatedigital.com/">Blue State Digital</a> as a front-end web developer. He seems to be loving it.
-  - <a href="http://madebycori.com/">Cori Johnson</a> recently joined San Mateo based <a href="http://rollingorange.com/">Rolling Orange</a> as their newest web designer.
-  - <a href="http://gabrielaronson.com/">Gabriel Aronson</a> has been doing some pretty OK stuff, I guess. (Who's Kanye West?)
-  - <a href="http://freelance.digitalemily.com/">Emily Sharp</a> has been <a href="http://infrastructure.digitalemily.com/">blogging about infrastructure</a>, primarily in the New York City area.
+updates:
+  - friends:
+    - name: Gabriel Aronson
+      url: http://gabrielaronson.com/
+      note: Gabe has been doing some pretty OK stuff, I guess. (Who's Kanye West?) <a href="http://vimeo.com/2272182">It’s Alaska!</a> is still my favorite.
+    - name: Alex Berger
+      note: Alex is working at <a href="http://www.bluestatedigital.com/">Blue State Digital</a> as a front-end web developer. He seems to be loving it.
+    - name: Meaghan Cross
+      url: http://meaghancross.weebly.com/
+      note: Meaghan is rockin’ it hard in grad school at <a href="http://steinhardt.nyu.edu/">NYU Steinhardt</a>, working toward teaching theatre. (<a href="http://bentquillplayers.com/">Ahem.</a>)
+  - friends:
+    - name: Cori Johnson
+      url: http://madebycori.com/
+      note: Cori recently joined San Mateo based <a href="http://rollingorange.com/">Rolling Orange</a> as their newest web designer.
+    - name: Rebecca Rubenstein
+      note: Rebecca just started writing about scrumptious food again on her blog, <a href="http://theforktest.com/">The Fork Test</a>.
+    - name: Emily Sharp
+      url: http://freelance.digitalemily.com/
+      note: Emily has been <a href="http://infrastructure.digitalemily.com/">blogging about infrastructure</a>, primarily in the New York City area.
+  - friends:
+    - name: Adam Stepinski
+      note: Adam is doing some wonderful work on educational games and software at <a href="http://root-1.com/">Root-1</a>.
+    - name: Mary Terrier
+      note: Mary recently had her short story <a href="http://www.austinchronicle.com/books/2012-02-10/to-need-the-women-say/">‘To Need, the Women Say’</a> published in the Austin Chronicle.
 ---
 
 <div id="homepage">
@@ -142,11 +160,22 @@ friends_updates:
 		<div class="column span-1">
 			<h4 class="title">Friends</h4>
 		</div>
-		<div class="column span-6 last">
-			{% for update in page.friends_updates %}
-				{{ update | textilize }}
-				{% if forloop.last %}{% else %}<hr class="wide" />{% endif %}
+		{% for column in page.updates %}
+		<div class="column span-2{% if forloop.last %} last{% endif %}">
+			{% for friend in column.friends %}
+				<div>
+				{% if friend.url %}
+					<a class="external" href="{{ friend.url }}">
+						<strong>{{ friend.name }}</strong>
+						<span>&rsaquo;</span>
+					</a>
+				{% else %}
+					<strong>{{ friend.name }}</strong>
+				{% endif %}
+				</div>
+				{{ friend.note | textilize }}
 			{% endfor %}
 		</div>
+		{% endfor %}
 	</div><!-- /.container -->
 </div>
