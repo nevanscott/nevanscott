@@ -51,6 +51,7 @@ body {
 	background: #F3F3F3;
 	color: #333;
 	border-top: 4px solid #000;
+	box-shadow: inset 0 1px 0 white;
 	text-rendering: optimizeLegibility;
 	}
 
@@ -65,6 +66,7 @@ body {
 	padding: 0;
 	font-size: 1.25em;
 	border-bottom: 1px solid #DDD;
+	box-shadow: 0 1px 0 white;
 	}
 #head .container { padding-top: .75em; padding-bottom: .6em; }
 #head a {
@@ -85,17 +87,14 @@ body.home #main {
 	}
 #homepage { text-align: left; position: relative; z-index: 1; }
 #homepage .updates {
-	background: #FFF;
+	background: rgba(255,255,255,.25);
 	padding: 5px 10px;
 	margin: 2.1em auto;
 	width: 935px;
 	position: relative;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
+	border: 1px solid rgba(0,0,0,.1);
 	border-radius: 3px;
-	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
-	-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 0 white;
 	}
 #homepage .updates a { text-decoration: none; }
 #homepage .updates a:hover { text-decoration: underline; }
@@ -114,6 +113,10 @@ body.home #main {
 #homepage #work a:hover { text-decoration: underline; }
 #homepage #slideshow_wrapper {
 	background: #222;
+	background-image: url(bg/micro_carbon.png);
+	overflow: hidden;
+	border-top: 1px solid white;
+	border-bottom: 1px solid black;
 	}
 #homepage #slideshow {
 	position: relative;
@@ -122,6 +125,8 @@ body.home #main {
 	margin: auto;
 	overflow: hidden;
 	background: #111;
+	background: rgba(0,0,0,.25);
+	box-shadow: 0 0 5px rgba(0,0,0,1);
 	}
 #homepage #controls {
 	position: absolute;
@@ -129,10 +134,12 @@ body.home #main {
 	bottom: 20px;
 	right: 20px;
 	}
-#homepage #controls div {
+#homepage #controls a {
 	float: left;
 	margin-left: 10px;
 	background: #3586B9;
+	border: 1px solid rgba(0,0,0,.2);
+	text-decoration: none;
 	color: #FFF;
 	font-weight: bold;
 	padding: 0 10px;
@@ -140,6 +147,17 @@ body.home #main {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	}
+#homepage #controls a:active {
+	background-color: #3079A6;
+	box-shadow: none;
 	}
 #homepage #slides {
 	position: absolute;
@@ -186,6 +204,7 @@ body.home #main {
 	margin: 0;
 	color: #93999F;
 	border-top: 1px solid #DDD;
+	box-shadow: inset 0 1px 0 white;
 	}
 
 h1, h2, h3, h4 {
@@ -203,15 +222,19 @@ a.button {
 	background: #3586B9;
 	background: #333;
 	background: #DDD;
+	border: 1px solid rgba(0,0,0,.1);
 	color: #000;
-	padding: 3px 15px 0;
+	padding: 2px 13px 0;
 	text-decoration: none;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 0 white;
 	}
 a.button:hover {
-	text-decoration: underline;
+	background: #E1E1E1;
+	}
+a.button:active {
+	background: #D9D9D9;
+	box-shadow: none;
 	}
 a.buttonSmall {
 	font-size: .9em;
@@ -295,6 +318,7 @@ h2 {
 	line-height: 1.4em;
 	margin: 0 0 .4em 0;
 	border-bottom: 1px solid #DDD;
+	box-shadow: 0 1px 0 #FFF;
 	}
 h3 {
 	font-size: 1.375em;
@@ -418,6 +442,7 @@ hr {
 	clear: both;
 	border: none;
 	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #FFF;
 	margin: 1.4em auto;
 	width: 300px;
 	}
@@ -480,11 +505,13 @@ not.post h3 { font-size: 2em; margin-top: .4em; }
 	}
 .project {
 	border-bottom: 1px solid #DDD;
+	box-shadow: 0 1px 0 #FFF;
 	padding: 0 0 1.4em 0;
 	margin: 0 0 1.4em 0;
 	}
 .projectLast {
 	border: none;
+	box-shadow: none;
 	}
 .project h3 { margin-top: .54545em; }
 .post:after, .link:after, .group:after {
