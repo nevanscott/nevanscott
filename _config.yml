@@ -1,4 +1,5 @@
 permalink: /:year/:month/:title/
+source: ./_src
 destination: ./html
 auto: false
 server: false
