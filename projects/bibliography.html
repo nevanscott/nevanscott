@@ -1,0 +1,49 @@
+---
+layout: project
+title: Bibliography
+published: false
+permalink: /bibliography/
+description: An annotated and very much in-progress list of recommended reading for anyone interesting in learning more about building and designing for the web. No effort has been made toward comprehensiveness or even general usefulness.
+sections:
+  - title: Responsive Web Design and Development
+    links:
+      - title: Responsive Web Design
+        url: http://www.alistapart.com/articles/responsive-web-design
+        author:
+          name: Ethan Marcotte
+          url: http://ethanmarcotte.com
+        description: If you need an introduction to what responsive design is, this is probably the best place to start.
+        publisher:
+          name: A List Apart
+          url: http://alistapart.com/
+      - title: Multi-Device Layout Patterns
+        url: http://www.lukew.com/ff/entry.asp?1514
+        author:
+          name: Luke Wroblewski
+          url: http://www.lukew.com/
+        description: Luke tours a few possibilities for responsive layouts.
+---
+
+{% for section in page.sections %}
+	<h3>{{ section.title }}</h3>
+	<ul>
+		{% for link in section.links %}
+			<li>
+				<div>
+					<a href="{{ link.url }}">{{ link.title }}</a>
+					{% if link.author %}
+						by {{ link.author.name }}
+					{% endif %}
+				</div>
+				<div class="description">
+					{{ link.description | textilize | strip_html }}
+				</div>
+				<div class="meta">
+					{% if link.publisher %}
+						<a href="{{ link.publisher.url }}">{{ link.publisher.name }}</a>
+					{% endif %}
+				</div>
+			</li>
+		{% endfor %}
+	</ul>
+{% endfor %}
