@@ -5,8 +5,8 @@
 	<title>Nevan Scott{% if page.title %} &middot; {{ page.title | textilize | strip_html }}{% endif %}</title>
 	<meta name="viewport" content="width=995;" />
 	<link href="/index.xml" rel="alternate" title="Nevan Scott" type="application/atom+xml" />
-	<link href="/media/css/grid.css" rel="stylesheet" type="text/css" />
-	<link href="/media/css/main.css" rel="stylesheet" type="text/css" />
+	<link href="{{ site.url }}/media/css/grid.css" rel="stylesheet" type="text/css" />
+	<link href="{{ site.url }}/media/css/main.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="http://use.typekit.com/omw4yuy.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<!--[if lt IE 9]>
@@ -37,7 +37,7 @@
 <div id="head">
 	<div class="container">
 		<div class="column span-3">
-			<a href="/">Nevan Scott</a>
+			<a href="{{ site.url }}">Nevan Scott</a>
 		</div>
 		<div class="column span-4 last">
 			<ul class="inline right">
@@ -65,7 +65,7 @@
 			nyc
 		</div>
 		<div class="column span-2 right last">
-			<a href="/colophon/">Colophon</a>
+			<a href="{{ site.url }}/colophon/">Colophon</a>
 		</div>
 	</div><!-- /.container -->	
 </div><!-- /#footer -->
